@@ -1,0 +1,53 @@
+@import url("./fonts.css");
+
+body {
+    background: #000F25;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #fff;
+}
+
+.font-goodtimes {
+    font-family: 'GoodTimes';
+}
+
+.text-light {
+    color: #fff !important;
+}
+
+.text-green {
+    color: #8DFF8A !important;
+}
+
+.text-blue {
+    color: #B4EDFF !important;
+}
+
+.text-oxford {
+    color: #000F25 !important;
+}
+
+.bg-blue {
+    background: #B4EDFF !important
+}
+
+.text-yellow {
+    color: #FDB549 !important;
+}
+
+.text-c9 {
+    color: #c9c9c9 !important;
+}
+
+.bg-darkblue {
+    background: #000F25;
+}
+
+.btn-padding {
+    padding-inline: 20px !important;
+    padding-block: 10px !important;
+}
+
+.white-border {
+    border: 4px solid #fff;
+    border-radius: 20px;
+}
