@@ -25,6 +25,30 @@
     },
     "footer": {},
     "home": {
-        "page-title": "ACCEL"
+        "page-title": "ACCEL",
+        "header": {
+            "title": "<span class='text-blue'> accelerate</span><br>or die",
+            "subtitle": "Launching the ACCEL <br> Brand and Movement in one Epic Journey",
+            "button": {
+                "name": "LEARN MORE",
+                "url": "#",
+                "target": "_blank"
+            },
+            "sub-items": [
+                {
+                    "name": "THE <br> MOVEMENT"
+                },
+                {
+                    "name": "THE <br> MACHINES"
+                },
+                {
+                    "name": "THE <br> UNIVERSE"
+                },
+                {
+                    "name": "THE <br> DECELS"
+                }
+            ],
+            "paragraph": "Humanity defeats adversity by learning the universe and passing survival instructions through genetic and memetic pathways."
+        }
     }
 }

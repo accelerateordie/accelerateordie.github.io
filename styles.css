@@ -1,5 +1,49 @@
 @import url("./fonts.css");
 
+.container {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 1rem);
+    padding-left: var(--bs-gutter-x, 1rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1350px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .container {
+        max-width: 1660px;
+    }
+}
+
 body {
     background: #000F25;
     font-family: 'Helvetica Neue', sans-serif;
@@ -38,6 +82,10 @@ body {
     color: #c9c9c9 !important;
 }
 
+.text-narrow-height {
+    line-height: 1.2;
+}
+
 .bg-darkblue {
     background: #000F25;
 }
@@ -47,7 +95,92 @@ body {
     padding-block: 10px !important;
 }
 
+.btn-xpadding {
+    padding-inline: 2rem !important;
+    padding-block: 1rem !important;
+}
+
+.bg-blue-gradient {
+    background: rgb(180, 237, 255);
+    background: radial-gradient(circle, rgba(180, 237, 255, 1) 0%, rgba(11, 11, 11, 0) 100%);
+}
+
+.br-gradient {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 400px;
+    height: 400px;
+    transform: translate(50%, 50%);
+    filter: blur(200px);
+}
+
+#bg-gradient-dots {
+    background: url('./img/animations_gradient-dots-background.gif') center / 100% 100% no-repeat;
+}
+
+#bg-dots {
+    background: url('./img/dots.svg') center / cover no-repeat;
+}
+
 .white-border {
-    border: 4px solid #fff;
+    border: 3px solid #fff;
     border-radius: 20px;
+}
+
+.br-half {
+    border-right: 1.5px solid #fff !important;
+}
+
+.bl-half {
+    border-left: 1.5px solid #fff !important;
+}
+
+.bt-half {
+    border-top: 1.5px solid #fff !important;
+}
+
+.bb-half {
+    border-bottom: 1.5px solid #fff !important;
+}
+
+.r-90 {
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.w-20 {
+    flex: 0 0 auto;
+    width: 20%;
+}
+
+.w-60 {
+    flex: 0 0 auto;
+    width: 60%;
+}
+
+.w-80 {
+    flex: 0 0 auto;
+    width: 80%;
+}
+
+.h-65 {
+    height: 65% !important;
+}
+
+.h-35 {
+    height: 35% !important;
+}
+
+.mt-high {
+    margin-top: 8rem;
+}
+
+.mb-high {
+    margin-bottom: 8rem;
+}
+
+.ps-6 {
+    padding-left: 5rem !important;
 }

@@ -10,7 +10,6 @@
     <meta name="author" content="ACCEL">
     <link rel="stylesheet" href="./styles.css">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-
 </head>
 
 <body onload="loadJs()">
@@ -21,26 +20,79 @@
         crossorigin="anonymous"></script>
     <script src="./main.js"></script>
     <header class="header mb-2">
-        <nav id="navbar"></nav>
+        <nav class="container" id="navbar"></nav>
     </header>
-    <div class="content">
-        <div class="row  mx-lg-5 p-0">
-            <div class="col-lg-2 white-border"></div>
-            <div class="col-lg-8 white-border p-5">
-                <div class="text-uppercase font-goodtimes text-xxlarge "><span class="text-blue"> accelerate</span> <br>
-                    or die</div>
-                <div class="text-thin text-medium my-5">Launching the ACCEL <br> Brand and Movement in one Epic Journey
+    <div class=" content  mx-lg-5">
+        <div class="container">
+            <div class="row">
+                <div class="w-80 p-0">
+                    <div class="row m-0">
+                        <div id="bg-gradient-dots" class="col-3 white-border br-half bb-half">
+                        </div>
+                        <div
+                            class="col-9 white-border bb-half p-5 ps-6 position-relative overflow-hidden bl-half br-half ">
+                            <div class="text-uppercase font-goodtimes text-xxlarge mt-high text-narrow-height"
+                                data-query="home.header.title"><span class="text-blue">
+                                    accelerate</span>
+                                <br>
+                                or die
+                            </div>
+                            <div class="text-thin text-medium my-5 text-narrow-height"
+                                data-query="home.header.subtitle">Launching the
+                                ACCEL
+                                <br> Brand and Movement in one Epic
+                                Journey
+                            </div>
+                            <a data-query="home.header.button._" data-attribute="href" data-target="target"
+                                target="_blank" href="#">
+                                <button class="btn font-goodtimes text-medium text-thin bg-blue btn-xpadding mb-high"
+                                    data-query="home.header.button.name">LEARN
+                                    MORE</button>
+                            </a>
+                            <div class="bg-blue-gradient br-gradient"></div>
+                        </div>
+                    </div>
+
+                    <div class="row m-0 py-5 white-border bt-half br-half">
+                        <div class="col-3 d-flex">
+                            <img src="./img/horizontal-lines.svg" alt="Horizontal Lines"> <span
+                                class="text-uppercase font-goodtimes text-medium px-3"
+                                data-query="home.header.sub-items.0.name">THE
+                                <br> MOVEMENT </span>
+                        </div>
+                        <div class="col-3 d-flex"> <img src="./img/horizontal-lines.svg" alt="Horizontal Lines"> <span
+                                class="text-uppercase font-goodtimes  text-medium px-3"
+                                data-query="home.header.sub-items.1.name">THE
+                                <br> MACHINES </span></div>
+                        <div class="col-3 d-flex"> <img src="./img/horizontal-lines.svg" alt="Horizontal Lines"> <span
+                                class="text-uppercase font-goodtimes  text-medium px-3"
+                                data-query="home.header.sub-items.2.name">THE
+                                <br> UNIVERSE </span></div>
+                        <div class="col-3 d-flex"> <img src="./img/horizontal-lines.svg" alt="Horizontal Lines"> <span
+                                class="text-uppercase font-goodtimes  text-medium px-3"
+                                data-query="home.header.sub-items.3.name">THE
+                                <br> DECELS </span></div>
+                    </div>
+
                 </div>
-                <a href="#">
-                    <button class="btn font-goodtimes text-medium text-thin bg-blue btn-padding mb-5">LEARN
-                        MORE</button>
-                </a>
+                <div class="w-20 p-0">
+                    <div id="bg-dots" class="white-border bl-half bb-half h-65">
+                    </div>
+                    <div class=" white-border py-5 px-3 bt-half bl-half h-35">
+                        <img src="./img/horizontal-lines.svg" class="r-90 px-3" alt="Horizontal Lines">
+                        <p class="text-thin text-small" data-query="home.header.paragraph">Humanity defeats adversity by
+                            learning the universe and passing
+                            survival
+                            instructions through genetic
+                            and memetic pathways.</p>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-2 white-border"></div>
+
         </div>
     </div>
 
-    <footer id="footer"></footer>
+    <footer class="container" id="footer"></footer>
 </body>
 
 </html>
