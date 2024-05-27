@@ -133,6 +133,9 @@
     src: local('GoodTimesRg-Regular'), url('/fonts/goodtimesrg.woff') format('woff');
 }
 
+.text-xsmall {
+    font-size: 10pt !important;
+}
 
 .text-small {
     font-size: 13pt !important;
