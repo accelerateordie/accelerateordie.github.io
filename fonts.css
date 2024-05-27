@@ -161,3 +161,81 @@
 .text-thin {
     font-weight: 250;
 }
+
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1400px) {
+    .text-small {
+        font-size: 13pt !important;
+    }
+
+    .text-medium {
+        font-size: 15pt !important;
+    }
+
+    .text-large {
+        font-size: 24pt !important;
+    }
+
+    .text-xlarge {
+        font-size: 48pt !important;
+    }
+
+    .text-xxlarge {
+        font-size: 58pt !important;
+    }
+
+    .text-bold {
+        font-weight: 700;
+    }
+
+    .text-thin {
+        font-weight: 250;
+    }
+}
+
+@media (min-width: 1600px) {
+    .text-small {
+        font-size: 13pt !important;
+    }
+
+    .text-medium {
+        font-size: 16pt !important;
+    }
+
+    .text-large {
+        font-size: 30pt !important;
+    }
+
+    .text-xlarge {
+        font-size: 48pt !important;
+    }
+
+    .text-xxlarge {
+        font-size: 72pt !important;
+    }
+
+    .text-bold {
+        font-weight: 700;
+    }
+
+    .text-thin {
+        font-weight: 250;
+    }
+
+}
