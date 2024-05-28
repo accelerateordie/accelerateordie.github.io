@@ -219,3 +219,13 @@ body {
 .ps-6 {
     padding-left: 5rem;
 }
+
+.big-square {
+    width: 150px !important;
+    height: 150px !important;
+}
+
+.small-square {
+    width: 72px !important;
+    height: 72px !important;
+}
