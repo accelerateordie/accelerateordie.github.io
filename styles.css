@@ -129,6 +129,10 @@ body {
     background: radial-gradient(circle, rgba(141, 255, 138, 1) 0%, rgba(11, 11, 11, 0) 100%);
 }
 
+.bg-yellow-gradient {
+    background: rgb(253, 181, 73);
+    background: radial-gradient(circle, rgba(253, 181, 73, 1) 0%, rgba(0, 0, 0, 0) 100%);
+}
 
 .br-gradient {
     position: absolute;
