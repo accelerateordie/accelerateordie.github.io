@@ -4,8 +4,8 @@ function loadNavbar() {
     xhr.onreadystatechange = function () {
         if (xhr.readyState === 4 && xhr.status === 200) {
             document.getElementById('navbar').innerHTML = xhr.responseText;
-            loadFooter();
         }
+        loadFooter();
     };
     xhr.send();
 }
@@ -19,7 +19,7 @@ function loadFooter() {
         if (xhr.readyState === 4 && xhr.status === 200) {
             document.getElementById('footer').innerHTML = xhr.responseText;
         }
-        replaceInnerHTMLWithJSONValues();
+        loadJsonData();
     };
     xhr.send();
 }
