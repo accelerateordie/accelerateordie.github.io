@@ -150,6 +150,17 @@ body {
     filter: blur(200px);
 }
 
+
+.tr-gradient {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 400px;
+    height: 400px;
+    transform: translate(50%, -50%);
+    filter: blur(200px);
+}
+
 .bb-gradient {
     position: absolute;
     bottom: 0;
@@ -199,14 +210,34 @@ body {
     width: 20%;
 }
 
+.w-40 {
+    flex: 0 0 auto;
+    width: 40%;
+}
+
 .w-60 {
     flex: 0 0 auto;
     width: 60%;
 }
 
+.w-50 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.w-75 {
+    flex: 0 0 auto;
+    width: 75%;
+}
+
 .w-80 {
     flex: 0 0 auto;
     width: 80%;
+}
+
+.w-90 {
+    flex: 0 0 auto;
+    width: 90%;
 }
 
 .h-65 {
@@ -237,4 +268,8 @@ body {
 .small-square {
     width: 72px !important;
     height: 72px !important;
+}
+
+.bottom-line {
+    border-bottom: 2px solid white !important;
 }
