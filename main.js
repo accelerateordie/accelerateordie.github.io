@@ -9,6 +9,17 @@ function loadNavbar() {
     };
     xhr.send();
 }
+function loadNavbar() {
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', './navbar-mobile.html', true);
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+            document.getElementById('navbar-mobile').innerHTML = xhr.responseText;
+            loadFooter();
+        }
+    };
+    xhr.send();
+}
 function loadJs() {
     loadNavbar();
 }
