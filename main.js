@@ -88,4 +88,16 @@ function replaceInnerHTMLWithJSONValues() {
             }
         }
     });
+    navActiveLink();
+}
+
+function navActiveLink() {
+    var currentPath = window.location.pathname;
+    var navbarLinks = document.querySelectorAll('.navbar-nav .nav-link')
+    navbarLinks.forEach(function (link) {
+        var linkPath = link.getAttribute('href');
+        if (currentPath === linkPath) {
+            link.classList.add('active-nav');
+        }
+    });
 }

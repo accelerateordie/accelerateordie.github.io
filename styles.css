@@ -168,10 +168,14 @@ body {
 .bb-gradient {
     position: absolute;
     bottom: 0;
-    width: 300px;
-    height: 300px;
-    transform: translate(10%, 70%);
-    filter: blur(50px);
+    width: 200px;
+    height: 200px;
+    transform: translate(10%, 80%);
+    filter: blur(70px);
+}
+
+.active-nav {
+    border-bottom: 2px solid #B4EDFF;
 }
 
 #bg-gradient-dots {
@@ -180,6 +184,10 @@ body {
 
 #bg-dots {
     background: url('./img/dots.svg') center / cover no-repeat;
+}
+
+#bg-space {
+    background: url('./img/bg-space.png') center / cover no-repeat;
 }
 
 .white-border {

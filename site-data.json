@@ -3,24 +3,29 @@
         "navbar-links": [
             {
                 "name": "How to Accelerate",
-                "url": "#"
+                "url": "/how-to-accelerate.html",
+                "target": "_blank"
             },
             {
                 "name": "School of ACCEL",
-                "url": "#"
+                "url": "#",
+                "target": "_blank"
             },
             {
                 "name": "My Journey",
-                "url": "#"
+                "url": "#",
+                "target": "_blank"
             },
             {
                 "name": "The ACCEL Tunnel",
-                "url": "#"
+                "url": "#",
+                "target": "_blank"
             }
         ],
         "button": {
             "name": "Ask a Question",
-            "url": "#"
+            "url": "#",
+            "target": "_blank"
         }
     },
     "footer": {
