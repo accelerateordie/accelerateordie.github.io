@@ -142,10 +142,10 @@ body {
     position: absolute;
     bottom: 0;
     right: 0;
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     transform: translate(50%, 50%);
-    filter: blur(200px);
+    filter: blur(100px);
 }
 
 .br-gradient-small {
@@ -172,10 +172,10 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     transform: translate(-50%, -50%);
-    filter: blur(200px);
+    filter: blur(100px);
 }
 
 .tl-gradient-medium {
@@ -192,10 +192,10 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     transform: translate(50%, -50%);
-    filter: blur(200px);
+    filter: blur(100px);
 }
 
 .bb-gradient {
