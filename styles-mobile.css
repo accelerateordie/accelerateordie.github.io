@@ -28,18 +28,54 @@ body {
     background-color: #B4EDFF;
 }
 
-.smalReq {
-    float: right;
-    width: 30px;
-    height: 30px;
-    border-radius: 7px;
+.white-border-mob {
+    border: 2px solid #fff;
+    border-radius: 16px;
 }
 
-.bigReq {
+
+/* 3square */
+/* -------------------------------------------------------- */
+.tr-squareContainer {
+    height: 142px;
+}
+
+.bl-squareContainer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.smallSqu {
     float: right;
-    width: 60px;
-    height: 60px;
-    border-radius: 7px;
+    width: 37px;
+    height: 37px;
+    border-radius: 13px;
+}
+
+.bigSqu {
+    float: right;
+    width: 85px;
+    height: 85px;
+    border-radius: 16px;
+}
+
+.InsideSqu {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    border-radius: 16px;
+    bottom: 0;
+}
+
+.SquRow {
+    float: right;
+}
+
+.SquPosition {
+    position: absolute;
+    right: 0;
+    top: 84px;
 }
 
 /* Navbar */
@@ -167,8 +203,8 @@ body {
     right: -70px;
 }
 
-#LearnMore .line-height50 {
-    line-height: 50px;
+#LearnMore p {
+    line-height: 25px;
 }
 
 #LearnMore .line-height30 {
@@ -194,12 +230,198 @@ body {
 /* Accelerationism */
 /* -------------------------------------------------------- */
 #Accelerationism {
-    height: 580px;
+    padding-bottom: 94px !important;
     position: relative;
     overflow: hidden;
+    text-align: center;
 }
 
 #Accelerationism .bg-green-gradient {
-    top: -70px;
+    bottom: 0px;
     width: 205px;
+}
+
+.AccelerationismTitle p {
+    line-height: 20px;
+}
+
+.AccelerationismText {
+    text-align: center;
+    padding: 22px;
+}
+
+/* TheMachines */
+/* -------------------------------------------------------- */
+#TheMachines {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/* TheSiliconMachines */
+/* -------------------------------------------------------- */
+#TheSiliconMachines {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#TheSiliconMachines .bg-blue-gradient {
+    bottom: -50px;
+}
+
+/* TheEnergyMachines */
+/* -------------------------------------------------------- */
+#TheEnergyMachines {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#TheEnergyMachines .bg-blue-gradient {
+    bottom: -50px;
+}
+
+/* TheUniverse */
+/* -------------------------------------------------------- */
+#TheUniverse {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+#TheUniverse .bg-blue-gradient {
+    bottom: -50px;
+}
+
+#TheUniverse img {
+    margin-left: -35px;
+}
+
+/* Entropy */
+/* -------------------------------------------------------- */
+#Entropy {
+    position: relative;
+    overflow: hidden;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#Entropy .AccelerationismTitle {
+    padding-left: 20px;
+    text-align: left;
+}
+
+#Entropy .AccelerationismText {
+    padding-left: 20px;
+    text-align: left;
+}
+
+/* UnivarsalMachine */
+/* -------------------------------------------------------- */
+
+#UnivarsalMachine {
+    position: relative;
+    overflow: hidden;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#UnivarsalMachine .AccelerationismTitle {
+    padding-left: 20px;
+    text-align: left;
+}
+
+#UnivarsalMachine .AccelerationismText {
+    padding-left: 20px;
+    text-align: left;
+}
+
+/* Religion */
+/* -------------------------------------------------------- */
+#Religion {
+    position: relative;
+    overflow: hidden;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#Religion .AccelerationismTitle {
+    padding-left: 20px;
+    text-align: left;
+}
+
+#Religion .AccelerationismText {
+    padding-left: 20px;
+    text-align: left;
+}
+
+/* The TheDecels */
+/* -------------------------------------------------------- */
+#TheDecels {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+#TheDecels .AccelerationismTitle {
+    text-align: center;
+}
+
+/* Their Motives */
+/* -------------------------------------------------------- */
+#TheirMotives {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+#TheirMotives .AccelerationismTitle {
+    text-align: center;
+}
+
+#TheirMotives .tr-gradient {
+    top: -100px;
+}
+
+/* Woke Ideology */
+/* -------------------------------------------------------- */
+#WokeIdeology {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+#WokeIdeology .AccelerationismTitle {
+    text-align: center;
+}
+
+#WokeIdeology .tr-gradient {
+    top: -100px;
+}
+
+/* Stop Ai */
+/* -------------------------------------------------------- */
+#StopAi {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+#StopAi .AccelerationismTitle {
+    text-align: center;
+}
+
+#StopAi .tr-gradient {
+    top: -100px;
 }

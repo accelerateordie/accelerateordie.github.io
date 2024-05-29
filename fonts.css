@@ -144,6 +144,12 @@
 .text-medium {
     font-size: 16pt !important;
 }
+.text-medium-mob {
+    font-size: 20pt !important;
+}
+.text-large-mob {
+    font-size: 28pt !important;
+}
 
 .text-large {
     font-size: 30pt !important;

@@ -8,15 +8,53 @@
     margin-left: auto;
 }
 
-@media (min-width: 576px) {
+@media screen and (min-width: 576px) {
     .container {
         max-width: 540px;
     }
+    .br-gradient {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 150px;
+        height: 150px;
+        transform: translate(50%, 50%);
+        filter: blur(100px);
+    }
+    
+    .tl-gradient {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 150px;
+        height: 150px;
+        transform: translate(-50%, -50%);
+        filter: blur(100px);
+    }
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .container {
         max-width: 720px;
+    }
+    .br-gradient {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 150px;
+        height: 150px;
+        transform: translate(50%, 50%);
+        filter: blur(100px);
+    }
+    
+    .tl-gradient {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 150px;
+        height: 150px;
+        transform: translate(-50%, -50%);
+        filter: blur(100px);
     }
 }
 
