@@ -595,8 +595,8 @@ body {
     width: 205px;
 }
 
-#keyConcepts .tl-gradient{
-    top:-100px
+#keyConcepts .tl-gradient {
+    top: -100px
 }
 
 /* journey of accelerating */
@@ -607,14 +607,100 @@ body {
     position: relative;
     overflow: hidden;
 }
-#journeyOfAccelerating span{
+
+#journeyOfAccelerating span {
     line-height: 40px;
 }
+
 #journeyOfAccelerating .bg-green-gradient {
     bottom: 0px;
     width: 205px;
 }
 
-#journeyOfAccelerating .tl-gradient{
-    top:-100px
+#journeyOfAccelerating .tl-gradient {
+    top: -100px
+}
+
+/* HomeSchooling */
+/* -------------------------------------------------------- */
+#HomeSchooling {
+    padding-bottom: 94px !important;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.timeLineHeader {
+    width: 100%;
+    display: inline-block;
+}
+
+.timeLineIcon {
+    float: left;
+    width: 20%;
+}
+
+.timeLineIcon img {
+    width: 100%;
+}
+
+.timeLineTitle {
+    float: right;
+    width: 80%;
+    text-align: left;
+    padding-left: 12px;
+    padding-top: 5px;
+}
+
+.timeLineDescription {
+    text-align: left;
+    padding-left: 10%;
+}
+
+.timelineBorder {
+    border-left-width: 2px;
+    border-left-style: solid;
+    margin-top: -8px;
+    height: 70px;
+    overflow: hidden;
+}
+
+.timelineBorderLastItem {
+    border: none !important;
+}
+
+.timelineText {
+    display: none;
+}
+
+.timelineBorderGradient1 {
+    border-image: linear-gradient(#F3BC50, #DBCC5D) 30;
+}
+
+.timelineBorderGradient2 {
+    border-image: linear-gradient(#DBCC5D, #C0DD6D) 30;
+}
+
+.timelineBorderGradient3 {
+    border-image: linear-gradient(#C0DD6D, #A3F17E) 30;
+}
+
+.timelineBorderGradient4 {
+    border-image: linear-gradient(#A3F17E, #92FD97) 30;
+}
+
+.timelineBorderGradient5 {
+    border-image: linear-gradient(#92FD97, #9CF8B7) 30;
+}
+
+.timelineBorderGradient6 {
+    border-image: linear-gradient(#9CF8B7, #A6F4D4) 30;
+}
+
+.timelineBorderGradient7 {
+    border-image: linear-gradient(#A6F4D4, #B0EFF2) 30;
+}
+
+.timelineBorderGradient8 {
+    border-image: linear-gradient(#A6F4D4, #A6F4D4) 30;
 }
