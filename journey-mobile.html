@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en_US">
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title data-query="home.page-title">ACCEL</title>
+    <meta name="description" content="ACCEL website">
+    <meta name="keywords" content="ACCEL">
+    <meta name="author" content="ACCEL">
+    <link rel="stylesheet" href="./styles-mobile.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+
+<body onload="loadJs()">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+
+    <header class="header mb-2">
+        <nav class="container" id="navbar-mobile"></nav>
+    </header>
+
+    <section class="container">
+
+        <!-- img -->
+        <div class="col-12 white-border-mob br-half bb-half">
+            <img src="./img/journey.png" style="width: 100%;">
+        </div>
+        <!-- end of img -->
+
+        <!-- journey of accelerating -->
+        <div id="journeyOfAccelerating" class="col-12 white-border-mob br-half bb-half Box-padding">
+            <span class="G-Font text-large-mob">THE</span><br />
+            <span class="G-Font text-large-mob">JOURNEY OF</span><br />
+            <span class="G-Font text-blue text-large-mob mt-4">ACCELERATING</span>
+            <div class="mt-5">
+                <span class="H-Font line-height30 text-medium">Learn more about my background, mindset, and the
+                    experiences that led to the creation of ACCEL.</span>
+            </div>
+            <div class="br-gradient bg-blue-gradient"></div>
+        </div>
+        <!-- end of How To Accelerate -->
+
+        <!-- key Concepts -->
+        <div id="keyConcepts" class="p-0 col-12 white-border-mob br-half bb-half">
+            <div class="bg-blue-gradient tl-gradient"></div>
+
+            <!-- 3square -->
+            <div class="tr-squareContainer col-12 p-0">
+                <div class="SquRow">
+                    <div class="bigSqu white-border-mob br-half bb-half">
+                    </div>
+                    <div class="smallSqu white-border-mob br-half bb-half">
+                    </div>
+                </div>
+                <div class="smallSqu white-border-mob SquPosition br-half bb-half">
+                </div>
+            </div>
+            <!-- end of 3square -->
+
+            <div class="col-12 AccelTitle mt-2">
+                <span class="text-medium G-Font">FROM HOMESCHOLLING</span><br/>
+                <span class="text-medium G-Font">TO FOUNDING</span>
+                <span class="text-medium G-Font text-blue">ACCEL</span>
+            </div>
+
+            
+            <!-- 2square -->
+            <div class="bl-squareContainer">
+                <div class="bigSqu white-border">
+                    <div class="InsideSqu white-border"></div>
+                </div>
+
+            </div>
+            <!-- end of 2square -->
+
+        </div>
+        <!-- end of key Concepts -->
+
+    </section>
+
+    <footer class="container" id="footer-mobile"></footer>
+
+    <script>
+        function openNav() {
+            document.getElementById("navbarToggleMain").style.right = "0%";
+            document.getElementById("navbarToggle-back").style.display = "block";
+        }
+        function closeNav() {
+            document.getElementById("navbarToggleMain").style.right = "-75%";
+            document.getElementById("navbarToggle-back").style.display = "none";
+        }
+    </script>
+
+</body>
+
+</html>

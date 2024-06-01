@@ -22,9 +22,6 @@ body {
     border: none;
     border-radius: 7px;
     padding: 10px;
-}
-
-.BlueBackground {
     background-color: #B4EDFF;
 }
 
@@ -241,11 +238,11 @@ body {
     width: 205px;
 }
 
-.AccelerationismTitle p {
+.AccelTitle p {
     line-height: 20px;
 }
 
-.AccelerationismText {
+.AccelText {
     text-align: center;
     padding: 22px;
 }
@@ -311,12 +308,12 @@ body {
     padding-bottom: 10px;
 }
 
-#Entropy .AccelerationismTitle {
+#Entropy .AccelTitle {
     padding-left: 20px;
     text-align: left;
 }
 
-#Entropy .AccelerationismText {
+#Entropy .AccelText {
     padding-left: 20px;
     text-align: left;
 }
@@ -332,12 +329,12 @@ body {
     padding-bottom: 10px;
 }
 
-#UnivarsalMachine .AccelerationismTitle {
+#UnivarsalMachine .AccelTitle {
     padding-left: 20px;
     text-align: left;
 }
 
-#UnivarsalMachine .AccelerationismText {
+#UnivarsalMachine .AccelText {
     padding-left: 20px;
     text-align: left;
 }
@@ -352,12 +349,12 @@ body {
     padding-bottom: 10px;
 }
 
-#Religion .AccelerationismTitle {
+#Religion .AccelTitle {
     padding-left: 20px;
     text-align: left;
 }
 
-#Religion .AccelerationismText {
+#Religion .AccelText {
     padding-left: 20px;
     text-align: left;
 }
@@ -371,7 +368,7 @@ body {
     padding-bottom: 15px;
 }
 
-#TheDecels .AccelerationismTitle {
+#TheDecels .AccelTitle {
     text-align: center;
 }
 
@@ -384,7 +381,7 @@ body {
     padding-bottom: 15px;
 }
 
-#TheirMotives .AccelerationismTitle {
+#TheirMotives .AccelTitle {
     text-align: center;
 }
 
@@ -401,7 +398,7 @@ body {
     padding-bottom: 15px;
 }
 
-#WokeIdeology .AccelerationismTitle {
+#WokeIdeology .AccelTitle {
     text-align: center;
 }
 
@@ -418,10 +415,206 @@ body {
     padding-bottom: 15px;
 }
 
-#StopAi .AccelerationismTitle {
+#StopAi .AccelTitle {
     text-align: center;
 }
 
 #StopAi .tr-gradient {
     top: -100px;
+}
+
+/* footer */
+/* -------------------------------------------------------- */
+#footer-mob {
+    margin-bottom: 20px;
+}
+
+#footer-mob ul {
+    padding: 0px;
+    text-align: left;
+}
+
+#footer-mob ul li {
+    list-style-type: none;
+    margin-top: 13px;
+}
+
+#footer-mob ul:first {
+    font-weight: bold;
+}
+
+#SocialLinks ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+#SocialLinks ul li {
+    list-style-type: none;
+    margin: 0 10px;
+    /* Add margin to space out the items */
+}
+
+/* How To Accelerate */
+/* -------------------------------------------------------- */
+#HowToAccelerate {
+    position: relative;
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* Step1 */
+/* -------------------------------------------------------- */
+#Step1 {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#Step1 .bg-blue-gradient {
+    bottom: -50px;
+}
+
+/* Step2 */
+/* -------------------------------------------------------- */
+#Step2 {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#Step2 .bg-blue-gradient {
+    bottom: -50px;
+}
+
+/* Step3 */
+/* -------------------------------------------------------- */
+#Step3 {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#Step3 .bg-blue-gradient {
+    bottom: -50px;
+}
+
+/* Step4 */
+/* -------------------------------------------------------- */
+#Step4 {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#Step4 .bg-blue-gradient {
+    bottom: -50px;
+}
+
+/* Acceleration */
+/* -------------------------------------------------------- */
+#Acceleration {
+    position: relative;
+    overflow: hidden;
+    text-align: left !important;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-image: url('./img/miamanic.png');
+}
+
+#Acceleration img {
+    width: 100%;
+}
+
+#Acceleration .AccelText span {
+    text-align: left !important;
+}
+
+/* school Of Accel */
+/* -------------------------------------------------------- */
+
+#schoolOfAccel {
+    position: relative;
+    overflow: hidden;
+    text-align: left !important;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#schoolOfAccel .bg-blue-gradient {
+    top: 198px
+}
+
+/* educational session / testing */
+/* -------------------------------------------------------- */
+#educational,
+#testing {
+    text-align: center;
+}
+
+/* schoolOfAccelDescription */
+/* -------------------------------------------------------- */
+#schoolOfAccelDescription {
+    position: relative;
+    overflow: hidden;
+    text-align: center !important;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-image: url('./img/g8.png');
+}
+
+#schoolOfAccelDescription img {
+    width: 100%;
+}
+
+#schoolOfAccelDescription .AccelText span {
+    text-align: left !important;
+}
+
+/* Accelerationism */
+/* -------------------------------------------------------- */
+#keyConcepts {
+    padding-bottom: 94px !important;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+#keyConcepts .bg-green-gradient {
+    bottom: 0px;
+    width: 205px;
+}
+
+#keyConcepts .tl-gradient{
+    top:-100px
+}
+
+/* journey of accelerating */
+/* -------------------------------------------------------- */
+#journeyOfAccelerating {
+    padding-top: 40px;
+    padding-bottom: 94px !important;
+    position: relative;
+    overflow: hidden;
+}
+#journeyOfAccelerating span{
+    line-height: 40px;
+}
+#journeyOfAccelerating .bg-green-gradient {
+    bottom: 0px;
+    width: 205px;
+}
+
+#journeyOfAccelerating .tl-gradient{
+    top:-100px
 }

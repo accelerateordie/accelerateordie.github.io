@@ -9,7 +9,7 @@ function loadNavbar() {
     };
     xhr.send();
 }
-function loadNavbar() {
+function loadNavbar_mob() {
     var xhr = new XMLHttpRequest();
     xhr.open('GET', './navbar-mobile.html', true);
     xhr.onreadystatechange = function () {
@@ -22,6 +22,9 @@ function loadNavbar() {
 }
 function loadJs() {
     loadNavbar();
+    loadFooter();
+    loadNavbar_mob();
+    loadFooter_mob();
 }
 function loadFooter() {
     var xhr = new XMLHttpRequest();
@@ -29,6 +32,17 @@ function loadFooter() {
     xhr.onreadystatechange = function () {
         if (xhr.readyState === 4 && xhr.status === 200) {
             document.getElementById('footer').innerHTML = xhr.responseText;
+        }
+        loadJsonData();
+    };
+    xhr.send();
+}
+function loadFooter_mob() {
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', './footer-mobile.html', true);
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+            document.getElementById('footer-mobile').innerHTML = xhr.responseText;
         }
         loadJsonData();
     };
