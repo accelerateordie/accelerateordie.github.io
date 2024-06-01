@@ -101,3 +101,28 @@ function navActiveLink() {
         }
     });
 }
+// Horizontal Lines with animations
+const images = [["./img/horizontal-lines-2.svg", "./img/horizontal-lines-3.svg", "./img/horizontal-lines-4.svg"]];
+let currentIndex = 0;
+let imageInterval;
+
+function startImageLoop(wrapper) {
+    const index = Array.from(wrapper.parentNode.children).indexOf(wrapper);
+    imageInterval = setInterval(() => changeImage(wrapper, index), 200);
+}
+
+function changeImage(wrapper, index) {
+    const mainImage = wrapper.querySelector(".main-image");
+    mainImage.src = images[index][currentIndex];
+    currentIndex = (currentIndex + 1) % images[index].length;
+    if (currentIndex === 0) {
+        clearInterval(imageInterval);
+    }
+}
+
+function resetImage(wrapper) {
+    clearInterval(imageInterval);
+    currentIndex = 0;
+    const mainImage = wrapper.querySelector(".main-image");
+    mainImage.src = "./img/horizontal-lines.svg";
+}
