@@ -7,7 +7,7 @@ body {
 }
 
 .Box-padding {
-    padding: 20px;
+    padding: 25px 20px 25px 20px;
 }
 
 .G-Font {
@@ -21,7 +21,7 @@ body {
 .button {
     border: none;
     border-radius: 7px;
-    padding: 10px;
+    padding: 10px 20px;
     background-color: #B4EDFF;
 }
 
@@ -30,6 +30,13 @@ body {
     border-radius: 16px;
 }
 
+.AccelTitle {
+    line-height: 40px;
+}
+
+.AccelText {
+    line-height: 25px;
+}
 
 /* 3square */
 /* -------------------------------------------------------- */
@@ -190,9 +197,10 @@ body {
 /* -------------------------------------------------------- */
 
 #LearnMore {
-    height: 380px;
     position: relative;
     overflow: hidden;
+    text-align: left;
+    padding-bottom: 40px;
 }
 
 #LearnMore .bg-blue-gradient {
@@ -200,26 +208,12 @@ body {
     right: -70px;
 }
 
-#LearnMore p {
-    line-height: 25px;
-}
 
-#LearnMore .line-height30 {
-    line-height: 30px;
-}
-
-/* 3 */
+/* 3 , ... */
 /* -------------------------------------------------------- */
-#Box3 {
-    height: 170px;
+.Box3 img{
+    margin-bottom: 25px;
 }
-
-/* 4 , ... */
-/* -------------------------------------------------------- */
-.Box4 {
-    height: 75px;
-}
-
 .Box4 img {
     float: right;
 }
@@ -236,15 +230,6 @@ body {
 #Accelerationism .bg-green-gradient {
     bottom: 0px;
     width: 205px;
-}
-
-.AccelTitle p {
-    line-height: 20px;
-}
-
-.AccelText {
-    text-align: center;
-    padding: 22px;
 }
 
 /* TheMachines */
@@ -661,8 +646,9 @@ body {
     border-left-width: 2px;
     border-left-style: solid;
     margin-top: -8px;
-    height: 70px;
     overflow: hidden;
+    min-height: 70px;
+    transition: 0.5s;
 }
 
 .timelineBorderLastItem {
