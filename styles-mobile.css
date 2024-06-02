@@ -31,7 +31,7 @@ body {
 }
 
 .AccelTitle {
-    line-height: 40px;
+    line-height: 35px;
 }
 
 .AccelText {
@@ -408,6 +408,8 @@ body {
     top: -100px;
 }
 
+
+
 /* footer */
 /* -------------------------------------------------------- */
 #footer-mob {
@@ -532,8 +534,8 @@ body {
     position: relative;
     overflow: hidden;
     text-align: left !important;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 #schoolOfAccel .bg-blue-gradient {
@@ -588,13 +590,9 @@ body {
 /* -------------------------------------------------------- */
 #journeyOfAccelerating {
     padding-top: 40px;
-    padding-bottom: 94px !important;
+    padding-bottom: 40px !important;
     position: relative;
     overflow: hidden;
-}
-
-#journeyOfAccelerating span {
-    line-height: 40px;
 }
 
 #journeyOfAccelerating .bg-green-gradient {
