@@ -274,6 +274,7 @@ body {
     position: relative;
     overflow: hidden;
     text-align: center;
+    max-height: 600px;
 }
 
 #TheUniverse .bg-blue-gradient {
@@ -281,7 +282,28 @@ body {
 }
 
 #TheUniverse img {
-    margin-left: -35px;
+    width: 588px;
+    top: 200px;
+    margin-left: -191px;
+    margin-top: -15px;
+}
+
+.rotating {
+    display: block;
+    margin: 50px auto;
+    /* Adjust the size as needed */
+    height: auto;
+    animation: rotate 20s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 /* Entropy */
