@@ -151,3 +151,12 @@ function resetImage(wrapper) {
     const mainImage = wrapper.querySelector(".main-image");
     mainImage.src = "./img/horizontal-lines.svg";
 }
+
+function openNav() {
+    document.getElementById("navbarToggleMain").style.right = "0%";
+    document.getElementById("navbarToggle-back").style.display = "block";
+}
+function closeNav() {
+    document.getElementById("navbarToggleMain").style.right = "-75%";
+    document.getElementById("navbarToggle-back").style.display = "none";
+}
