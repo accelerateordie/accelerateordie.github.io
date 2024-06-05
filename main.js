@@ -20,11 +20,36 @@ function loadNavbar_mob() {
     };
     xhr.send();
 }
-function loadJs() {
+
+function isMobile() {
+    return /Mobi|Android|iPhone|iPad|BlackBerry|Windows Phone/i.test(navigator.userAgent);
+}
+
+function loadJs(location) {
+    let split = location.split('/');
+    let name = split[split.length - 1]
+    if (isMobile()) {
+        if (!name.includes('mobile')) {
+            if (name == "") {
+                window.location.href = 'index-mobile.html'
+            } else {
+                window.location.href = name.split('.')[0] + '-mobile.html';
+            }
+
+        }
+    } else {
+        if (name == "") {
+            window.location.href = 'index.html'
+        } else if (name.includes('mobile')) {
+            window.location.href = name.slice(0, name.lastIndexOf('-')) + '.html'
+        }
+
+    }
     loadNavbar();
     loadFooter();
     loadNavbar_mob();
     loadFooter_mob();
+    addEvent()
 }
 function loadFooter() {
     var xhr = new XMLHttpRequest();
@@ -150,4 +175,30 @@ function resetImage(wrapper) {
     currentIndex = 0;
     const mainImage = wrapper.querySelector(".main-image");
     mainImage.src = "./img/horizontal-lines.svg";
+}
+
+// MOBILE
+// ACCORDION
+function addEvent() {
+    var acc = document.getElementsByClassName("timeLineHeader");
+    var i;
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var panel = this.nextSibling.nextSibling.getElementsByClassName('timelineBorder')[0].firstChild.nextSibling
+            if (panel.style.maxHeight != '0px') {
+                panel.style.visibility = 'hidden'
+                panel.style.maxHeight = "0px";
+                panel.style.opacity = '0'
+                // rotate icon
+                this.getElementsByClassName('arrow-icon')[0].firstChild.nextSibling.style.transform = "rotate(0deg)"
+            } else {
+                panel.style.display = 'block'
+                panel.style.maxHeight = panel.scrollHeight + "px";
+                panel.style.visibility = 'visible'
+                panel.style.opacity = '1'
+                this.getElementsByClassName('arrow-icon')[0].firstChild.nextSibling.style.transform = "rotate(-180deg)"
+            }
+        });
+    }
 }

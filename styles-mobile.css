@@ -211,9 +211,10 @@ body {
 
 /* 3 , ... */
 /* -------------------------------------------------------- */
-.Box3 img{
+.Box3 img {
     margin-bottom: 25px;
 }
+
 .Box4 img {
     float: right;
 }
@@ -615,7 +616,8 @@ body {
 
 .timeLineHeader {
     width: 100%;
-    display: inline-block;
+    display: flex;
+    align-items: center;
 }
 
 .timeLineIcon {
@@ -643,10 +645,12 @@ body {
 .timelineBorder {
     border-left-width: 2px;
     border-left-style: solid;
-    margin-top: -8px;
+    margin-top: -4px;
+    margin-left: -3px;
+    margin-bottom: -3px;
     overflow: hidden;
     min-height: 70px;
-    transition: 0.5s;
+
 }
 
 .timelineBorderLastItem {
@@ -655,6 +659,7 @@ body {
 
 .timelineText {
     display: none;
+    transition: 0.5s;
 }
 
 .timelineBorderGradient1 {

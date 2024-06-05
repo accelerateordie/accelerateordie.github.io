@@ -12,7 +12,12 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
 </head>
 
-<body onload="loadJs()">
+<body onload="loadJs_html()">
+    <script>
+        function loadJs_html() {
+            loadJs(window.location.href);
+        }
+    </script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         crossorigin="anonymous"></script>
@@ -112,29 +117,35 @@
                     </div>
                     <!-- 2 -->
                     <div class="col-lg-3 px-4">
-                        <h4 class="font-goodtimes text-medium  text-center" data-query="school-of-accel.segment-1.items.1.title" style="height: 4rem;">
+                        <h4 class="font-goodtimes text-medium  text-center"
+                            data-query="school-of-accel.segment-1.items.1.title" style="height: 4rem;">
                             Innovative <span class="text-blue">Learning <br> Model</span>
                         </h4>
-                        <p class="text-xsmall text-thin text-center text-n300 mt-4" data-query="school-of-accel.segment-1.items.1.description">
+                        <p class="text-xsmall text-thin text-center text-n300 mt-4"
+                            data-query="school-of-accel.segment-1.items.1.description">
                             Students rotate through subjects in 20-minute sessions, followed by 10 minutes of testing,
                             ensuring engagement and personalized learning.</p>
                     </div>
                     <!-- 3 -->
                     <div class="col-lg-3 px-4">
-                        <h4 class="font-goodtimes text-medium  text-center" data-query="school-of-accel.segment-1.items.2.title" style="height: 4rem;">
+                        <h4 class="font-goodtimes text-medium  text-center"
+                            data-query="school-of-accel.segment-1.items.2.title" style="height: 4rem;">
                             Maximizing <span class="text-blue">Youth Potential</span>
                         </h4>
-                        <p class="text-xsmall text-thin text-center text-n300 mt-4" data-query="school-of-accel.segment-1.items.2.description">
+                        <p class="text-xsmall text-thin text-center text-n300 mt-4"
+                            data-query="school-of-accel.segment-1.items.2.description">
                             Instead of waiting until 18-21 for full agency, this system maximizes memetic content
                             upload, preparing graduates to contribute to humanity's acceleration.</p>
                     </div>
                     <!-- 4 -->
                     <div class="col-lg-3 px-4">
-                        <h4 class="font-goodtimes text-medium  text-center" data-query="school-of-accel.segment-1.items.3.title" style="height: 4rem;">Scalable
+                        <h4 class="font-goodtimes text-medium  text-center"
+                            data-query="school-of-accel.segment-1.items.3.title" style="height: 4rem;">Scalable
                             <br>
                             <span class="text-blue">and Efficient</span>
                         </h4>
-                        <p class="text-xsmall text-thin text-center text-n300 mt-4" data-query="school-of-accel.segment-1.items.3.description">
+                        <p class="text-xsmall text-thin text-center text-n300 mt-4"
+                            data-query="school-of-accel.segment-1.items.3.description">
                             A single site with audio-visual tech, individual booths, and AI instructors could deliver
                             education efficiently, connected globally for consistent access.</p>
                     </div>
