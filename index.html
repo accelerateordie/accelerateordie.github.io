@@ -50,7 +50,8 @@
                             </div>
                             <a data-query="home.header.button._" data-attribute="href" data-target="target"
                                 target="_blank" href="#">
-                                <button class="btn font-goodtimes text-medium text-thin bg-blue btn-xpadding mb-high"
+                                <button
+                                    class="box btn font-goodtimes text-medium text-thin bg-blue btn-xpadding mb-high"
                                     data-query="home.header.button.name">LEARN
                                     MORE</button>
                             </a>
@@ -60,23 +61,41 @@
 
                     <div class="row m-0 py-5 white-border bt-half br-half bb-half">
                         <div class="col-3 d-flex">
-                            <img src="./img/horizontal-lines.svg" alt="Horizontal Lines"> <span
-                                class="text-uppercase font-goodtimes text-medium px-3"
+                            <div class="lines-wrapper" onmouseenter="startImageLoop(this)"
+                                onmouseleave="resetImage(this)">
+                                <img src="./img/horizontal-lines.svg" class="main-image" alt="Horizontal Lines">
+                            </div>
+                            <span class="text-uppercase font-goodtimes text-medium px-3 d-flex align-items-center"
                                 data-query="home.header.sub-items.0.name">THE
                                 <br> MOVEMENT </span>
                         </div>
-                        <div class="col-3 d-flex"> <img src="./img/horizontal-lines.svg" alt="Horizontal Lines"> <span
-                                class="text-uppercase font-goodtimes  text-medium px-3"
+                        <div class="col-3 d-flex">
+                            <div class="lines-wrapper" onmouseenter="startImageLoop(this)"
+                                onmouseleave="resetImage(this)">
+                                <img src="./img/horizontal-lines.svg" class="main-image" alt="Horizontal Lines">
+                            </div>
+                            <span class="text-uppercase font-goodtimes text-medium px-3 d-flex align-items-center"
                                 data-query="home.header.sub-items.1.name">THE
-                                <br> MACHINES </span></div>
-                        <div class="col-3 d-flex"> <img src="./img/horizontal-lines.svg" alt="Horizontal Lines"> <span
-                                class="text-uppercase font-goodtimes  text-medium px-3"
+                                <br> MACHINES </span>
+                        </div>
+                        <div class="col-3 d-flex">
+                            <div class="lines-wrapper" onmouseenter="startImageLoop(this)"
+                                onmouseleave="resetImage(this)">
+                                <img src="./img/horizontal-lines.svg" class="main-image" alt="Horizontal Lines">
+                            </div>
+                            <span class="text-uppercase font-goodtimes text-medium px-3 d-flex align-items-center"
                                 data-query="home.header.sub-items.2.name">THE
-                                <br> UNIVERSE </span></div>
-                        <div class="col-3 d-flex"> <img src="./img/horizontal-lines.svg" alt="Horizontal Lines"> <span
-                                class="text-uppercase font-goodtimes  text-medium px-3"
+                                <br> UNIVERSE </span>
+                        </div>
+                        <div class="col-3 d-flex">
+                            <div class="lines-wrapper" onmouseenter="startImageLoop(this)"
+                                onmouseleave="resetImage(this)">
+                                <img src="./img/horizontal-lines.svg" class="main-image" alt="Horizontal Lines">
+                            </div>
+                            <span class="text-uppercase font-goodtimes text-medium px-3 d-flex align-items-center"
                                 data-query="home.header.sub-items.3.name">THE
-                                <br> DECELS </span></div>
+                                <br> DECELS </span>
+                        </div>
                     </div>
 
                 </div>
@@ -84,7 +103,11 @@
                     <div id="bg-dots" class="white-border bl-half bb-half h-65">
                     </div>
                     <div class="white-border py-5 px-3 bt-half bl-half bb-half h-35">
-                        <img src="./img/horizontal-lines.svg" class="r-90 px-3" alt="Horizontal Lines">
+                        <div class="lines-wrapper-r90" onmouseenter="startImageLoop(this)"
+                            onmouseleave="resetImage(this)">
+                            <img src="./img/horizontal-lines.svg" class="main-image r-90 px-3" alt="Horizontal Lines">
+                        </div>
+
                         <p class="text-thin text-small" data-query="home.header.paragraph">Humanity defeats adversity by
                             learning the universe and passing
                             survival
@@ -101,7 +124,7 @@
                         <span class="text-green"> Movement</span>
 
                     </h2>
-                    <p class="text-thin text-small text-center mt-5 " data-query="home.segment-1.subtitle">
+                    <p class="text-thin text-small text-center mt-5" data-query="home.segment-1.subtitle">
                         Accelerationism is simply a movement to
                         re-activate humanity and
                         give it purpose: <br> <span class="text-bold">more
@@ -123,7 +146,11 @@
                             our intelligence into a universe which is ostensibly not intelligence.</p>
                     </div>
                     <div class="col-lg-3">
-                        <img src="./img/human.svg" alt="">
+                        <div class="image-wrapper">
+                            <img src="./img/human.svg" alt="Human" class="original">
+                            <img src="./img/human-2.svg" alt="Human" class="hover">
+                        </div>
+
                     </div>
                     <div class="col-lg-3">
                         <h3 class="font-goodtimes text-large text-narrow-height text-center"
@@ -177,7 +204,7 @@
                 </div>
                 <div class="row p-0 m-0 mt-high">
                     <div
-                        class="col-lg-4 white-border text-center p-5 bl-half bb-half br-half position-relative overflow-hidden ">
+                        class="col-lg-4 white-border text-center p-5 bl-half bb-half br-half position-relative overflow-hidden hover-bb">
                         <img src="./img/icon-machines.svg" alt="THE SILICON MACHINES" style="height: 180px;">
                         <div>
                             <h5 class="text-uppercase font-goodtimes text-medium text-narrow-height my-3"
@@ -210,7 +237,7 @@
                         <div class="bb-gradient bg-blue-gradient"></div>
                     </div>
                     <div
-                        class="col-lg-4 white-border text-center p-5 bl-half bb-half br-half position-relative overflow-hidden ">
+                        class="col-lg-4 white-border text-center p-5 bl-half bb-half br-half position-relative overflow-hidden  hover-bb">
                         <img src="./img/icon-ai.svg" alt="THE PURPOSE OF AI" style="height: 180px;">
                         <div>
                             <h5 class="text-uppercase font-goodtimes text-medium text-narrow-height my-3"
@@ -244,7 +271,7 @@
                         <div class="bb-gradient bg-blue-gradient"></div>
                     </div>
                     <div
-                        class="col-lg-4 white-border text-center p-5 bl-half bb-half br-half position-relative overflow-hidden ">
+                        class="col-lg-4 white-border text-center p-5 bl-half bb-half br-half position-relative overflow-hidden  hover-bb">
                         <img src="./img/icon-energy.svg" alt="THE ENERGY MACHINES" style="height: 180px;">
                         <div>
                             <h5 class="text-uppercase font-goodtimes text-medium text-narrow-height my-3"
@@ -285,8 +312,8 @@
                         The nature of the Universe, God and a
                         Moral Compass. </p>
                 </div>
-                <div style="position: absolute;left: 0;z-index: -1;padding: 0;"><img src="./img/planet.png"
-                        alt="Planet"></div>
+                <div style="position: absolute;left: -650px;z-index: -1;padding: 0;"><img class="planet-img"
+                        src="./img/planet.png" alt="Planet"></div>
                 <!-- CARD 1 -->
                 <div class="ms-auto d-flex w-80 me-5 mt-high">
                     <div class="h-75 w-100 bottom-line position-relative">
@@ -383,7 +410,7 @@
                 <div class="row p-0 m-0 mt-high">
                     <!--  -->
                     <div
-                        class="col-lg-4 white-border text-start p-5 bl-half bb-half br-half position-relative overflow-hidden ">
+                        class="col-lg-4 white-border text-start p-5 bl-half bb-half br-half position-relative overflow-hidden hover-tr">
                         <img src="./img/icon-motives.svg" alt="THEIR MOTIVES" style="height: 180px;">
                         <div>
                             <h5 class="text-uppercase font-goodtimes text-medium text-narrow-height my-3"
@@ -391,7 +418,8 @@
                             </h5>
                         </div>
                         <div style="height: 12rem;">
-                            <p class="text-thin text-n300 text-small text-narrow-height mt-4" data-query="home.segment-4.cards.0.description">The Decels are driven by
+                            <p class="text-thin text-n300 text-small text-narrow-height mt-4"
+                                data-query="home.segment-4.cards.0.description">The Decels are driven by
                                 confusion about their purpose, and harbour fear that leads them to control others for
                                 self-protection. They also must just have malevolent desires to harm humanity.
                                 <br>
@@ -406,15 +434,16 @@
                     </div>
                     <!--  -->
                     <div
-                        class="col-lg-4 white-border text-start p-5 bl-half bb-half br-half position-relative overflow-hidden ">
+                        class="col-lg-4 white-border text-start p-5 bl-half bb-half br-half position-relative overflow-hidden hover-tr">
                         <img src="./img/icon-ideology.svg" alt="WOKE IDEOLOGY" style="height: 180px;">
                         <div>
-                            <h5 class="text-uppercase font-goodtimes text-medium text-narrow-height my-3" data-query="home.segment-4.cards.1.title">WOKE <span
-                                    class="text-yellow">IDEOLOGY</span>
+                            <h5 class="text-uppercase font-goodtimes text-medium text-narrow-height my-3"
+                                data-query="home.segment-4.cards.1.title">WOKE <span class="text-yellow">IDEOLOGY</span>
                             </h5>
                         </div>
                         <div style="height: 12rem;">
-                            <p class="text-thin text-n300 text-small text-narrow-height mt-4"  data-query="home.segment-4.cards.1.description">Today, the world stands at
+                            <p class="text-thin text-n300 text-small text-narrow-height mt-4"
+                                data-query="home.segment-4.cards.1.description">Today, the world stands at
                                 a crossroads where it has unprecedented potential to advance rapidly, yet it also faces
                                 fragile conditions that could significantly hinder human progress. This critical moment
                                 calls for the implementation of a clear, actionable framework to guide humanity forward.
@@ -429,15 +458,17 @@
                     </div>
                     <!--  -->
                     <div
-                        class="col-lg-4 white-border text-start p-5 bl-half bb-half br-half position-relative overflow-hidden ">
+                        class="col-lg-4 white-border text-start p-5 bl-half bb-half br-half position-relative overflow-hidden hover-tr">
                         <img src="./img/icon-stop-ai.svg" alt="STOP AI BY DECELS" style="height: 180px;">
                         <div>
-                            <h5 class="text-uppercase font-goodtimes text-medium text-narrow-height my-3"  data-query="home.segment-4.cards.2.title"> <span
-                                    class="text-yellow">STOP AI</span> BY DECELS
+                            <h5 class="text-uppercase font-goodtimes text-medium text-narrow-height my-3"
+                                data-query="home.segment-4.cards.2.title"> <span class="text-yellow">STOP AI</span> BY
+                                DECELS
                             </h5>
                         </div>
                         <div style="height: 12rem;">
-                            <p class="text-thin text-n300 text-small text-narrow-height mt-4"  data-query="home.segment-4.cards.2.description">This situation underscores
+                            <p class="text-thin text-n300 text-small text-narrow-height mt-4"
+                                data-query="home.segment-4.cards.2.description">This situation underscores
                                 a critical and compelling reason to prioritize acceleration: AI, while a powerful
                                 amplifier, could become a tool for control in the hands of Decels, who seek to dominate
                                 humanity.
