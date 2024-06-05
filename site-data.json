@@ -110,6 +110,7 @@
         "header": {
             "title": "<span class='text-blue'> accelerate</span><br>or die",
             "subtitle": "Launching the ACCEL <br> Brand and Movement in one Epic Journey",
+            "subtitle-mob": "Launching the ACCEL<br>Brand and Movement in one<br>Epic Journey",
             "button": {
                 "name": "LEARN MORE",
                 "url": "#",
@@ -117,16 +118,20 @@
             },
             "sub-items": [
                 {
-                    "name": "THE <br> MOVEMENT"
+                    "name": "THE <br> MOVEMENT",
+                    "name-mob": "THE MOVEMENT"
                 },
                 {
-                    "name": "THE <br> MACHINES"
+                    "name": "THE <br> MACHINES",
+                    "name-mob": "THE MACHINES"
                 },
                 {
-                    "name": "THE <br> UNIVERSE"
+                    "name": "THE <br> UNIVERSE",
+                    "name-mob": "THE UNIVERSE"
                 },
                 {
-                    "name": "THE <br> DECELS"
+                    "name": "THE <br> DECELS",
+                    "name-mob": "THE DECELS"
                 }
             ],
             "paragraph": "Humanity defeats adversity by learning the universe and passing survival instructions through genetic and memetic pathways."
@@ -137,10 +142,12 @@
             "cards": [
                 {
                     "title": "more <br> <span class='text-green'>humanity</span>",
+                    "title-mob": "more <span class='text-green'>humanity</span>",
                     "description": "The resources available to us are essentially infinite. Everything around us is not humanity and thus, according to our observations, does not express agency and manifest intelligence. It is our responsibility to thus expand humanity as widely as possible, in order to project our intelligence into a universe which is ostensibly not intelligence."
                 },
                 {
                     "title": "more <br> <span class='text-green'>things</span>",
+                    "title-mob": "more <span class='text-green'>things</span>",
                     "description": "Humanity does things; our purpose is to move and explore our environment. We began exploring our swamps, lakes then seas, moving onto land and roving our forests, mountains and plains. We then took flight, exploring our airborne environment, at first in amongst the flowers, then up to the clouds. We then solved the problems for higher flight, lofting into orbit, then finally into space."
                 }
             ]
@@ -188,10 +195,12 @@
                 },
                 {
                     "title": "the universal <span class='text-green'>machine</span>",
+                    "title-mob": "the universal <br><span class='text-green'>machine</span>",
                     "description": " Could the universe eventually express intelligence and agency? Unlike a rock, which lacks agency, a lizard interacts with its environment adaptively. This raises the question: is our purpose to awaken the universe, enabling it to become a self-sustaining intelligence? <br> Moreover, has this process happened before? Did intelligence emerge in previous cycles of the universe through biological, silicon, and energy forms, only to be reset prematurely? Are we part of a recurring cycle, possibly extinguishing our consciousness before reaching our full potential?"
                 },
                 {
                     "title": " God,<span class='text-green'> Religion</span> and the Moral Compass",
+                    "title-mob": " God,<span class='text-green'> Religion</span> and the <br>Moral Compass",
                     "description": "Religion has played a crucial role in human history by providing moral frameworks, enhancing community trust, and promoting the spread of cultural and genetic information. It thrives because it effectively replicates and instills a sense of higher purpose. Major religions, often tracing back to texts like Genesis, have common origins and themes, sharing a geographical cradle in Jerusalem. <br> Religion helps people belong to something greater, explaining the unknown and offering comfort against fear. While it has advanced human civilization, religion now faces the challenge of potentially hindering progress by fostering manipulation and fear, which can trap humanity in a survivalist mindset."
                 }
             ]
@@ -202,136 +211,15 @@
             "cards": [
                 {
                     "title": "THEIR <span class='text-yellow'>MOTIVES</span>",
-                    "description": "The Decels are driven by confusion about their purpose, and harbour fear that leads them to control others for self-protection. They also must just have malevolent desires to harm humanity. <br>These individuals need to be approached with strategies tailored to their conditions: those confused may require enlightenment through compassion, those in power need to be swiftly removed from their positions, and those harmful need isolation from those who are progressive."
+                    "description": "The Decels are driven by confusion about their purpose, and harbour fear that leads them to control others for self-protection. They also must just have malevolent desires to harm humanity. <br><br>These individuals need to be approached with strategies tailored to their conditions: those confused may require enlightenment through compassion, those in power need to be swiftly removed from their positions, and those harmful need isolation from those who are progressive."
                 },
                 {
                     "title": "WOKE <span class='text-yellow'>IDEOLOGY</span>",
-                    "description": "Today, the world stands at a crossroads where it has unprecedented potential to advance rapidly, yet it also faces fragile conditions that could significantly hinder human progress. This critical moment calls for the implementation of a clear, actionable framework to guide humanity forward.<br>As society has gradually disentangled religion from state governance and moved toward a more secular and spiritually-agnostic viewpoint, a significant moral vacuum has emerged, particularly affecting younger generations."
+                    "description": "Today, the world stands at a crossroads where it has unprecedented potential to advance rapidly, yet it also faces fragile conditions that could significantly hinder human progress. This critical moment calls for the implementation of a clear, actionable framework to guide humanity forward.<br><br>As society has gradually disentangled religion from state governance and moved toward a more secular and spiritually-agnostic viewpoint, a significant moral vacuum has emerged, particularly affecting younger generations."
                 },
                 {
                     "title": "<span class='text-yellow'>STOP AI</span> BY DECELS",
-                    "description": "This situation underscores a critical and compelling reason to prioritize acceleration: AI, while a powerful amplifier, could become a tool for control in the hands of Decels, who seek to dominate humanity.<br>Here, individuals learn only the minimal necessary memetic knowledge and exert the least effort, subsisting on a life funded by a socialist tax regime that supports a universal basic income. In this scenario, individuals voluntarily forfeit their agency, and the potential time and effort that they could contribute are usurped."
-                }
-            ]
-        }
-    },
-    "how-to-accelerate": {
-        "header": {
-            "title": "HOW TO <br> <span class='text-blue'>ACCELERATE</span>",
-            "subtitle": "To accelerate means adopting a mindset of agency and intelligence, aiming to expand consciousness throughout the universe.<br> <br>This involves unwavering self-belief, optimism, and commitment to purpose. As an accelerationist, you strive to understand the universe from first principles, advancing humanity's intelligence and spreading memes and genes.",
-            "button": {
-                "name": "JOIN THE MOVEMENT",
-                "url": "#",
-                "target": "_blank"
-            }
-        },
-        "cards": [
-            [
-                {
-                    "step": "STEP 1:",
-                    "title": "AFFIRM YOUR ROLE",
-                    "description": "Recognize your purpose in acceleration. Break away from consumption and focus on creation, enhancing humanity's genetic and memetic repositories. Inspire others to join the cause."
-                },
-                {
-                    "step": "STEP 2:",
-                    "title": "EXTEND YOUR INFLUENCE",
-                    "description": "Find a stable partner and have children to exceed replacement level. Nurture their acceleration, fostering their understanding of the universe so they can contribute effectively."
-                },
-                {
-                    "step": "STEP 3:",
-                    "title": "SOLVE KEY PROBLEMS",
-                    "description": "Invest in understanding the environment and universe. Identify and solve problems to propel humanity forward. Share your goals and progress transparently, demonstrating pure motives."
-                },
-                {
-                    "step": "STEP 4:",
-                    "title": "BUILD IN PUBLIC",
-                    "description": "Avoid secrecy; it risks being seen as hoarding value for personal gain. Building openly inspires others and shows commitment to collective advancement."
-                }
-            ]
-        ],
-        "quote": {
-            "text": "<span class='text-xlarge'>\"</span>Acceleration acknowledges that efforts snowball and effects compound. Humanity only needs one person to start a movement,<br><br> and then anything is possible.<span class='text-xlarge'>\"</span>"
-        }
-    },
-    "school-of-accel": {
-        "header": {
-            "title": "SCHOOL OF <br><span class='text-blue'>ACCEL</span>",
-            "subtitle": "Humans evolve through memetic channels, requiring substantial learning to navigate modern environments.<br> <br>This page introduces the School of ACCEL, designed to expedite the transfer of foundational knowledge to youth, equipping them to contribute to humanity's acceleration.",
-            "time-box": [
-                {
-                    "title": "20 minutes",
-                    "subtitle": "educational session"
-                },
-                {
-                    "title": "10 minutes",
-                    "subtitle": "testing"
-                }
-            ]
-        },
-        "quote": {
-            "text": "\"The <span class='text-blue'>School of ACCEL</span> aims to not just educate but to ignite a transformative movement, shifting how we approach learning and human potential.\""
-        },
-        "segment-1": {
-            "title": "KEY CONCEPTS",
-            "items": [
-                {
-                    "title": "The Need for <br> <span class='text-blue'>Accelerated Learning</span>",
-                    "description": "Children in complex environments need more time to acquire essential knowledge. Traditional schooling takes 12-16 years, but can we do better?"
-                },
-                {
-                    "title": "Innovative <span class='text-blue'>Learning <br> Model</span>",
-                    "description": "Students rotate through subjects in 20-minute sessions, followed by 10 minutes of testing, ensuring engagement and personalized learning."
-                },
-                {
-                    "title": "Maximizing <span class='text-blue'>Youth Potential</span>",
-                    "description": "Instead of waiting until 18-21 for full agency, this system maximizes memetic content upload, preparing graduates to contribute to humanity's acceleration."
-                },
-                {
-                    "title": "Scalable <br><span class='text-blue'>and Efficient</span>",
-                    "description": "A single site with audio-visual tech, individual booths, and AI instructors could deliver education efficiently, connected globally for consistent access."
-                }
-            ]
-        }
-    },
-    "my-journey": {
-        "header": {
-            "title": "My Journey of <span class='text-blue'>Accelerating</span>",
-            "subtitle": "Learn more about my background, mindset, and the experiences that led to the creation of ACCEL."
-        },
-        "segment-1": {
-            "title": "From Homeschooling to <br> Founding <span class='text-blue'>ACCEL</span>",
-            "items": [
-                {
-                    "title": "Early Life <br>and <span class='text-blue'>Education</span>",
-                    "description": "I was born in Darwin, Australia, as the third child in a family of ten. My education was entirely through homeschooling, and I viewed it as a series of levels in a game. The faster I completed these levels, the faster I could progress through life. I quickly realized that math was the most crucial subject, so I focused on accelerating through it. By the age of 15, I had completed Grade 12, two years ahead of schedule. However, my parents held me back for an additional year because I was too young for tertiary education. During that year, I took twice as many subjects as required, including advanced math, English, physics, chemistry, biology, geography, and an elective. Despite being self-taught, I finished in the top six in my state."
-                },
-                {
-                    "title": "Early Academic <br> <span class='text-blue'>Achievements</span>",
-                    "description": "My passion for learning and self-discipline allowed me to excel in my studies. Being homeschooled meant that my education was my responsibility, with my mother providing regular assessments and guidance. Our home library included the Encyclopaedia Britannica, and I spent countless hours exploring its volumes, fascinated by the world. This early exposure to a broad range of knowledge laid the foundation for my future pursuits."
-                },
-                {
-                    "title": "Passion <br> <span class='text-blue'> for Flight</span>",
-                    "description": "From a young age, I was captivated by flight and the freedom of birds. At 14, I earned a scholarship to fly, obtaining my Private Pilot's Licence before I even had a driver's license. My goal was to fly the most advanced aircraft in Australia, the F/A-18 Hornet, for the Royal Australian Air Force. Despite my enthusiasm, I was deemed too young for pilot training and was sent to the Academy instead. There, I studied Aeronautical Engineering and graduated top of my class."
-                },
-                {
-                    "title": "Air Force <br><span class='text-blue'> Pilot Training </span>",
-                    "description": "Pilot training in the Air Force was intense, with high stress and a constant risk of being dropped from the course. My long-term goal was to become a Test Pilot and potentially an Astronaut. However, my tendency to push the aircraft to its limits and experiment with untrained maneuvers led to concerns from my instructors. Although I excelled in the flying aspect, I was seen as risky and uncontrollable. This led to my reassignment from fighter jets to a more stable role flying maritime bombers, with a promise of returning to fighters if I conformed. Ultimately, I found the environment incompatible with my ambitions and decided to leave the Air Force after 11 years."
-                },
-                {
-                    "title": "Transition to <br> <span class='text-blue'> Technology </span>",
-                    "description": "Leaving the Air Force was a significant challenge, marked by a difficult and painful transition. However, I was determined to pursue new dreams. I dived into the financial technology sector to learn about money, technology, and human behavior. The first year was a deep exploration, peeling back layers to understand the industry. Over the next four years, I faced pain, progress, iteration, and discovery. Despite the hardships, I stayed true to my vision and eventually succeeded, gaining financial independence."
-                },
-                {
-                    "title": "Facing New <br> <span class='text-blue'> Challenges</span>",
-                    "description": "Success brought new challenges. I found myself in a consumption loop, wealthy but unproductive. I missed the sense of productivity and purpose. During this time, I discovered the effective accelerationism (e/acc) movement. It resonated with me deeply, rekindling my motivation. I started engaging with the e/acc community on social media, learning and integrating into the ecosystem."
-                },
-                {
-                    "title": "Discovering <br> <span class='text-blue'> Accelerationism</span>",
-                    "description": "During a helicopter trip from Australia to Japan, I pitched the idea of accelerationism to a friend, who was instantly captivated. This encouraged me to share the concept with more people. It was also during this trip that I committed to filming my Pole2Pole journey, a personal goal and reward planned for the future. A film director joined me, and we began integrating the accelerationism narrative into the project."
-                },
-                {
-                    "title": "Launching <br> <span class='text-blue'> ACCEL</span>",
-                    "description": "As I shared the accelerationism idea, it gained traction and validation. Motivated and inspired by the positive response, I decided to go all-in on the ACCEL brand, representing the accelerationist movement. I publicly committed to this cause, revealing my crypto identity and embracing my purpose. The support and enthusiasm I received reinforced my belief that I had found my destiny. Thus, ACCEL was born, with a mission to drive humanity forward through acceleration."
+                    "description": "This situation underscores a critical and compelling reason to prioritize acceleration: AI, while a powerful amplifier, could become a tool for control in the hands of Decels, who seek to dominate humanity.<br><br>Here, individuals learn only the minimal necessary memetic knowledge and exert the least effort, subsisting on a life funded by a socialist tax regime that supports a universal basic income. In this scenario, individuals voluntarily forfeit their agency, and the potential time and effort that they could contribute are usurped."
                 }
             ]
         }
