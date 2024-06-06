@@ -22,6 +22,28 @@
                 "target": "_blank"
             }
         ],
+        "navbar-links-mob": [
+            {
+                "name": "How to Accelerate",
+                "url": "/how-to-accelerate-mobile.html",
+                "target": "_blank"
+            },
+            {
+                "name": "School of ACCEL",
+                "url": "/school-of-accel-mobile.html",
+                "target": "_blank"
+            },
+            {
+                "name": "My Journey",
+                "url": "/my-journey-mobile.html",
+                "target": "_blank"
+            },
+            {
+                "name": "The ACCEL Tunnel",
+                "url": "https://accel.io",
+                "target": "_blank"
+            }
+        ],
         "button": {
             "name": "Ask a Question",
             "url": "#",
@@ -48,6 +70,33 @@
             }
         },
         "quick-links": [
+            {
+                "name": "Home",
+                "url": "#",
+                "target": "_blank"
+            },
+            {
+                "name": "How to Accelerate",
+                "url": "#",
+                "target": "_blank"
+            },
+            {
+                "name": "School of ACCEL",
+                "url": "#",
+                "target": "_blank"
+            },
+            {
+                "name": "My Journey",
+                "url": "#",
+                "target": "_blank"
+            },
+            {
+                "name": "ACCEL Tunnel",
+                "url": "#",
+                "target": "_blank"
+            }
+        ],
+        "quick-links-mob": [
             {
                 "name": "Home",
                 "url": "#",
