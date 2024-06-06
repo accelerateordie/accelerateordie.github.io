@@ -12,6 +12,7 @@
     .container {
         max-width: 540px;
     }
+
     .br-gradient {
         position: absolute;
         bottom: 0;
@@ -21,7 +22,7 @@
         transform: translate(50%, 50%);
         filter: blur(100px);
     }
-    
+
     .tl-gradient {
         position: absolute;
         top: 0;
@@ -37,6 +38,7 @@
     .container {
         max-width: 720px;
     }
+
     .br-gradient {
         position: absolute;
         bottom: 0;
@@ -46,7 +48,7 @@
         transform: translate(50%, 50%);
         filter: blur(100px);
     }
-    
+
     .tl-gradient {
         position: absolute;
         top: 0;
@@ -473,4 +475,8 @@ body {
 .box:hover {
     color: black !important;
     box-shadow: 10px 10px 20px #b4eeff33
+}
+
+.cursor-pointer {
+    cursor: pointer;
 }

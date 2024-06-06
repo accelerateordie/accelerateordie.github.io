@@ -50,6 +50,7 @@ function loadJs(location) {
     loadNavbar_mob();
     loadFooter_mob();
     addEvent()
+    scrollToContent()
 }
 function loadFooter() {
     var xhr = new XMLHttpRequest();
@@ -209,4 +210,10 @@ function addEvent() {
             }
         });
     }
+}
+
+function scrollToContent(index) {
+    $('html,body').animate({
+        scrollTop: $("#seg-" + index).offset().top
+    },'fast');
 }

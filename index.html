@@ -65,7 +65,7 @@
                     </div>
 
                     <div class="row m-0 py-5 white-border bt-half br-half bb-half">
-                        <div class="col-3 d-flex">
+                        <div class="col-3 d-flex cursor-pointer" onclick="scrollToContent(0)">
                             <div class="lines-wrapper" onmouseenter="startImageLoop(this)"
                                 onmouseleave="resetImage(this)">
                                 <img src="./img/horizontal-lines.svg" class="main-image" alt="Horizontal Lines">
@@ -74,7 +74,7 @@
                                 data-query="home.header.sub-items.0.name">THE
                                 <br> MOVEMENT </span>
                         </div>
-                        <div class="col-3 d-flex">
+                        <div class="col-3 d-flex cursor-pointer" onclick="scrollToContent(1)">
                             <div class="lines-wrapper" onmouseenter="startImageLoop(this)"
                                 onmouseleave="resetImage(this)">
                                 <img src="./img/horizontal-lines.svg" class="main-image" alt="Horizontal Lines">
@@ -83,7 +83,7 @@
                                 data-query="home.header.sub-items.1.name">THE
                                 <br> MACHINES </span>
                         </div>
-                        <div class="col-3 d-flex">
+                        <div class="col-3 d-flex cursor-pointer" onclick="scrollToContent(2)">
                             <div class="lines-wrapper" onmouseenter="startImageLoop(this)"
                                 onmouseleave="resetImage(this)">
                                 <img src="./img/horizontal-lines.svg" class="main-image" alt="Horizontal Lines">
@@ -92,7 +92,7 @@
                                 data-query="home.header.sub-items.2.name">THE
                                 <br> UNIVERSE </span>
                         </div>
-                        <div class="col-3 d-flex">
+                        <div class="col-3 d-flex cursor-pointer" onclick="scrollToContent(3)">
                             <div class="lines-wrapper" onmouseenter="startImageLoop(this)"
                                 onmouseleave="resetImage(this)">
                                 <img src="./img/horizontal-lines.svg" class="main-image" alt="Horizontal Lines">
@@ -122,7 +122,7 @@
                 </div>
             </div>
             <!-- Accelerationism Movement -->
-            <div class="row white-border bt-half bb-half position-relative overflow-hidden">
+            <div id="seg-0" class=" row white-border bt-half bb-half position-relative overflow-hidden">
                 <div class="p-5 m-0">
                     <h2 class="font-goodtimes text-xlarge text-narrow-height text-center mt-high"
                         data-query="home.segment-1.title">Accelerationism <br>
@@ -159,7 +159,8 @@
                     </div>
                     <div class="col-lg-3">
                         <h3 class="font-goodtimes text-large text-narrow-height text-center"
-                            data-query="home.segment-1.cards.1.title">more <br> <span class="text-green">things </span> </h3>
+                            data-query="home.segment-1.cards.1.title">more <br> <span class="text-green">things </span>
+                        </h3>
                         <p class="text-xsmall text-thin text-center text-n300"
                             data-query="home.segment-1.cards.1.description">Humanity does things; our purpose is to
                             move and explore our environment. We began exploring our swamps, lakes then seas, moving
@@ -195,13 +196,14 @@
                 </div>
             </div>
             <!-- THE MACHINES -->
-            <div class="row white-border bt-half bb-half">
+            <div id="seg-1" class=" row white-border bt-half bb-half">
                 <div>
                     <h2 class="font-goodtimes text-xlarge text-narrow-height text-center mt-high text-uppercase"
                         data-query="home.segment-2.title">THE
                         <span class="text-blue">MACHINES</span>
                     </h2>
-                    <p class="text-thin text-small text-center mt-5 w-50 mx-auto " data-query="home.segment-2.subtitle">We
+                    <p class="text-thin text-small text-center mt-5 w-50 mx-auto " data-query="home.segment-2.subtitle">
+                        We
                         will create the Silicon Machines
                         with our
                         memetic repository, then charge them to explore the universe, forever, until they reach their
@@ -213,7 +215,8 @@
                         <img src="./img/icon-machines.svg" alt="THE SILICON MACHINES" style="height: 180px;">
                         <div>
                             <h5 class="text-uppercase font-goodtimes text-medium text-narrow-height my-3"
-                                data-query="home.segment-2.cards.0.title">THE <span class="text-blue">SILICON</span> <br>
+                                data-query="home.segment-2.cards.0.title">THE <span class="text-blue">SILICON</span>
+                                <br>
                                 MACHINES
                             </h5>
                         </div>
@@ -246,7 +249,8 @@
                         <img src="./img/icon-ai.svg" alt="THE PURPOSE OF AI" style="height: 180px;">
                         <div>
                             <h5 class="text-uppercase font-goodtimes text-medium text-narrow-height my-3"
-                                data-query="home.segment-2.cards.1.title">THE <span class="text-blue">PURPOSE</span> <br> OF
+                                data-query="home.segment-2.cards.1.title">THE <span class="text-blue">PURPOSE</span>
+                                <br> OF
                                 AI
                             </h5>
                         </div>
@@ -307,7 +311,7 @@
 
             </div>
             <!-- THE UNIVERSE -->
-            <div class="row white-border bt-half bb-half position-relative overflow-hidden">
+            <div id="seg-2" class=" row white-border bt-half bb-half position-relative overflow-hidden">
                 <div>
                     <h2 class="font-goodtimes text-xlarge text-narrow-height text-center mt-high text-uppercase"
                         data-query="home.segment-3.title">THE
@@ -400,7 +404,7 @@
                 <div class="tr-gradient bg-green-gradient"></div>
             </div>
             <!--THE DECELS -->
-            <div class="row white-border bt-half bb-half ">
+            <div id="seg-3" class=" row white-border bt-half bb-half ">
                 <div>
                     <h2 class="font-goodtimes text-xlarge text-narrow-height text-center mt-high text-uppercase"
                         data-query="home.segment-4.title">THE
