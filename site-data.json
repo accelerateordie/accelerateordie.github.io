@@ -94,7 +94,7 @@
         "legal": [
             {
                 "name": "Terms of Service",
-                "url": "#",
+                "url": "TERMS",
                 "target": "_blank"
             },
             {
@@ -309,7 +309,7 @@
     "my-journey": {
         "header": {
             "title": "My Journey of <span class='text-blue'>Accelerating</span>",
-            "title-mob":"My <br /> JOURNEY OF <span class='text-blue'>ACCELERATING</span>",
+            "title-mob": "My <br /> JOURNEY OF <span class='text-blue'>ACCELERATING</span>",
             "subtitle": "Learn more about my background, mindset, and the experiences that led to the creation of ACCEL."
         },
         "segment-1": {
