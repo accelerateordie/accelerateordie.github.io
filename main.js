@@ -51,6 +51,8 @@ function loadJs(location) {
     loadFooter_mob();
     addEvent()
     scrollToContent()
+    updateFavicon();
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateFavicon);
 }
 function loadFooter() {
     var xhr = new XMLHttpRequest();
@@ -75,6 +77,15 @@ function loadFooter_mob() {
     xhr.send();
 }
 
+function updateFavicon() {
+    const favicon = document.getElementById('favicon');
+    const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+    if (darkModeMediaQuery.matches) {
+        favicon.href = 'favicon-dark.svg';
+    } else {
+        favicon.href = 'favicon-light.svg';
+    }
+}
 
 var jsonData = null;
 function loadJsonData() {
@@ -215,5 +226,5 @@ function addEvent() {
 function scrollToContent(index) {
     $('html,body').animate({
         scrollTop: $("#seg-" + index).offset().top
-    },'fast');
+    }, 'fast');
 }
