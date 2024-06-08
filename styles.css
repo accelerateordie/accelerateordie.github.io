@@ -475,7 +475,7 @@ body {
 
 .box:hover {
     color: black !important;
-    box-shadow: 10px 10px 20px #b4eeff33
+    box-shadow: 5px 10px 20px #b4eeff8f;
 }
 
 .cursor-pointer {
