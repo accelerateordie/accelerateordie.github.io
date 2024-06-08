@@ -4,17 +4,17 @@
             {
                 "name": "How to Accelerate",
                 "url": "/how-to-accelerate.html",
-                "target": "_blank"
+                "target": "_self"
             },
             {
                 "name": "School of ACCEL",
                 "url": "/school-of-accel.html",
-                "target": "_blank"
+                "target": "_self"
             },
             {
                 "name": "My Journey",
                 "url": "/my-journey.html",
-                "target": "_blank"
+                "target": "_self"
             },
             {
                 "name": "The ACCEL Tunnel",
@@ -26,17 +26,17 @@
             {
                 "name": "How to Accelerate",
                 "url": "/how-to-accelerate-mobile.html",
-                "target": "_blank"
+                "target": "_self"
             },
             {
                 "name": "School of ACCEL",
                 "url": "/school-of-accel-mobile.html",
-                "target": "_blank"
+                "target": "_self"
             },
             {
                 "name": "My Journey",
                 "url": "/my-journey-mobile.html",
-                "target": "_blank"
+                "target": "_self"
             },
             {
                 "name": "The ACCEL Tunnel",
@@ -72,54 +72,54 @@
         "quick-links": [
             {
                 "name": "Home",
-                "url": "#",
-                "target": "_blank"
+                "url": "/index.html",
+                "target": "_self"
             },
             {
                 "name": "How to Accelerate",
-                "url": "#",
-                "target": "_blank"
+                "url": "/how-to-accelerate.html",
+                "target": "_self"
             },
             {
                 "name": "School of ACCEL",
-                "url": "#",
-                "target": "_blank"
+                "url": "/school-of-accel.html",
+                "target": "_self"
             },
             {
                 "name": "My Journey",
-                "url": "#",
-                "target": "_blank"
+                "url": "/my-journey.html",
+                "target": "_self"
             },
             {
                 "name": "ACCEL Tunnel",
-                "url": "#",
+                "url": "https://accel.io",
                 "target": "_blank"
             }
         ],
         "quick-links-mob": [
             {
                 "name": "Home",
-                "url": "#",
-                "target": "_blank"
+                "url": "/index-mobile.html",
+                "target": "_self"
             },
             {
                 "name": "How to Accelerate",
-                "url": "#",
-                "target": "_blank"
+                "url": "/how-to-accelerate-mobile.html",
+                "target": "_self"
             },
             {
                 "name": "School of ACCEL",
-                "url": "#",
-                "target": "_blank"
+                "url": "/school-of-accel-mobile.html",
+                "target": "_self"
             },
             {
                 "name": "My Journey",
-                "url": "#",
-                "target": "_blank"
+                "url": "/my-journey-mobile.html",
+                "target": "_self"
             },
             {
                 "name": "ACCEL Tunnel",
-                "url": "#",
+                "url": "https://accel.io",
                 "target": "_blank"
             }
         ],
