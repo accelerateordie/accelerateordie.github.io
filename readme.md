@@ -5,7 +5,6 @@ Welcome to the GitHub repository for the official Accelerate or Die website. Thi
 ## Project Structure
 
 - `index.html` - Main landing page.
-- `assets/` - Media files including images and icons.
 - `styles.css` - Stylesheets for the website's design.
 - `main.js` - JavaScript for site interactivity.
 - `site-data.json` - JSON file containing data for the landing page, making content updates easy.
