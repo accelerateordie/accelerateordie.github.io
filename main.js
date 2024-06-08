@@ -50,7 +50,6 @@ function loadJs(location) {
     loadNavbar_mob();
     loadFooter_mob();
     addEvent()
-    scrollToContent()
     updateFavicon();
     window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateFavicon);
 }
@@ -146,6 +145,11 @@ function replaceInnerHTMLWithJSONValues() {
                     const linkQuery = query.split('.').splice(0, query.split('.').length - 1).join('.').concat('.url');
                     const hrefValue = getValue(linkQuery);
                     element.setAttribute('href', hrefValue);
+                }
+                if (element.getAttribute('data-target') === 'target') {
+                    const targetQuery = query.split('.').splice(0, query.split('.').length - 1).join('.').concat('.target');
+                    const targetValue = getValue(targetQuery);
+                    element.setAttribute('target', targetValue);
                 }
             }
         }
