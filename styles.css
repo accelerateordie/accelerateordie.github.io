@@ -274,7 +274,9 @@ body {
 }
 
 #bg-gradient-dots {
-    background: url('./img/animations_gradient-dots-background.gif') center / 100% 100% no-repeat;
+    /* height: 100%; */
+    position: relative;
+    /* background: url('./img/animations_gradient-dots-background.gif') center / 100% 100% no-repeat; */
 }
 
 #bg-dots {
