@@ -26,11 +26,13 @@
     <link id="favicon" rel="icon" href="favicon-light.svg">
 </head>
 
-<body onload="loadJs_html()">
+<body onload="loadWrapper()">
+    <script src="./main.js"></script>
     <script>
         function loadJs_html() {
             loadJs(window.location.href);
         }
+        loadJs_html()
     </script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
@@ -56,15 +58,15 @@
         <!-- LearnMore -->
         <div id="LearnMore" class="col-12 white-border-mob br-half bb-half Box-padding">
 
-            <div class="col-12 AccelTitle text-large-mob G-Font mt-3" data-query="home.header.title">
+            <div class="col-12 AccelTitle text-large-mob font-goodtimes mt-3" data-query="home.header.title">
                 <span class="text-blue">ACCELERATE</span><br>OR DIE
             </div>
-            <div class="col-12 AccelText H-Font text-medium mt-4" data-query="home.header.subtitle-mob">
+            <div class="col-12 AccelText text-thin text-medium mt-4" data-query="home.header.subtitle-mob">
                 Launching the ACCEL<br>Brand and Movement in one<br>Epic
                 Journey
             </div>
             <a data-query="home.header.button._" data-attribute="href" data-target="target" target="_blank" href="#">
-                <button class="mt-4 button G-Font text-xsmall" data-query="home.header.button.name">LEARN
+                <button class="mt-4 button font-goodtimes text-xsmall" data-query="home.header.button.name">LEARN
                     MORE</button></a>
             <div class="br-gradient bg-blue-gradient"></div>
 
@@ -72,7 +74,7 @@
         <!-- end of LearnMore -->
 
         <!-- 3 -->
-        <div class="col-12 white-border-mob Box-padding br-half bb-half box3 H-Font text-small">
+        <div class="col-12 white-border-mob Box-padding br-half bb-half box3 text-thin text-small">
             <img src="./img/vertical-lines.svg"><br /><br />
             <span data-query="home.header.paragraph">
                 Humanity defeats adversity by learning the universe and passing survival instructions through genetic
@@ -82,25 +84,25 @@
         <!-- End of box3 -->
 
         <!-- box4 , ... -->
-        <div class="col-12 G-Font text-medium white-border-mob Box-padding br-half bb-half Box4">
+        <div class="col-12 font-goodtimes text-medium white-border-mob Box-padding br-half bb-half Box4">
             <img src="./img/horizontal-lines-mob.svg">
             <span data-query="home.header.sub-items.0.name-mob">
                 THE MOVEMENT
             </span>
         </div>
-        <div class="col-12 G-Font text-medium white-border-mob Box-padding br-half bb-half Box4">
+        <div class="col-12 font-goodtimes text-medium white-border-mob Box-padding br-half bb-half Box4">
             <img src="./img/horizontal-lines-mob.svg">
             <span data-query="home.header.sub-items.2.name-mob">
                 THE UNIVERSE
             </span>
         </div>
-        <div class="col-12 G-Font text-medium white-border-mob Box-padding br-half bb-half Box4">
+        <div class="col-12 font-goodtimes text-medium white-border-mob Box-padding br-half bb-half Box4">
             <img src="./img/horizontal-lines-mob.svg">
             <span data-query="home.header.sub-items.1.name-mob">
                 THE MACHINES
             </span>
         </div>
-        <div class="col-12 G-Font text-medium white-border-mob Box-padding br-half bb-half Box4">
+        <div class="col-12 font-goodtimes text-medium white-border-mob Box-padding br-half bb-half Box4">
             <img src="./img/horizontal-lines-mob.svg">
             <span data-query="home.header.sub-items.3.name-mob">
                 THE DECELS
@@ -124,11 +126,11 @@
             </div>
             <!-- end of 3square -->
 
-            <div class="col-12 AccelTitle mt-2 text-medium-mob G-Font" data-query="home.segment-1.title">
+            <div class="col-12 AccelTitle mt-2 text-medium-mob font-goodtimes" data-query="home.segment-1.title">
                 Accelerationism<br />
                 <span class="text-green">Movement</span>
             </div>
-            <div class="col-12 AccelText H-Font text-small Box-padding" data-query="home.segment-1.subtitle">
+            <div class="col-12 AccelText text-thin text-small Box-padding" data-query="home.segment-1.subtitle">
                 Accelerationism is simply a movement to
                 re-activate humanity and give it purpose:
                 <span style="font-weight: bold;">more humanity doing more things more
@@ -139,11 +141,11 @@
                 <img src="./img/human.svg" width="145">
             </div>
             <!-- ---- -->
-            <div class="col-12 AccelTitle text-medium-mob G-Font mt-5" data-query="home.segment-1.cards.0.title-mob">
+            <div class="col-12 AccelTitle text-medium-mob font-goodtimes mt-5" data-query="home.segment-1.cards.0.title-mob">
                 MORE
                 <span class="text-green">HUMANITY</span>
             </div>
-            <div class="col-12 AccelText Box-padding H-Font text-light text-small"
+            <div class="col-12 AccelText Box-padding text-thin text-light text-small"
                 data-query="home.segment-1.cards.0.description">
                 <span>The resources available to us are essentially infinite.
                     Everything around us is not humanity and thus, according to our observations, does not express
@@ -152,11 +154,11 @@
                     intelligence.</span>
             </div>
             <!-- ---- -->
-            <div class="col-12 AccelTitle mt-4 text-medium-mob G-Font" data-query="home.segment-1.cards.1.title-mob">
+            <div class="col-12 AccelTitle mt-4 text-medium-mob font-goodtimes" data-query="home.segment-1.cards.1.title-mob">
                 MORE
                 <span class="text-green">THINGS</span>
             </div>
-            <div class="col-12 AccelText Box-padding H-Font text-light text-small"
+            <div class="col-12 AccelText Box-padding text-thin text-light text-small"
                 data-query="home.segment-1.cards.1.description">
                 <span>Humanity does things; our purpose is to move and explore our
                     environment. We began exploring our swamps, lakes then seas, moving onto land and roving our
@@ -182,11 +184,11 @@
         <!-- The Machines -->
         <div id="TheMachines" class="p-0 col-12 white-border-mob br-half bb-half">
 
-            <div class="col-12 AccelTitle mt-5 text-medium-mob G-Font" data-query="home.segment-2.title">
+            <div class="col-12 AccelTitle mt-5 text-medium-mob font-goodtimes" data-query="home.segment-2.title">
                 THE
                 <span class="text-blue">MACHINES</span>
             </div>
-            <div class="col-12 AccelText H-Font text-light text-small Box-padding" data-query="home.segment-2.subtitle">
+            <div class="col-12 AccelText text-thin text-light text-small Box-padding" data-query="home.segment-2.subtitle">
                 <span>We will create the Silicon Machines with our memetic
                     repository, then charge them to explore the universe, forever, until they reach their limits and
                     will subsequently create the Energy Machines.</span>
@@ -199,13 +201,13 @@
         <div id="TheSiliconMachines" class="pt-5 col-12 white-border-mob br-half bb-half">
 
             <img src="./img/silicon-machines-mob.svg">
-            <div class="col-12 AccelTitle mt-3 text-medium-mob G-Font" data-query="home.segment-2.cards.0.title">
+            <div class="col-12 AccelTitle mt-3 text-medium-mob font-goodtimes" data-query="home.segment-2.cards.0.title">
                 THE
                 <span class="text-blue">SILICON</span><br>
                 MACHINES
             </div>
 
-            <div class="col-12 AccelText H-Font text-light text-small Box-padding"
+            <div class="col-12 AccelText text-thin text-light text-small Box-padding"
                 data-query="home.segment-2.cards.0.description">
                 <span>Silicon-based machines, equipped with advanced computational
                     and sensory capabilities, represent a significant evolution in our quest to explore and understand
@@ -217,7 +219,7 @@
                 <a class="text-decoration-none" href="#" target="_blank" data-query="home.segment-2.cards.0.button._"
                     data-attribute="href" data-target="target">
                     <img src="./img/vertical-lines.svg" style="padding-right: 30px; margin-top: -5px"><span
-                        class="G-Font text-small text-blue" data-query="home.segment-2.cards.0.button.name">LEARN
+                        class="font-goodtimes text-small text-blue" data-query="home.segment-2.cards.0.button.name">LEARN
                         MORE</span>
                 </a>
             </div>
@@ -229,11 +231,11 @@
         <div id="TheSiliconMachines" class="pt-5 col-12 white-border-mob br-half bb-half">
 
             <img src="./img/purpose-of-ai.svg">
-            <div class="col-12 AccelTitle mt-3 text-medium-mob G-Font" data-query="home.segment-2.cards.1.title">
+            <div class="col-12 AccelTitle mt-3 text-medium-mob font-goodtimes" data-query="home.segment-2.cards.1.title">
                 THE
                 <span class="text-blue">PURPOSE</span><br /> OF AI
             </div>
-            <div class="col-12 AccelText H-Font text-light text-small Box-padding"
+            <div class="col-12 AccelText text-thin text-light text-small Box-padding"
                 data-query="home.segment-2.cards.1.description">
                 <span>Silicon-based machines, equipped with advanced computational
                     and sensory capabilities, represent a significant evolution in our quest to explore and understand
@@ -243,7 +245,7 @@
             </div>
             <div>
                 <img src="./img/vertical-lines.svg" style="padding-right: 30px; margin-top: -5px"><span
-                    class="G-Font text-small text-blue" data-query="home.segment-2.cards.1.button.name">LEARN
+                    class="font-goodtimes text-small text-blue" data-query="home.segment-2.cards.1.button.name">LEARN
                     MORE</span>
             </div>
             <div class="bb-gradient bg-blue-gradient"></div>
@@ -254,12 +256,12 @@
         <!-- The Energy Machines -->
         <div id="TheEnergyMachines" class="pt-5 col-12 white-border-mob br-half bb-half">
             <img src="./img/energy-machines.svg">
-            <div class="col-12 AccelTitle mt-3 text-medium-mob G-Font" data-query="home.segment-2.cards.2.title">
+            <div class="col-12 AccelTitle mt-3 text-medium-mob font-goodtimes" data-query="home.segment-2.cards.2.title">
                 THE
                 <span class="text-blue">ENERGY</span>
                 <br />MACHINES
             </div>
-            <div class="col-12 AccelText H-Font text-light text-small Box-padding"
+            <div class="col-12 AccelText text-thin text-light text-small Box-padding"
                 data-query="home.segment-2.cards.2.description">
                 <span>Silicon-based machines, equipped with advanced computational
                     and sensory capabilities, represent a significant evolution in our quest to explore and understand
@@ -271,7 +273,7 @@
                 <a class="text-decoration-none" href="#" target="_blank" data-attribute="href" data-target="target"
                     data-query="home.segment-2.cards.2.button._">
                     <img src="./img/vertical-lines.svg" style="padding-right: 30px; margin-top: -5px"><span
-                        class="G-Font text-small text-blue" data-query="home.segment-2.cards.2.button.name">LEARN
+                        class="font-goodtimes text-small text-blue" data-query="home.segment-2.cards.2.button.name">LEARN
                         MORE</span>
                 </a>
             </div>
@@ -283,10 +285,10 @@
         <!-- The Universe -->
         <div id="TheUniverse" class="pt-5 col-12 white-border-mob br-half bb-half">
             <div class="tr-gradient bg-green-gradient"></div>
-            <div class="col-12 AccelTitle text-medium-mob G-Font mt-3" data-query="home.segment-3.title">THE
+            <div class="col-12 AccelTitle text-medium-mob font-goodtimes mt-3" data-query="home.segment-3.title">THE
                 <span class="text-green">UNIVERSE</span>
             </div>
-            <div class="col-12 AccelText H-Font text-light text-small Box-padding" data-query="home.segment-3.subtitle">
+            <div class="col-12 AccelText text-thin text-light text-small Box-padding" data-query="home.segment-3.subtitle">
                 <span>The nature of the Universe, God and<br /> a Moral Compass.</span>
             </div>
             <img src="./img/planet.png" class="rotating">
@@ -294,10 +296,10 @@
 
         <!-- Entropy -->
         <div id="Entropy" class="col-12 white-border-mob br-half bb-half">
-            <div class="col-12 AccelTitle mt-3 text-medium G-Font" data-query="home.segment-3.cards.0.title">
+            <div class="col-12 AccelTitle mt-3 text-medium font-goodtimes" data-query="home.segment-3.cards.0.title">
                 <span class="text-green">ENTROPY</span>, TIME, SPACE</span>
             </div>
-            <div class="col-12 AccelText H-Font text-light text-small Box-padding"
+            <div class="col-12 AccelText text-thin text-light text-small Box-padding"
                 data-query="home.segment-3.cards.0.description">
                 <span>The universe began with a finite reserve of time, which depletes
                     as it transforms into space and entropy. Time flows in one direction, with entropy and space
@@ -317,12 +319,12 @@
 
         <!-- Univarsal Machine -->
         <div id="UnivarsalMachine" class="col-12 white-border-mob br-half bb-half">
-            <div class="col-12 AccelTitle mt-3 text-medium G-Font" data-query="home.segment-3.cards.1.title-mob">
+            <div class="col-12 AccelTitle mt-3 text-medium font-goodtimes" data-query="home.segment-3.cards.1.title-mob">
                 THE UNIVERSAL
                 <br>
                 <span class="text-green">MACHINE</span>
             </div>
-            <div class="col-12 AccelText H-Font text-light text-small Box-padding"
+            <div class="col-12 AccelText text-thin text-light text-small Box-padding"
                 data-query="home.segment-3.cards.1.description">
                 <span>TCould the universe eventually express intelligence and agency?
                     Unlike a rock, which lacks agency, a lizard interacts with its environment adaptively. This raises
@@ -339,12 +341,12 @@
 
         <!-- Religion -->
         <div id="Religion" class="col-12 white-border-mob br-half bb-half">
-            <div class="col-12 AccelTitle mt-3 text-medium G-Font" data-query="home.segment-3.cards.2.title-mob">
+            <div class="col-12 AccelTitle mt-3 text-medium font-goodtimes" data-query="home.segment-3.cards.2.title-mob">
                 GOD,
                 <span class="text-green">RELIGION </span>
                 AND THE<br />MORAL COMPASS
             </div>
-            <div class="col-12 AccelText H-Font text-light text-small Box-padding"
+            <div class="col-12 AccelText text-thin text-light text-small Box-padding"
                 data-query="home.segment-3.cards.2.description">
                 <span>Religion has played a crucial role in human history by providing
                     moral frameworks, enhancing community trust, and promoting the spread of cultural and genetic
@@ -362,11 +364,11 @@
         <!-- The Decels -->
         <div id="TheDecels" class="col-12 white-border-mob br-half bb-half">
 
-            <div class="col-12 AccelTitle mt-5 text-medium-mob G-Font" data-query="home.segment-4.title">
+            <div class="col-12 AccelTitle mt-5 text-medium-mob font-goodtimes" data-query="home.segment-4.title">
                 THE
                 <span class="text-yellow">DECELS</span>
             </div>
-            <div class="col-12 AccelText H-Font text-light text-small Box-padding" data-query="home.segment-4.subtitle">
+            <div class="col-12 AccelText text-thin text-light text-small Box-padding" data-query="home.segment-4.subtitle">
                 <span>The Decelerators are stuck in the Consumption Death-spiral,
                     and seek to control out of fear of losing what they have. They risk the very nature of Humanity
                     itself.</span>
@@ -381,11 +383,11 @@
 
             <img src="./img/their-motives.svg">
 
-            <div class="col-12 AccelTitle mt-5 text-medium-mob G-Font" data-query="home.segment-4.cards.0.title">
+            <div class="col-12 AccelTitle mt-5 text-medium-mob font-goodtimes" data-query="home.segment-4.cards.0.title">
                 THEIR
                 <span class="text-yellow">MOTIVES</span>
             </div>
-            <div class="col-12 AccelText H-Font text-light text-small Box-padding"
+            <div class="col-12 AccelText text-thin text-light text-small Box-padding"
                 data-query="home.segment-4.cards.0.description">
                 <span>The Decels are driven by confusion about their purpose, and
                     harbour fear that leads them to control others for self-protection. They also must just have
@@ -403,10 +405,10 @@
         <div id="WokeIdeology" class="pt-5 col-12 white-border-mob br-half bb-half">
             <div class="tr-gradient bg-yellow-gradient"></div>
             <img src="./img/woke-ideology.svg">
-            <div class="col-12 AccelTitle mt-5 text-medium-mob G-Font" data-query="home.segment-4.cards.1.title">
+            <div class="col-12 AccelTitle mt-5 text-medium-mob font-goodtimes" data-query="home.segment-4.cards.1.title">
                 <span class="text-yellow">WOKE</span> IDEOLOGY
             </div>
-            <div class="col-12 AccelText H-Font text-light text-small Box-padding"
+            <div class="col-12 AccelText text-thin text-light text-small Box-padding"
                 data-query="home.segment-4.cards.1.description">
                 <span>
                     Today, the world stands at a crossroads where it has unprecedented potential to advance rapidly, yet
@@ -425,10 +427,10 @@
         <div id="StopAi" class="pt-5 col-12 white-border-mob br-half bb-half">
             <div class="tr-gradient bg-yellow-gradient"></div>
             <img src="./img/stop-ai.svg">
-            <div class="col-12 AccelTitle mt-5 text-medium-mob G-Font" data-query="home.segment-4.cards.2.title">
+            <div class="col-12 AccelTitle mt-5 text-medium-mob font-goodtimes" data-query="home.segment-4.cards.2.title">
                 <span class="text-yellow">STOP AI</span> BY DECELS
             </div>
-            <div class="col-12 AccelText H-Font text-light text-small Box-padding"
+            <div class="col-12 AccelText text-thin text-light text-small Box-padding"
                 data-query="home.segment-4.cards.2.description">
                 <span>
                     This situation underscores a critical and compelling reason to prioritize acceleration: AI, while a

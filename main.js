@@ -25,6 +25,15 @@ function isMobile() {
     return /Mobi|Android|iPhone|iPad|BlackBerry|Windows Phone/i.test(navigator.userAgent);
 }
 
+function loadWrapper() {
+    loadNavbar();
+    loadFooter();
+    loadNavbar_mob();
+    loadFooter_mob();
+    addEvent()
+    updateFavicon();
+}
+
 function loadJs(location) {
     let split = location.split('/');
     let name = split[split.length - 1]
@@ -45,12 +54,7 @@ function loadJs(location) {
         }
 
     }
-    loadNavbar();
-    loadFooter();
-    loadNavbar_mob();
-    loadFooter_mob();
-    addEvent()
-    updateFavicon();
+
     window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateFavicon);
 }
 function loadFooter() {
@@ -207,7 +211,17 @@ function addEvent() {
     var acc = document.getElementsByClassName("timeLineHeader");
     var i;
     for (i = 0; i < acc.length; i++) {
+        var panel = acc[i].nextSibling.nextSibling.getElementsByClassName('timelineBorder')[0].firstChild.nextSibling
+        panel.style.maxHeight = '0px'
         acc[i].addEventListener("click", function () {
+            for (i = 0; i < acc.length; i++) {
+                if (acc[i]!=this){
+                    var panel = acc[i].nextSibling.nextSibling.getElementsByClassName('timelineBorder')[0].firstChild.nextSibling
+                    panel.style.visibility = 'hidden'
+                    panel.style.maxHeight = "0px";
+                    panel.style.opacity = '0'
+                }
+            }
             this.classList.toggle("active");
             var panel = this.nextSibling.nextSibling.getElementsByClassName('timelineBorder')[0].firstChild.nextSibling
             if (panel.style.maxHeight != '0px') {
@@ -223,6 +237,7 @@ function addEvent() {
                 panel.style.opacity = '1'
                 this.getElementsByClassName('arrow-icon')[0].firstChild.nextSibling.style.transform = "rotate(-180deg)"
             }
+
         });
     }
 }

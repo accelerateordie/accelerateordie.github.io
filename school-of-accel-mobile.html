@@ -28,18 +28,19 @@
     <link id="favicon" rel="icon" href="favicon-light.svg">
 </head>
 
-<body onload="loadJs_html()">
+<body onload="loadWrapper()">
+    <script src="./main.js"></script>
     <script>
         function loadJs_html() {
             loadJs(window.location.href);
         }
+        loadJs_html()
     </script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         crossorigin="anonymous"></script>
-    <script src="./main.js"></script>
 
     <header class="header mb-2">
         <nav class="container" id="navbar-mobile"></nav>
@@ -56,10 +57,10 @@
         <!-- school Of Accel -->
         <div id="schoolOfAccel" class="col-12 white-border-mob br-half bb-half Box-padding">
 
-            <div class="col-12 AccelTitle text-large-mob G-Font mt-3" data-query="school-of-accel.header.title">
+            <div class="col-12 AccelTitle text-large-mob font-goodtimes mt-3" data-query="school-of-accel.header.title">
                 SCHOOL <br /><span class="text-blue">OF ACCEL</span>
             </div>
-            <div class="col-12 AccelText H-Font text-medium mt-5" data-query="school-of-accel.header.subtitle">
+            <div class="col-12 AccelText text-thin text-medium mt-5" data-query="school-of-accel.header.subtitle">
                 <span>Humans evolve through memetic channels, requiring
                     substantial learning to navigate modern environments.<br /><br /> This page introduces the School of
                     ACCEL,
@@ -75,24 +76,24 @@
         <!-- educational session / testing -->
         <div class="row container p-0">
             <div id="educational" class="col-6 white-border-mob br-half bb-half Box-padding ">
-                <span class="G-Font text-uppercase text-medium-small"
+                <span class="font-goodtimes text-uppercase text-medium-small"
                     data-query="school-of-accel.header.time-box.0.title">20 MINUTES</span>
                 <br />
-                <span class="H-Font text-xsmall" data-query="school-of-accel.header.time-box.0.subtitle">educational
+                <span class="text-thin text-xsmall" data-query="school-of-accel.header.time-box.0.subtitle">educational
                     session</span>
             </div>
             <div id="testing" class="col-6 white-border-mob br-half bb-half Box-padding">
-                <span class="G-Font text-uppercase text-medium-small"
+                <span class="font-goodtimes text-uppercase text-medium-small"
                     data-query="school-of-accel.header.time-box.1.title">10 MINUTES</span>
                 <br />
-                <span class="H-Font text-xsmall" data-query="school-of-accel.header.time-box.1.subtitle">testing</span>
+                <span class="text-thin text-xsmall" data-query="school-of-accel.header.time-box.1.subtitle">testing</span>
             </div>
         </div>
         <!-- end of educational session / testing -->
 
         <!-- Acceleration -->
         <div id="schoolOfAccelDescription" class="col-12 white-border-mob br-half bb-half Box-padding">
-            <div class="col-12 mt-4 G-Font text-smal" data-query="school-of-accel.quote.text">
+            <div class="col-12 mt-4 font-goodtimes text-smal" data-query="school-of-accel.quote.text">
                 <span>"The School of ACCEL aims to not just educate but to ignite a
                     transformative movement, shifting how we approach learning and human potential."</span>
             </div>
@@ -116,47 +117,47 @@
             </div>
             <!-- end of 3square -->
 
-            <div class="col-12 AccelTitle mt-2 text-medium-mob G-Font" data-query="school-of-accel.segment-1.title">
+            <div class="col-12 AccelTitle mt-2 text-medium-mob font-goodtimes" data-query="school-of-accel.segment-1.title">
                 <span>KEY CONCEPTS</span>
             </div>
-            <div class="col-12 AccelTitle mt-5 pt-3 text-small G-Font"
+            <div class="col-12 AccelTitle mt-5 pt-3 text-small font-goodtimes"
                 data-query="school-of-accel.segment-1.items.0.title">
                 THE NEED FOR<br />
                 <span class="text-blue">ACCELERATED LEARNING</span>
             </div>
-            <div class="col-12 AccelText H-Font text-small Box-padding"
+            <div class="col-12 AccelText text-thin text-small Box-padding"
                 data-query="school-of-accel.segment-1.items.0.description">
                 <span>Children in complex environments need more time to acquire essential
                     knowledge. Traditional schooling takes 12-16 years, but can we do better?</span>
             </div>
 
-            <div class="col-12 AccelTitle mt-5 text-small G-Font"
+            <div class="col-12 AccelTitle mt-5 text-small font-goodtimes"
                 data-query="school-of-accel.segment-1.items.1.title-mob">
                 INNOVATIVE<br />
                 <span class="text-blue">LEARNING MODEL</span>
             </div>
-            <div class="col-12 AccelText H-Font text-light text-small Box-padding"
+            <div class="col-12 AccelText text-thin text-light text-small Box-padding"
                 data-query="school-of-accel.segment-1.items.1.description">
                 <span>Students rotate through subjects in 20-minute sessions,
                     followed by 10 minutes of testing, ensuring engagement and personalized learning.</span>
             </div>
 
-            <div class="col-12 AccelTitle mt-4 text-small G-Font"
+            <div class="col-12 AccelTitle mt-4 text-small font-goodtimes"
                 data-query="school-of-accel.segment-1.items.2.title-mob">
                 MAXIMIZING<br />
                 <span class="text-blue">Youth Potential</span>
             </div>
-            <div class="col-12 AccelText H-Font text-light text-small Box-padding"
+            <div class="col-12 AccelText text-thin text-light text-small Box-padding"
                 data-query="school-of-accel.segment-1.items.2.description">
                 <span>A single site with audio-visual tech, individual booths, and
                     AI instructors could deliver education efficiently, connected globally for consistent access.</span>
             </div>
 
-            <div class="col-12 AccelTitle mt-4 text-small G-Font" data-query="school-of-accel.segment-1.items.3.title">
+            <div class="col-12 AccelTitle mt-4 text-small font-goodtimes" data-query="school-of-accel.segment-1.items.3.title">
                 SCALABLE<br />
                 <span class="text-blue">AND EFFICIENT</span>
             </div>
-            <div class="col-12 AccelText H-Font text-light text-small Box-padding"
+            <div class="col-12 AccelText text-thin text-light text-small Box-padding"
                 data-query="school-of-accel.segment-1.items.3.description">
                 <span>A single site with audio-visual tech, individual booths, and
                     AI instructors could deliver education efficiently, connected globally for consistent access.</span>

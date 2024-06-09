@@ -28,18 +28,19 @@
     <link id="favicon" rel="icon" href="favicon-light.svg">
 </head>
 
-<body onload="loadJs_html()">
+<body onload="loadWrapper()">
+    <script src="./main.js"></script>
     <script>
         function loadJs_html() {
             loadJs(window.location.href);
         }
+        loadJs_html()
     </script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         crossorigin="anonymous"></script>
-    <script src="./main.js"></script>
 
     <header class="header mb-2">
         <nav class="container" id="navbar-mobile"></nav>
@@ -56,11 +57,11 @@
         <!-- journey of accelerating -->
         <div id="journeyOfAccelerating" class="col-12 white-border-mob br-half bb-half Box-padding">
 
-            <div class="col-12 AccelTitle text-medium-mob G-Font mt-3 text-uppercase"
+            <div class="col-12 AccelTitle text-medium-mob font-goodtimes mt-3 text-uppercase"
                 data-query="my-journey.header.title-mob">
                 THE <br /> JOURNEY OF <span class="text-blue">ACCELERATING</span>
             </div>
-            <div class="col-12 AccelText H-Font text-medium mt-5" data-query="my-journey.header.subtitle">
+            <div class="col-12 AccelText text-thin text-medium mt-5" data-query="my-journey.header.subtitle">
                 <span>Learn more about my background, mindset, and the
                     experiences that led to the creation of ACCEL.</span>
             </div>
@@ -87,7 +88,7 @@
             <!-- end of 3square -->
 
             <div class="Box-padding">
-                <div class="col-12 AccelTitle mt-2 text-medium G-Font" data-query="my-journey.segment-1.title-mob">
+                <div class="col-12 AccelTitle mt-2 text-medium font-goodtimes" data-query="my-journey.segment-1.title-mob">
                     FROM HOMESCHOLLING<br />TO FOUNDING</span>
                     <span class="text-blue">ACCEL</span>
                 </div>
@@ -97,7 +98,7 @@
                         <div class="timeLineIcon">
                             <img src="./img/journey-timeline-icon-1.png">
                         </div>
-                        <div class="timeLineTitle G-Font text-small"
+                        <div class="timeLineTitle font-goodtimes text-small"
                             data-query="my-journey.segment-1.items.0.title-mob">
                             EARLY LIFE<br>
                             AND EDUCATION
@@ -107,7 +108,7 @@
                         </div>
                     </div>
                     <div class="timeLineDescription">
-                        <div class="timelineBorder timelineBorderGradient1 H-Font text-small Box-padding">
+                        <div class="timelineBorder timelineBorderGradient1 text-thin text-small Box-padding">
                             <span class="timelineText" data-query="my-journey.segment-1.items.0.description">I
                                 was born in Darwin, Australia, as the third child
                                 in
@@ -131,7 +132,7 @@
                         <div class="timeLineIcon">
                             <img src="./img/journey-timeline-icon-2.png">
                         </div>
-                        <div class="timeLineTitle G-Font text-small"
+                        <div class="timeLineTitle font-goodtimes text-small"
                             data-query="my-journey.segment-1.items.1.title-mob">
                             EARLY ACADEMIC<br>
                             ACHIVEMENTS
@@ -141,7 +142,7 @@
                         </div>
                     </div>
                     <div class="timeLineDescription">
-                        <div class="timelineBorder timelineBorderGradient2 H-Font text-small Box-padding">
+                        <div class="timelineBorder timelineBorderGradient2 text-thin text-small Box-padding">
                             <span class="timelineText" data-query="my-journey.segment-1.items.1.description">
                                 My passion for learning and self-discipline allowed me
                                 to excel in my studies. Being homeschooled meant that my education was my
@@ -156,7 +157,7 @@
                         <div class="timeLineIcon">
                             <img src="./img/journey-timeline-icon-3.png">
                         </div>
-                        <div class="timeLineTitle G-Font text-small"
+                        <div class="timeLineTitle font-goodtimes text-small"
                             data-query="my-journey.segment-1.items.2.title-mob">
                             PASSION<br>
                             FOR FLIGHT
@@ -166,7 +167,7 @@
                         </div>
                     </div>
                     <div class="timeLineDescription">
-                        <div class="timelineBorder timelineBorderGradient3 H-Font text-small Box-padding">
+                        <div class="timelineBorder timelineBorderGradient3 text-thin text-small Box-padding">
                             <span class="timelineText" data-query="my-journey.segment-1.items.2.description">
                                 From a young age, I was captivated by flight and the
                                 freedom of birds. At 14, I earned a scholarship to fly, obtaining my Private Pilot's
@@ -181,7 +182,7 @@
                         <div class="timeLineIcon">
                             <img src="./img/journey-timeline-icon-4.png">
                         </div>
-                        <div class="timeLineTitle G-Font text-small"
+                        <div class="timeLineTitle font-goodtimes text-small"
                             data-query="my-journey.segment-1.items.3.title-mob">
                             AIR FORCE<br>
                             PILOT TRAINING
@@ -191,7 +192,7 @@
                         </div>
                     </div>
                     <div class="timeLineDescription">
-                        <div class="timelineBorder timelineBorderGradient4 text-small H-Font Box-padding">
+                        <div class="timelineBorder timelineBorderGradient4 text-small text-thin Box-padding">
                             <span class="timelineText" data-query="my-journey.segment-1.items.3.description">
                                 Pilot training in the Air Force was intense, with high
                                 stress and a constant risk of being dropped from the course. My long-term goal was to
@@ -209,7 +210,7 @@
                         <div class="timeLineIcon">
                             <img src="./img/journey-timeline-icon-5.png">
                         </div>
-                        <div class="timeLineTitle G-Font text-small"
+                        <div class="timeLineTitle font-goodtimes text-small"
                             data-query="my-journey.segment-1.items.4.title-mob">
                             TRANSITION TO<br>
                             TECHNOLOGY
@@ -219,7 +220,7 @@
                         </div>
                     </div>
                     <div class="timeLineDescription">
-                        <div class="timelineBorder timelineBorderGradient5 H-Font text-small Box-padding">
+                        <div class="timelineBorder timelineBorderGradient5 text-thin text-small Box-padding">
                             <span class="timelineText" data-query="my-journey.segment-1.items.4.description">
                                 Leaving the Air Force was a significant challenge,
                                 marked by a difficult and painful transition. However, I was determined to pursue new
@@ -235,7 +236,7 @@
                         <div class="timeLineIcon">
                             <img src="./img/journey-timeline-icon-6.png">
                         </div>
-                        <div class="timeLineTitle G-Font text-small"
+                        <div class="timeLineTitle font-goodtimes text-small"
                             data-query="my-journey.segment-1.items.5.title-mob">
                             FACING NEW<br>CHALLENGES
                         </div>
@@ -244,7 +245,7 @@
                         </div>
                     </div>
                     <div class="timeLineDescription">
-                        <div class="timelineBorder timelineBorderGradient6 H-Font text-small Box-padding">
+                        <div class="timelineBorder timelineBorderGradient6 text-thin text-small Box-padding">
                             <span class="timelineText" data-query="my-journey.segment-1.items.5.description">
                                 Success brought new challenges. I found myself in a
                                 consumption loop, wealthy but unproductive. I missed the sense of productivity and
@@ -267,7 +268,7 @@
                         </div>
                     </div>
                     <div class="timeLineDescription">
-                        <div class="timelineBorder timelineBorderGradient7 H-Font text-small Box-padding">
+                        <div class="timelineBorder timelineBorderGradient7 text-thin text-small Box-padding">
                             <span class="timelineText" data-query="my-journey.segment-1.items.6.description">
                                 During a helicopter trip from Australia to Japan, I
                                 pitched the idea of accelerationism to a friend, who was instantly captivated. This
@@ -282,7 +283,7 @@
                         <div class="timeLineIcon">
                             <img src="./img/journey-timeline-icon-8.png">
                         </div>
-                        <div class="timeLineTitle G-Font text-small"
+                        <div class="timeLineTitle font-goodtimes text-small"
                             data-query="my-journey.segment-1.items.7.title-mob">
                             LAUNCHING<br>ACCEL
                         </div>
@@ -292,7 +293,7 @@
                     </div>
                     <div class="timeLineDescription">
                         <div
-                            class="timelineBorder timelineBorderGradient8 timelineBorderLastItem H-Font text-small Box-padding">
+                            class="timelineBorder timelineBorderGradient8 timelineBorderLastItem text-thin text-small Box-padding">
                             <span class="timelineText" data-query="my-journey.segment-1.items.7.description">
                                 As I shared the accelerationism idea, it gained
                                 traction and validation. Motivated and inspired by the positive response, I decided to
