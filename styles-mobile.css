@@ -213,21 +213,21 @@ body {
 
 /* Accelerationism */
 /* -------------------------------------------------------- */
-#Accelerationism {
+.Accelerationism {
     padding-bottom: 94px !important;
     position: relative;
     overflow: hidden;
     text-align: center;
 }
 
-#Accelerationism .bg-green-gradient {
+.Accelerationism .bg-green-gradient {
     bottom: 0px;
     width: 205px;
 }
 
 /* TheMachines */
 /* -------------------------------------------------------- */
-#TheMachines {
+.TheMachines {
     position: relative;
     overflow: hidden;
     text-align: center;
@@ -236,44 +236,44 @@ body {
 
 /* TheSiliconMachines */
 /* -------------------------------------------------------- */
-#TheSiliconMachines {
+.TheSiliconMachines {
     position: relative;
     overflow: hidden;
     text-align: center;
     padding-bottom: 40px;
 }
 
-#TheSiliconMachines .bg-blue-gradient {
+.TheSiliconMachines .bg-blue-gradient {
     bottom: -50px;
 }
 
 /* TheEnergyMachines */
 /* -------------------------------------------------------- */
-#TheEnergyMachines {
+.TheEnergyMachines {
     position: relative;
     overflow: hidden;
     text-align: center;
     padding-bottom: 40px;
 }
 
-#TheEnergyMachines .bg-blue-gradient {
+.TheEnergyMachines .bg-blue-gradient {
     bottom: -50px;
 }
 
 /* TheUniverse */
 /* -------------------------------------------------------- */
-#TheUniverse {
+.TheUniverse {
     position: relative;
     overflow: hidden;
     text-align: center;
     max-height: 600px;
 }
 
-#TheUniverse .bg-blue-gradient {
+.TheUniverse .bg-blue-gradient {
     bottom: -50px;
 }
 
-#TheUniverse img {
+.TheUniverse img {
     width: 588px;
     top: 200px;
     margin-left: -198px;
@@ -360,14 +360,14 @@ body {
 
 /* The TheDecels */
 /* -------------------------------------------------------- */
-#TheDecels {
+.TheDecels {
     position: relative;
     overflow: hidden;
     text-align: center;
     padding-bottom: 15px;
 }
 
-#TheDecels .AccelTitle {
+.TheDecels .AccelTitle {
     text-align: center;
 }
 
