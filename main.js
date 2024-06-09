@@ -25,6 +25,15 @@ function isMobile() {
     return /Mobi|Android|iPhone|iPad|BlackBerry|Windows Phone/i.test(navigator.userAgent);
 }
 
+function loadWrapper() {
+    loadNavbar();
+    loadFooter();
+    loadNavbar_mob();
+    loadFooter_mob();
+    addEvent()
+    updateFavicon();
+}
+
 function loadJs(location) {
     let split = location.split('/');
     let name = split[split.length - 1]
@@ -45,14 +54,7 @@ function loadJs(location) {
         }
 
     }
-    loadNavbar();
-    loadFooter();
 
-    loadNavbar_mob();
-    loadFooter_mob();
-
-    addEvent()
-    updateFavicon();
     window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateFavicon);
 }
 function loadFooter() {
