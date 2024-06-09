@@ -64,6 +64,7 @@
     .container {
         max-width: 960px;
     }
+
     .card-text-height {
         height: 17rem !important;
     }
@@ -85,7 +86,7 @@
     }
 
     .card-text-height {
-        height: 14rem!important;
+        height: 14rem !important;
     }
 }
 
@@ -99,7 +100,7 @@
     }
 
     .card-text-height {
-        height: 14rem!important;
+        height: 14rem !important;
     }
 }
 
@@ -113,6 +114,10 @@ body {
     background: #000F25;
     font-family: 'Helvetica Neue', sans-serif;
     color: #fff;
+}
+
+#navbar {
+    height: 112px;
 }
 
 .font-goodtimes {
