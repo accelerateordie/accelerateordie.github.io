@@ -283,9 +283,8 @@ body {
 .rotating {
     display: block;
     margin: 50px auto;
-    /* Adjust the size as needed */
     height: auto;
-    animation: rotate 20s linear infinite;
+    animation: rotate 56s linear infinite;
 }
 
 @keyframes rotate {
