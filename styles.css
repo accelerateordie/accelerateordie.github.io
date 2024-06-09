@@ -349,6 +349,12 @@ body {
     width: 60%;
 }
 
+.w-70 {
+    flex: 0 0 auto;
+    width: 70%;
+}
+
+
 .w-50 {
     flex: 0 0 auto;
     width: 50%;
