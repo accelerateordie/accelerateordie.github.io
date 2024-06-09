@@ -244,6 +244,7 @@ body {
     width: 200px;
     height: 200px;
     filter: blur(100px);
+    transition: 0.5s;
 }
 
 .bb-gradient {
