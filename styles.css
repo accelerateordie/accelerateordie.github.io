@@ -256,6 +256,7 @@ body {
     width: 200px;
     height: 200px;
     filter: blur(70px);
+    transition: bottom 0.5s;
 }
 
 .hover-bb:hover .bb-gradient {
