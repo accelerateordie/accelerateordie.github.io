@@ -47,7 +47,7 @@
         "button": {
             "name": "Ask a Question",
             "url": "#",
-            "target": "_blank"
+            "target": "_self"
         }
     },
     "footer": {
@@ -175,7 +175,7 @@
             "button": {
                 "name": "LEARN MORE",
                 "url": "#",
-                "target": "_blank"
+                "target": "_self"
             },
             "sub-items": [
                 {

@@ -215,7 +215,7 @@ function addEvent() {
         panel.style.maxHeight = '0px'
         acc[i].addEventListener("click", function () {
             for (i = 0; i < acc.length; i++) {
-                if (acc[i]!=this){
+                if (acc[i] != this) {
                     var panel = acc[i].nextSibling.nextSibling.getElementsByClassName('timelineBorder')[0].firstChild.nextSibling
                     panel.style.visibility = 'hidden'
                     panel.style.maxHeight = "0px";
@@ -242,8 +242,8 @@ function addEvent() {
     }
 }
 
-function scrollToContent(index) {
+function scrollToContent(id) {
     $('html,body').animate({
-        scrollTop: $("#seg-" + index).offset().top
+        scrollTop: $('#' + id).offset().top
     }, 'fast');
 }
