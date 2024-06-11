@@ -21,9 +21,6 @@ function loadNavbar_mob() {
     xhr.send();
 }
 
-function isMobile() {
-    return /Mobi|Android|iPhone|iPad|BlackBerry|Windows Phone/i.test(navigator.userAgent);
-}
 
 function loadWrapper() {
     loadNavbar();
@@ -34,17 +31,33 @@ function loadWrapper() {
     updateFavicon();
 }
 
-function loadJs(location) {
+var isMobile = false
+if (window.innerWidth < 1000) {
+    isMobile = true;
+}
+window.addEventListener("resize", function (event) {
+    let screen_width = event.target.innerWidth;
+    let location = event.target.location.href
+    if (screen_width < 1000 && !isMobile) {
+        isMobile = true
+        switchScreen(isMobile, location)
+    } else if (screen_width >= 1000 && isMobile) {
+        isMobile = false
+        switchScreen(isMobile, location)
+    }
+})
+
+function switchScreen(isMobile, location) {
+    console.log(location);
     let split = location.split('/');
     let name = split[split.length - 1]
-    if (isMobile()) {
+    if (isMobile) {
         if (!name.includes('mobile')) {
             if (name == "") {
                 window.location.href = 'index-mobile.html'
             } else {
                 window.location.href = name.split('.')[0] + '-mobile.html';
             }
-
         }
     } else {
         if (name == "") {
@@ -52,9 +65,10 @@ function loadJs(location) {
         } else if (name.includes('mobile')) {
             window.location.href = name.slice(0, name.lastIndexOf('-')) + '.html'
         }
-
     }
+}
 
+function loadJs() {
     window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateFavicon);
 }
 function loadFooter() {

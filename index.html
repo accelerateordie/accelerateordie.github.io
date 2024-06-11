@@ -31,7 +31,7 @@
     <script src="./main.js"></script>
     <script>
         function loadJs_html() {
-            loadJs(window.location.href);
+            loadJs();
         }
         loadJs_html()
     </script>
@@ -51,7 +51,7 @@
                 <div class="w-80 p-0">
                     <div class="row m-0">
                         <div id="bg-gradient-dots" class="col-3 white-border br-half bb-half p-0 overflow-hidden">
-                            <div>
+                            <div id="bg-gradient-dots-img">
                                 <lottie-player src="./img/gradient-dots.json" background="transparent" speed="1" loop
                                     autoplay></lottie-player>
                             </div>
@@ -86,39 +86,39 @@
                     </div>
 
                     <div class="row m-0 py-5 white-border bt-half br-half bb-half">
-                        <div class="col-3 d-flex cursor-pointer" onclick="scrollToContent('seg-0')">
+                        <div class="col-3 d-flex align-items-center cursor-pointer" onclick="scrollToContent('seg-0')">
                             <div class="lines-wrapper" onmouseenter="startImageLoop(this)"
                                 onmouseleave="resetImage(this)">
                                 <img src="./img/horizontal-lines.svg" class="main-image" alt="Horizontal Lines">
                             </div>
-                            <span class="text-uppercase font-goodtimes text-medium px-3 d-flex align-items-center"
+                            <span class="text-uppercase font-goodtimes text-medium d-flex align-items-center"
                                 data-query="home.header.sub-items.0.name">THE
                                 <br> MOVEMENT </span>
                         </div>
-                        <div class="col-3 d-flex cursor-pointer" onclick="scrollToContent('seg-1')">
+                        <div class="col-3 d-flex align-items-center cursor-pointer" onclick="scrollToContent('seg-1')">
                             <div class="lines-wrapper" onmouseenter="startImageLoop(this)"
                                 onmouseleave="resetImage(this)">
                                 <img src="./img/horizontal-lines.svg" class="main-image" alt="Horizontal Lines">
                             </div>
-                            <span class="text-uppercase font-goodtimes text-medium px-3 d-flex align-items-center"
+                            <span class="text-uppercase font-goodtimes text-medium d-flex align-items-center"
                                 data-query="home.header.sub-items.1.name">THE
                                 <br> MACHINES </span>
                         </div>
-                        <div class="col-3 d-flex cursor-pointer" onclick="scrollToContent('seg-2')">
+                        <div class="col-3 d-flex align-items-center cursor-pointer" onclick="scrollToContent('seg-2')">
                             <div class="lines-wrapper" onmouseenter="startImageLoop(this)"
                                 onmouseleave="resetImage(this)">
                                 <img src="./img/horizontal-lines.svg" class="main-image" alt="Horizontal Lines">
                             </div>
-                            <span class="text-uppercase font-goodtimes text-medium px-3 d-flex align-items-center"
+                            <span class="text-uppercase font-goodtimes text-medium d-flex align-items-center"
                                 data-query="home.header.sub-items.2.name">THE
                                 <br> UNIVERSE </span>
                         </div>
-                        <div class="col-3 d-flex cursor-pointer" onclick="scrollToContent('seg-3')">
+                        <div class="col-3 d-flex align-items-center cursor-pointer" onclick="scrollToContent('seg-3')">
                             <div class="lines-wrapper" onmouseenter="startImageLoop(this)"
                                 onmouseleave="resetImage(this)">
                                 <img src="./img/horizontal-lines.svg" class="main-image" alt="Horizontal Lines">
                             </div>
-                            <span class="text-uppercase font-goodtimes text-medium px-3 d-flex align-items-center"
+                            <span class="text-uppercase font-goodtimes text-medium d-flex align-items-center"
                                 data-query="home.header.sub-items.3.name">THE
                                 <br> DECELS </span>
                         </div>

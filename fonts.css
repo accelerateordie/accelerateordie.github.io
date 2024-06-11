@@ -182,9 +182,65 @@
 
 @media (min-width: 768px) {}
 
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+    .text-small {
+        font-size: 9pt !important;
+    }
 
-@media (min-width: 1200px) {}
+    .text-medium {
+        font-size: 13pt !important;
+    }
+
+    .text-large {
+        font-size: 20pt !important;
+    }
+
+    .text-xlarge {
+        font-size: 37pt !important;
+    }
+
+    .text-xxlarge {
+        font-size: 43pt !important;
+    }
+
+    .text-bold {
+        font-weight: 700;
+    }
+
+    .text-thin {
+        font-weight: 250;
+    }   
+}
+
+@media (min-width: 1200px) {
+    .text-small {
+        font-size: 11pt !important;
+    }
+
+    .text-medium {
+        font-size: 15pt !important;
+    }
+
+    .text-large {
+        font-size: 24pt !important;
+    }
+
+    .text-xlarge {
+        font-size: 48pt !important;
+    }
+
+    .text-xxlarge {
+        font-size: 55pt !important;
+    }
+
+    .text-bold {
+        font-weight: 700;
+    }
+
+    .text-thin {
+        font-weight: 250;
+    }   
+}
 
 @media (min-width: 1400px) {
     .text-small {
