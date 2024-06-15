@@ -31,24 +31,27 @@ function loadWrapper() {
     updateFavicon();
 }
 
-var isMobile = false
-if (window.innerWidth < 1000) {
-    isMobile = true;
+function checkMobile() {
+    if (window.innerWidth < 1000) return true;
+    return false;
 }
-window.addEventListener("resize", function (event) {
-    let screen_width = event.target.innerWidth;
-    let location = event.target.location.href
-    if (screen_width < 1000 && !isMobile) {
-        isMobile = true
-        switchScreen(isMobile, location)
-    } else if (screen_width >= 1000 && isMobile) {
-        isMobile = false
-        switchScreen(isMobile, location)
-    }
-})
+function resizeEvent() {
+    let isMobile = checkMobile()
+    window.addEventListener("resize", function (event) {
+        let screen_width = event.target.innerWidth;
+        let location = event.target.location.href
+        if (screen_width < 1000 && !isMobile) {
+            isMobile = true
+            switchScreen(isMobile, location)
+        } else if (screen_width >= 1000 && isMobile) {
+            isMobile = false
+            switchScreen(isMobile, location)
+        }
+    })
+}
+
 
 function switchScreen(isMobile, location) {
-    console.log(location);
     let split = location.split('/');
     let name = split[split.length - 1]
     if (isMobile) {
@@ -68,7 +71,9 @@ function switchScreen(isMobile, location) {
     }
 }
 
-function loadJs() {
+function loadJs(location) {
+    switchScreen(checkMobile(), location)
+    resizeEvent()
     window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateFavicon);
 }
 function loadFooter() {
