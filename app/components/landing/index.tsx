@@ -2,8 +2,47 @@
 import Lottie from 'react-lottie-player'
 import lottieFile from '@/public/img/gradient-dots.json'
 import { homeCopy } from '@/app/copy/home'
+import { useEffect, useRef } from 'react';
 
-export default function Sections() {
+export default function Sections(this: any) {
+    const images = [
+        ["./img/horizontal-lines-2.svg", "./img/horizontal-lines-3.svg", "./img/horizontal-lines-4.svg"],
+        ["./img/horizontal-lines-2.svg", "./img/horizontal-lines-3.svg", "./img/horizontal-lines-4.svg"],
+        ["./img/horizontal-lines-2.svg", "./img/horizontal-lines-3.svg", "./img/horizontal-lines-4.svg"]
+    ];
+    let currentIndex = 0;
+    const imageInterval = useRef<any>(null);
+
+    const startImageLoop = (wrapper: HTMLElement, index: number) => {
+        imageInterval.current = setInterval(() => changeImage(wrapper, index), 200);
+    };
+
+    const changeImage = (wrapper: HTMLElement, index: number) => {
+        const mainImage = wrapper.querySelector(".main-image") as HTMLImageElement;
+        if (mainImage) {
+            mainImage.src = images[0][currentIndex];
+            currentIndex = (currentIndex + 1) % images[currentIndex].length;
+            if (currentIndex === 0) {
+                clearInterval(imageInterval.current);
+            }
+        }
+    };
+
+    const resetImage = (wrapper: HTMLElement) => {
+        clearInterval(imageInterval.current);
+        currentIndex = 0;
+        const mainImage = wrapper.querySelector(".main-image") as HTMLImageElement;
+        if (mainImage) {
+            mainImage.src = "./img/horizontal-lines.svg";
+        }
+    };
+
+    useEffect(() => {
+        return () => clearInterval(imageInterval.current);
+    }, []);
+
+
+
     return (
         <>
             <div className="row">
@@ -21,7 +60,6 @@ export default function Sections() {
                             </div>
                             <div className="text-thin text-medium my-5 text-narrow-height"
                                 dangerouslySetInnerHTML={{ __html: homeCopy.header.subtitle }}></div>
-                            {/* onclick="scrollToContent('seg-0')" */}
                             <a className='box btn font-goodtimes text-medium text-thin bg-blue btn-xpadding mb-high'
                                 target={homeCopy.header.button.target} href={homeCopy.header.button.url}>
                                 {homeCopy.header.button.name}
@@ -32,59 +70,22 @@ export default function Sections() {
                     </div>
 
                     <div className="row m-0 py-5 white-border bt-half br-half bb-half">
-                        {/* onclick="scrollToContent('seg-0')" */}
-                        <div className="col-3 d-flex align-items-center cursor-pointer" >
-                            {/* onmouseenter="startImageLoop(this)"
-                        onmouseleave="resetImage(this)" */}
-                            <a href='#seg-0' className='d-flex align-items-center text-white text-decoration-none'>
-                                <div className="lines-wrapper">
-                                    <img src="/img/horizontal-lines.svg" className="main-image" alt="Horizontal Lines" />
-                                </div>
-                                <span className="text-uppercase font-goodtimes text-medium d-flex align-items-center"
+                        {[0, 1, 2, 3].map((index) => (
+                            <div key={index} className="col-3 d-flex align-items-center cursor-pointer">
+                                <a href={`#seg-${index}`} className='d-flex align-items-center text-white text-decoration-none'
+                                    onMouseEnter={(e) => startImageLoop(e.currentTarget as HTMLElement, index)}
+                                    onMouseLeave={(e) => resetImage(e.currentTarget as HTMLElement)}>
+                                    <div
+                                        className="lines-wrapper"
 
-                                    dangerouslySetInnerHTML={{ __html: homeCopy.header['sub-items'][0].name }}></span>
-
-                            </a>
-
-                        </div>
-                        {/* onclick="scrollToContent('seg-1')" */}
-                        <div className="col-3 d-flex align-items-center cursor-pointer" >
-                            {/* onmouseenter="startImageLoop(this)"
-                        onmouseleave="resetImage(this)" */}
-                            <a href='#seg-1' className='d-flex align-items-center text-white text-decoration-none'>
-                            <div className="lines-wrapper" >
-                                <img src="/img/horizontal-lines.svg" className="main-image" alt="Horizontal Lines" />
-                            </div>
-                            <span className="text-uppercase font-goodtimes text-medium d-flex align-items-center"
-                                data-query="home.header.sub-items.1.name" dangerouslySetInnerHTML={{ __html: homeCopy.header['sub-items'][1].name }}></span>
-                               </a> 
-                        </div>
-                        {/* onclick="scrollToContent('seg-2')" */}
-                        <div className="col-3 d-flex align-items-center cursor-pointer" >
-                            {/* onmouseenter="startImageLoop(this)"
-                        onmouseleave="resetImage(this)" */}
-                            <a href='#seg-2' className='d-flex align-items-center text-white text-decoration-none'>
-
-                            <div className="lines-wrapper" >
-                                <img src="/img/horizontal-lines.svg" className="main-image" alt="Horizontal Lines" />
-                            </div>
-                            <span className="text-uppercase font-goodtimes text-medium d-flex align-items-center"
-                                data-query="home.header.sub-items.2.name" dangerouslySetInnerHTML={{ __html: homeCopy.header['sub-items'][2].name }}></span>
+                                    >
+                                        <img src="/img/horizontal-lines.svg" className="main-image" alt="Horizontal Lines" />
+                                    </div>
+                                    <span className="text-uppercase font-goodtimes text-medium d-flex align-items-center"
+                                        dangerouslySetInnerHTML={{ __html: homeCopy.header['sub-items'][index].name }}></span>
                                 </a>
-                        </div>
-                        {/* onclick="scrollToContent('seg-3')" */}
-                        <div className="col-3 d-flex align-items-center cursor-pointer" >
-                            {/* onmouseenter="startImageLoop(this)"
-                        onmouseleave="resetImage(this)" */}
-                            <a href='#seg-3' className='d-flex align-items-center text-white text-decoration-none'>
-
-                            <div className="lines-wrapper">
-                                <img src="/img/horizontal-lines.svg" className="main-image" alt="Horizontal Lines" />
                             </div>
-                            <span className="text-uppercase font-goodtimes text-medium d-flex align-items-center"
-                                data-query="home.header.sub-items.3.name" dangerouslySetInnerHTML={{ __html: homeCopy.header['sub-items'][3].name }}></span>
-                                </a>
-                        </div>
+                        ))}
                     </div>
 
                 </div>
@@ -94,15 +95,15 @@ export default function Sections() {
                     <div className="white-border py-5 px-3 bt-half bl-half bb-half h-35">
                         {/* onmouseenter="startImageLoop(this)"
                     onmouseleave="resetImage(this)" */}
-                        <a href='#seg-4' className='d-flex align-items-center text-white text-decoration-none'>
+                        <div className=' align-items-center text-white text-decoration-none'>
 
-                        <div className="lines-wrapper-r90" >
-                            <img src="/img/horizontal-lines.svg" className="main-image r-90 px-3" alt="Horizontal Lines" />
+                            <div className="lines-wrapper-r90" >
+                                <img src="/img/horizontal-lines.svg" className="main-image r-90 px-3" alt="Horizontal Lines" />
+                            </div>
+
+                            <p className="text-thin text-small" data-query="home.header.paragraph"
+                                dangerouslySetInnerHTML={{ __html: homeCopy.header.paragraph }}></p>
                         </div>
-
-                        <p className="text-thin text-small" data-query="home.header.paragraph"
-                            dangerouslySetInnerHTML={{ __html: homeCopy.header.paragraph }}></p>
-                            </a>
                     </div>
                 </div>
             </div>
@@ -173,7 +174,9 @@ export default function Sections() {
                         </div>
                         <div className="my-3 pt-3">
                             <a className="text-decoration-none d-flex justify-content-center align-items-center"
-                                href={homeCopy['segment-2'].cards[0].button.url} target={homeCopy['segment-2'].cards[0].button.target}>
+                                href={homeCopy['segment-2'].cards[0].button.url} target={homeCopy['segment-2'].cards[0].button.target}
+                                onMouseEnter={(e) => startImageLoop(e.currentTarget as HTMLElement, 0)}
+                                onMouseLeave={(e) => resetImage(e.currentTarget as HTMLElement)}>
                                 {/* onmouseenter="startImageLoop(this)" onmouseleave="resetImage(this)" */}
                                 <div className="lines-wrapper-r90  d-flex justify-content-center align-items-center">
                                     <img src="/img/horizontal-lines.svg" className="main-image r-90 px-3"
@@ -199,7 +202,10 @@ export default function Sections() {
                         <div className="my-3 pt-3">
                             <a className="text-decoration-none d-flex justify-content-center align-items-center" href={homeCopy['segment-2'].cards[1].button.url}
                                 target={homeCopy['segment-2'].cards[1].button.target}
-                                data-query="home.segment-2.cards.1.button._" data-attribute="href" data-target="target">
+
+
+                                onMouseEnter={(e) => startImageLoop(e.currentTarget as HTMLElement, 1)}
+                                onMouseLeave={(e) => resetImage(e.currentTarget as HTMLElement)}>
                                 {/* onmouseenter="startImageLoop(this)" onmouseleave="resetImage(this)" */}
                                 <div className="lines-wrapper-r90 d-flex justify-content-center align-items-center">
                                     <img src="/img/horizontal-lines.svg" className="main-image r-90 px-3"
@@ -224,8 +230,9 @@ export default function Sections() {
                         </div>
                         <div className="my-3 pt-3">
                             <a className="text-decoration-none d-flex justify-content-center align-items-center"
-                                href={homeCopy['segment-2'].cards[2].button.url} target={homeCopy['segment-2'].cards[2].button.target} data-attribute="href"
-                                data-target="target" data-query="home.segment-2.cards.2.button._">
+                                href={homeCopy['segment-2'].cards[2].button.url} target={homeCopy['segment-2'].cards[2].button.target}
+                                onMouseEnter={(e) => startImageLoop(e.currentTarget as HTMLElement, 2)}
+                                onMouseLeave={(e) => resetImage(e.currentTarget as HTMLElement)} >
                                 {/* onmouseenter="startImageLoop(this)" onmouseleave="resetImage(this)" */}
                                 <div className="lines-wrapper-r90 d-flex justify-content-center align-items-center">
                                     <img src="/img/horizontal-lines.svg" className="main-image r-90 px-3"

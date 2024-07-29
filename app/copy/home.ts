@@ -2,7 +2,7 @@ export const homeCopy = {
     "page-title": "ACCELERATE OR DIE",
     "header": {
         "title": "<span class='text-blue'> accelerate</span><br>or die",
-        "subtitle": "Launching the ACCEL - <br> Brand and Movement in one Epic Journey.",
+        "subtitle": "Launching the ACCEL <br> Brand and Movement in one Epic Journey.",
         "subtitle-mob": "One Epic Journey<br>To Discover<br>the Brand and Movement.",
         "button": {
             "name": "LEARN MORE",
