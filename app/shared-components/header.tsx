@@ -1,6 +1,7 @@
 "use client"
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { navbarCopy } from "../copy/navbar";
 
 export default function Header() {
     const pathname = usePathname();
@@ -18,28 +19,21 @@ export default function Header() {
                 </Link>
                 <div id="navbarToggleMain" className="collapse navbar-collapse light-text ">
                     <ul className="navbar-nav align-items-center col-8 justify-content-center mx-auto text-thin">
-                        <li className="nav-item my-sm-3 mx-lg-4 mx-auto">
-                            {/* active-nav */}
-                            <Link href="/how-to-accelerate" className={`nav-link text-light text-small ${pathname == '/how-to-accelerate' ? 'active-nav' : ''}`} data-query="navbar.navbar-links.0.name" data-attribute="href"
-                                data-target="target">How to Accelerate</Link>
-                        </li>
-                        <li className="nav-item my-sm-2 mx-4">
-                            <Link href="/school-of-accel" className={`nav-link text-light text-small ${pathname == '/school-of-accel' ? 'active-nav' : ''}`} data-query="navbar.navbar-links.1.name"
-                                data-attribute="href">School of ACCEL</Link>
-                        </li>
-                        <li className="nav-item my-sm-2 mx-4">
-                            <Link href="/my-journey" className={`nav-link text-light text-small ${pathname == '/my-journey' ? 'active-nav' : ''}`} data-query="navbar.navbar-links.2.name" data-attribute="href">My
-                                Journey</Link>
-                        </li>
-                        <li className="nav-item my-sm-2 mx-4">
-                            <Link href="https://accel.io/" target="_blank" className="nav-link text-light text-small" data-query="navbar.navbar-links.3.name"
-                                data-attribute="href">The ACCEL Tunnel</Link>
-                        </li>
+                        {navbarCopy["navbar-links"].map((item,index)=>
+                            (
+                            <li className="nav-item my-sm-3 mx-lg-4 mx-auto" key={index}>
+                                <Link href={item.url} className={`nav-link text-light text-small ${pathname == item.url ? 'active-nav' : ''}`} 
+                                    target={item.target}>{item.name}</Link>
+                            </li>  
+                            )
+
+
+                        )}
+                     
                     </ul>
-                    {/* navbar.button.name */}
-                    <Link href="#footer" className="box btn bg-blue text-oxford btn-padding fw-bold" data-query="navbar.button._" data-attribute="href" target="_self">
-                        Ask a
-                        Question
+                    <Link href={navbarCopy.button.url} className="box btn bg-blue text-oxford btn-padding fw-bold"
+                                target={navbarCopy.button.target}>
+                        {navbarCopy.button.name}
                     </Link>
                 </div>
 

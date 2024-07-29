@@ -1,23 +1,28 @@
 "use client"
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { OffcanvasProvider } from "./OffCanvas/Context";
+import { Trigger } from "./OffCanvas/Trigger";
+import { Offcanvas } from "./OffCanvas/OffCanvas";
 
 export default function HeaderMobile() {
+    const handleOpen = () => console.log("");
+    const handleClose = () => console.log("");
     const pathname = usePathname();
     return (
-        <header className="header mb-2 px-4">
-   <nav className="container" id="navbar-mobile">
+        <header className="header mb-2 ">
+            <nav className="container px-4" id="navbar-mobile">
             <div className="navbar mt-3">
 
                 <a className="navbar-brand text-light d-flex align-items-left text-medium" 
                 style={{fontFamily: "GoodTimes',sans-serif"}}
-                    href="./index.html">
+                    href="/">
                     ACCEL
                 </a>
-                {/* onclick="scrollToContent('footer-mobile')" */}
-                <button id="navbar-toggle-btn" className="navbar-toggler" type="button" >
-                    <img src="./img/mobileHamburgerMenu.png" alt="menu" className="navbar-toggler-icon" />
-                </button>
+                    <OffcanvasProvider onOpen={handleOpen} onClose={handleClose}>
+                        <Trigger />
+                        <Offcanvas />
+                    </OffcanvasProvider>
             </div>
             <div id="navbarToggle-back" className="sidenav-back"></div>
             <div id="navbarToggleMain" className="sidenav justify-content-between">
