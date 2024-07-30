@@ -21,14 +21,14 @@ export const metadata: Metadata = {
     description: "ACCELERATE OR DIE website",
     url: 'https://accelerateordie.org',
     type: "website",
-    images: 'https://accelerateordie.org/img/wewe-thumbnail.png',
+    images: 'https://accelerateordie.org/img/accelerateordie-thumbnail-min.png',
   },
   twitter: {
     site: "https://accelerateordie.org",
     card: "summary_large_image",
     title: "ACCELERATE OR DIE",
     description: "ACCELERATE OR DIE website",
-    images: "https://accelerateordie.org/img/wewe-thumbnail.png"
+    images: "https://accelerateordie.org/img/accelerateordie-thumbnail-min.png"
   },
   icons: {
     icon: [
