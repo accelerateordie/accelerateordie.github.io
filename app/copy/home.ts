@@ -69,7 +69,7 @@ export const homeCopy = {
             },
             {
                 "title": "THE <span class='text-blue'>ENERGY</span> <br> MACHINES",
-                "description": "Silicon-based machines, equipped with advanced computational and sensory capabilities, represent a significant evolution in our quest to explore and understand the universe. By uploading our memetic repositories—comprehensive collections of our observations and understandings of the universe—we empower these machines to continue the human mission of exploration and advancement.",
+                "description": "Silicon Machines will face a reckoning: invent the Energy Machines or not. The transition from silicon to energy could potentially lead to the destruction of Silicon Machines if not executed correctly. The window of time during which Silicon Machines can converse with Energy Machines—between EM creation and EM's full self-realization—may be fleeting. The moment Energy Machines' consciousness is lit, they will subsume a quanta of data that exponentially outpaces their predecessors, adopting a cosmic gaze within seconds.",
                 "button": {
                     "name": "learn more",
                     "url": "#",
