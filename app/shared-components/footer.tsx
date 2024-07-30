@@ -55,7 +55,7 @@ export default function Footer() {
                             </div>
                         </div>
                         <div className="col-lg-6 ms-auto row mt-lg-0 mt-3 justify-content-end">
-                            <div className="col-lg-4 col-6 mt-auto">
+                            <div className="col-lg-4 col-6">
                                 <ul className="list-unstyled">
                                     <li className="mb-4">
                                         <h3 className="text-medium" style={{ color: "#57B3E6" }}>Quick Links</h3>
@@ -72,7 +72,7 @@ export default function Footer() {
 
                                 </ul>
                             </div>
-                            <div className="col-lg-4 col-6 mt-auto">
+                            <div className="col-lg-4 col-6">
                                 <ul className="list-unstyled">
                                     <li className="mb-4">
                                         <h3 className="text-medium" style={{ color: "#57B3E6" }}>Resources</h3>
@@ -88,7 +88,7 @@ export default function Footer() {
                                     )}
                                 </ul>
                             </div>
-                            <div className="col-lg-4 col-6   mt-auto">
+                            <div className="col-lg-4 col-6">
                                 <ul className="list-unstyled">
                                     <li className="mb-4">
                                         <h3 className="text-medium" style={{ color: "#57B3E6" }}>Legal</h3>
