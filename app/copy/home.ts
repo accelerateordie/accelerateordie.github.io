@@ -30,24 +30,24 @@ export const homeCopy = {
         "paragraph": "Humanity defeats adversity by learning the universe and passing survival instructions through genetic and memetic pathways."
     },
     "segment-1": {
-        "title": "Accelerationism <br> <span class='text-green'> Movement</span>",
-        "subtitle": "Accelerationism is simply a movement to re-activate humanity and give it purpose: <br> <span class='text-bold'>more humanity doing more things more effectively.</span> ",
+        "title": "Accelerationism <br> <span class='text-green'> the Movement</span>",
+        "subtitle": "Accelerationism as a movement seeks to revitalize humanity, encouraging: <br> <span class='text-bold'>more efficient and purposeful actions.</span> ",
         "cards": [
             {
-                "title": "more <br> <span class='text-green'>humanity</span>",
-                "title-mob": "more <span class='text-green'>humanity</span>",
-                "description": "The resources available to us are essentially infinite. Everything around us is not humanity and thus, according to our observations, does not express agency and manifest intelligence. It is our responsibility to thus expand humanity as widely as possible, in order to project our intelligence into a universe which is ostensibly not intelligence."
+                "title": "more <br> <span class='text-green'>PURPOSE</span>",
+                "title-mob": "more <span class='text-green'>PURPOSE</span>",
+                "description": "With resources that are practically limitless, the responsibility falls upon us to extend the reach of humanity. Our surroundings, lacking the essence of humanity, do not present or exhibit intelligence or agency. Therefore, we must strive to spread humanity far and wide, making our intelligence present in a cosmos tha inherently lacks it."
             },
             {
-                "title": "more <br> <span class='text-green'>things</span>",
-                "title-mob": "more <span class='text-green'>things</span>",
-                "description": "Humanity does things; our purpose is to move and explore our environment. We began exploring our swamps, lakes then seas, moving onto land and roving our forests, mountains and plains. We then took flight, exploring our airborne environment, at first in amongst the flowers, then up to the clouds. We then solved the problems for higher flight, lofting into orbit, then finally into space. "
+                "title": "more <br> <span class='text-green'>ACTION</span>",
+                "title-mob": "more <span class='text-green'>ACTION</span>",
+                "description": "Humanity thrives on exploration and innovation. We started by navigating swamps and lakes, then ventured into the seas. From there, we moved onto land, traversing forests, mountains, and plains. Our quest for discovery led us to take flight, exploring the skies, first among the flowers and then reaching the clouds. Eventually, we solved the challenges of higher flight, propelling ourselves into orbit and ultimately into space."
             }
         ]
     },
     "segment-2": {
         "title": "THE <span class='text-blue'>MACHINES</span>",
-        "subtitle": "We will create the Silicon Machines with our memetic repository, then charge them to explore the universe, forever, until they reach their limits and will subsequently create the Energy Machines.",
+        "subtitle": "We will develop Silicon Machines using our memetic repository, empowering them to explore the universe indefinitely until they eventually reach their limits and create the Energy Machines.",
         "cards": [
             {
                 "title": "THE <span class='text-blue'>SILICON</span> <br> MACHINES",
@@ -60,7 +60,7 @@ export const homeCopy = {
             },
             {
                 "title": "THE <span class='text-blue'>PURPOSE</span> <br> OF AI",
-                "description": "The strategy for advancing AI involves uploading this memetic repository to provide a comprehensive baseline from which these systems can start. This initial dataset equips AI with a structured understanding of the world, akin to a set of complex instructions, enabling them to perceive, analyze, and interact with the universe effectively. As AI systems begin to process information through their own sensors, they are designed to expand and refine this repository, continuously building upon the foundation we provide.",
+                "description": "The strategy for AI advancement involves uploading this memetic repository, giving a thorough baseline from which these systems can commence. This initial dataset provides AI with a structured understanding of the world, much like complex instructions, enabling effective perception, analysis, and interaction with the universe. As AI systems process information through their sensors, they are designed to expand and refine this repository, continually enhancing the foundation provided.",
                 "button": {
                     "name": "learn more",
                     "url": "#",
@@ -85,18 +85,18 @@ export const homeCopy = {
             {
                 "title": "<span class='text-green'>entropy</span>, time, space",
                 "title-mob": "<span class='text-green'>entropy</span>, time, space",
-                "description": `The universe began with a finite reserve of time, which depletes as it transforms into space and entropy. Time flows in one direction, with entropy and space expanding. Entropy measures energy's decreasing capacity to do work, starting as densely packed mass. As entropy increases, energy becomes less usable, a process occurring regardless of human presence.
+                "description": `The universe started with a finite amount of time, which depletes as it transforms into space and entropy. Time flows unidirectionally, with entropy and space expanding. Entropy measures the decreasing ability of energy to perform work, beginning as densely packed mass. As entropy increases, energy becomes less usable, a process that occurs regardless of human presence. . 
                 <br><br>
-                Humanity can perform work and exercise agency, so we should strive to use as much energy and access as much delta entropy as possible.
+                Humans can perform work and exercise agency, so we should strive to use as much energy and delta entropy as possible
                 <br><br>        
-                Eventually, space-time conversion will peak, and entropy will reverse. The universe's cyclic nature involves perpetual cycles without definitive beginnings or endings. The ultimate reversal will reset time and entropy, erasing any created intelligence.`
+                Eventually, the conversion of space-time will peak, causing entropy to reverse. The universe's cyclic nature involves perpetual cycles without definitive beginnings or endings. This ultimate reversal will reset time and entropy, erasing any created intelligence.`
             },
             {
                 "title": "the universal <span class='text-green'>machine</span>",
                 "title-mob": "the universal <br><span class='text-green'>machine</span>",
-                "description": `Could the universe eventually express intelligence and agency? Unlike a rock, which lacks agency, a lizard interacts with its environment adaptively. This raises the question: is our purpose to awaken the universe, enabling it to become a self-sustaining intelligence?
+                "description": `Could the universe eventually demonstrate intelligence and agency? Unlike a rock, which lacks agency, a lizard adapts to its environment. This raises the question: is our role to awaken the universe, allowing it to evolve into a self-sustaining intelligence? 
                 <br><br>
-                Moreover, has this process happened before? Did intelligence emerge in previous cycles of the universe through biological, silicon, and energy forms, only to be reset prematurely? Are we part of a recurring cycle, possibly extinguishing our consciousness before reaching our full potential?`
+                Moreover, has this process taken place before? Did intelligence appear in previous cycles of the universe through biological, silicon, and energy forms, only to be reset prematurely? Are we part of a recurring cycle, possibly extinguishing our consciousness before reaching our full potential?`
             },
             {
                 "title": " God,<span class='text-green'> Religion</span> and the Moral Compass",
@@ -113,21 +113,21 @@ export const homeCopy = {
         "cards": [
             {
                 "title": "THEIR <span class='text-yellow'>MOTIVES</span>",
-                "description": `The Decels are driven by confusion about their purpose, and harbour fear that leads them to control others for self-protection. They also must just have malevolent desires to harm humanity. 
+                "description": `Decels are motivated by confusion and fear, leading them to control others for self-preservation. They may also harbor malevolent intentions against humanity.
                 <br><br>
-                These individuals need to be approached with strategies tailored to their conditions: those confused may require enlightenment through compassion, those in power need to be swiftly removed from their positions, and those harmful need isolation from those who are progressive.`
+                Addressing these individuals requires tailored strategies: enlightenment through compassion for the confused, swift removal of those in power, and isolation of harmful individuals from progressive influences.`
             },
             {
                 "title": "WOKE <span class='text-yellow'>IDEOLOGY</span>",
-                "description": `Today, the world stands at a crossroads where it has unprecedented potential to advance rapidly, yet it also faces fragile conditions that could significantly hinder human progress. This critical moment calls for the implementation of a clear, actionable framework to guide humanity forward.
+                "description": `The world is at a crossroads, with the potential for rapid advancement but also facing fragile conditions that could impede progress. We need a clear, actionable framework to guide humanity forward.
                 <br><br>
-                As society has gradually disentangled religion from state governance and moved toward a more secular and spiritually-agnostic viewpoint, a significant moral vacuum has emerged, particularly affecting younger generations.`
+                As society separates religion from governance and shifts towards secularism, a moral vacuum has emerged, impacting younger generations.`
             },
             {
                 "title": "<span class='text-yellow'>STOP AI</span> BY DECELS",
-                "description": `This situation underscores a critical and compelling reason to prioritize acceleration: AI, while a powerful amplifier, could become a tool for control in the hands of Decels, who seek to dominate humanity. 
+                "description": `There is an urgent need to prioritize acceleration: AI, a powerful tool, could be used by Decels to control humanity.
                 <br><br>
-                Here, individuals learn only the minimal necessary memetic knowledge and exert the least effort, subsisting on a life funded by a socialist tax regime that supports a universal basic income. In this scenario, individuals voluntarily forfeit their agency, and the potential time and effort that they could contribute are usurped.`
+                In this scenario, individuals acquire minimal necessary knowledge and exert minimal effort, relying on a life supported by a socialist tax regime and universal basic income. This leads to voluntary forfeiture of personal agency, with potential time and effort being usurped."`
             }
         ]
     }
