@@ -13,7 +13,7 @@ export const footerCopy =  {
                 "target": "_blank"
             },
             "discord": {
-                "url": "https://discord.com/invite/XJWWptTH",
+                "url": "https://discord.gg/CEW5Gp9BGz",
                 "target": "_blank"
             },
             "linkedin": {
