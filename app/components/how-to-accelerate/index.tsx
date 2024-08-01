@@ -26,7 +26,7 @@ export default function Sections() {
                     </a>
                 </div>
                 {/* <!-- TOP RIGHT SQUARES --> */}
-                <div className="position-absolute top-0 end-0" >
+                <div className="position-absolute top-0 end-0" style={{visibility:"hidden"}}>
                     <div className="big-square white-border position-absolute top-0 end-0"></div>
                     <div className="small-square white-border position-absolute top-0 end-0"></div>
                 </div>
