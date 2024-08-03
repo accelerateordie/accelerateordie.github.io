@@ -7,6 +7,11 @@ export const navbarCopy = {
       target: "_self",
     },
     {
+      name: "School of ACCEL",
+      url: "#",
+      target: "_self",
+    },
+    {
       name: "My Journey",
       url: "/my-journey",
       target: "_self",

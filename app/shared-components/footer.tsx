@@ -16,7 +16,7 @@ export default function Footer() {
               </Link>
 
               <div className="my-2">
-                <ul className="navbar-nav footer-social list-group-horizontal justify-content-between">
+                <ul className="navbar-nav footer-social list-group-horizontal justify-content-center">
                   {footerCopy.socialLinks.map((link, index) => (
                     <li className="p-social">
                       <Link href={link.url} target={link.target}>
