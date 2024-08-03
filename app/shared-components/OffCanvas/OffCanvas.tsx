@@ -1,124 +1,138 @@
-"use client"
-import React, { useCallback, useContext, useEffect, useState } from 'react'
-import scss from './OffCanvas.module.scss'
-import { AppContext } from './Context'
-import { OffcanvasProps } from './Props'
+"use client";
+import React, { useCallback, useContext, useEffect, useState } from "react";
+import scss from "./OffCanvas.module.scss";
+import { AppContext } from "./Context";
+import { OffcanvasProps } from "./Props";
 
-import Link from 'next/link'
-import { usePathname } from 'next/navigation'
-import { navbarCopy } from '@/app/copy/navbar'
-
-
-
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { navbarCopy } from "@/app/copy/navbar";
 
 export function Offcanvas({
-
-    position = 'right',
-    backdrop = true,
-    allowClickAway = true,
-    allowEsc = true,
-    allowScroll = true,
-    className = 'simple-offcanvas',
-    styles = {},
-    children
+  position = "right",
+  backdrop = true,
+  allowClickAway = true,
+  allowEsc = true,
+  allowScroll = true,
+  className = "simple-offcanvas",
+  styles = {},
+  children,
 }: OffcanvasProps) {
-    const { handleClose, isOpen, randomId } = useContext(AppContext)
-    const router = usePathname();
-    const [currentPath, setCurrentPath] = useState('');
+  const { handleClose, isOpen, randomId } = useContext(AppContext);
+  const router = usePathname();
+  const [currentPath, setCurrentPath] = useState("");
 
-    useEffect(() => {
-        if (router) {
-            setCurrentPath(router);
-        }
-    }, [router]);
-    const onClickOutside = useCallback(() => {
-        if (!allowClickAway) return
+  useEffect(() => {
+    if (router) {
+      setCurrentPath(router);
+    }
+  }, [router]);
+  const onClickOutside = useCallback(() => {
+    if (!allowClickAway) return;
 
+    if (isOpen) {
+      if (handleClose) handleClose();
+    }
+  }, [allowClickAway, isOpen, handleClose]);
+
+  const onEscKey = useCallback(
+    (event: KeyboardEvent) => {
+      if (!allowEsc) return;
+
+      if (event.key === "Escape") {
         if (isOpen) {
-            if (handleClose) handleClose()
+          if (handleClose) handleClose();
         }
-    }, [allowClickAway, isOpen, handleClose])
+      }
+    },
+    [allowEsc, isOpen, handleClose]
+  );
 
-    const onEscKey = useCallback(
-        (event: KeyboardEvent) => {
-            if (!allowEsc) return
+  useEffect(() => {
+    document.addEventListener("keydown", onEscKey, false);
+    return () => document.removeEventListener("keydown", onEscKey);
+  }, [onEscKey]);
 
-            if (event.key === 'Escape') {
-                if (isOpen) {
-                    if (handleClose) handleClose()
-                }
-            }
-        },
-        [allowEsc, isOpen, handleClose]
-    )
+  useEffect(() => {
+    if (!allowScroll) {
+      if (isOpen) document.body.style.overflow = "hidden";
+    }
 
-    useEffect(() => {
-        document.addEventListener('keydown', onEscKey, false)
-        return () => document.removeEventListener('keydown', onEscKey)
-    }, [onEscKey])
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [isOpen, allowScroll]);
 
-
-
-    useEffect(() => {
-        if (!allowScroll) {
-            if (isOpen) document.body.style.overflow = 'hidden'
-        }
-
-        return () => {
-            document.body.style.overflow = ''
-        }
-    }, [isOpen, allowScroll])
-
-    return (
-        <>
-            <div
-                id={`offcanvas_${randomId}`}
-                className={`${scss.offcanvas} ${scss[position]} ${isOpen ? scss.show : ''
-                    } ${className}  bg-neutral-900`}
-                tabIndex={-1}
-                style={styles}
-                role="dialog"
-                aria-labelledby={scss.title}
-                aria-modal="true"
-                onClick={(event) => event.stopPropagation()}
-                aria-hidden="true"
+  return (
+    <>
+      <div
+        id={`offcanvas_${randomId}`}
+        className={`${scss.offcanvas} ${scss[position]} ${
+          isOpen ? scss.show : ""
+        } ${className}  bg-neutral-900`}
+        tabIndex={-1}
+        style={styles}
+        role="dialog"
+        aria-labelledby={scss.title}
+        aria-modal="true"
+        onClick={(event) => event.stopPropagation()}
+        aria-hidden="true"
+      >
+        <div className={scss.header}>
+          <button
+            className={scss.close}
+            onClick={handleClose}
+            type="button"
+            tabIndex={0}
+            aria-label="Close"
+          />
+        </div>
+        <div className={scss.body}>
+          <ul className=" px-4 list-group">
+            <li className="nav-item my-3 list-group">
+              <Link
+                className={`lg:text-2xl text-lg font-normal leading-6 text-white text-decoration-none ${
+                  currentPath === "/" ? "gradient-text" : ""
+                }`}
+                href="/"
+                target="_self"
+                onClick={handleClose}
+              >
+                Home
+              </Link>
+            </li>
+            {navbarCopy.navbarLinks.map((link, index) => (
+              <li key={index} className="nav-item my-3 list-group">
+                <Link
+                  className={`lg:text-2xl text-lg font-normal leading-6 text-white text-decoration-none ${
+                    currentPath === link.url ? "gradient-text" : ""
+                  }`}
+                  href={link.url}
+                  target={link.target}
+                  onClick={handleClose}
+                >
+                  {link.name}
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <div className="flex-1 justify-start flex mt-5">
+            <a
+              href={navbarCopy.button.url}
+              target={navbarCopy.button.target}
+              className=" button text-xsmal text-decoration-none text-dark fw-bold w-100 d-block text-center"
             >
-                <div className={scss.header}>
-
-                    <button
-                        className={scss.close}
-                        onClick={handleClose}
-                        type="button"
-                        tabIndex={0}
-                        aria-label="Close"
-                    />
-                </div>
-                <div className={scss.body}>
-                    <ul className=" px-4 list-group">
-                        <li className="nav-item my-3 list-group">
-                            <Link className={`lg:text-2xl text-lg font-normal leading-6 text-white text-decoration-none ${currentPath === "/" ? 'gradient-text' : ''}`}
-                                href="/" target="_self" onClick={handleClose}>Home</Link>
-                        </li>
-                        {navbarCopy['navbar-links-mob'].map((link, index) => (
-                            <li key={index} className="nav-item my-3 list-group">
-                                <Link className={`lg:text-2xl text-lg font-normal leading-6 text-white text-decoration-none ${currentPath === link.url ? 'gradient-text' : ''}`}
-                                    href={link.url} target={link.target} onClick={handleClose}>{link.name}</Link>
-                            </li>
-                        ))
-                        }
-
-                    </ul>
-                    <div className="flex-1 justify-start flex mt-5" >
-                        <a href={navbarCopy.button.url} target={navbarCopy.button.target}
-                            className=" button text-xsmal text-decoration-none text-dark fw-bold w-100 d-block text-center">
-                            {navbarCopy.button.name}
-                        </a>
-                    </div>
-                </div>
-            </div>
-            {backdrop && (
-                <div onClick={handleClose} className={`${scss.backdrop} ${isOpen ? scss.show : ''}`} />
-            )}
-        </>
-    )
+              {navbarCopy.button.name}
+            </a>
+          </div>
+        </div>
+      </div>
+      {backdrop && (
+        <div
+          onClick={handleClose}
+          className={`${scss.backdrop} ${isOpen ? scss.show : ""}`}
+        />
+      )}
+    </>
+  );
 }
