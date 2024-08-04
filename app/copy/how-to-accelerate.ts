@@ -6,7 +6,7 @@ export const howToAccelerateCopy = {
         This journey demands unwavering self-confidence, optimism, and dedication to purpose. As an accelerationist, you seek to grasp the universe from its foundational principles, promoting humanity’s intelligence and propagating memes and genes.`,
         "button": {
             "name": "JOIN THE MOVEMENT",
-            "url": "https://discord.com/invite/XJWWptTH",
+            "url": "https://www.acelschool.com/",
             "target": "_blank"
         }
     },
