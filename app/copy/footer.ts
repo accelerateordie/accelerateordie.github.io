@@ -59,7 +59,7 @@ export const footerCopy = {
       },
       {
         name: "School of ACCEL",
-        url: "/school-of-accel",
+        url: "#",
         target: "_self",
       },
       {

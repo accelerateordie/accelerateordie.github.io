@@ -1,6 +1,6 @@
 "use client"
 
-import { myJournyCopy } from "@/app/copy/my-journy";
+import { myJournyCopy } from "@/app/copy/my-journey";
 import { useEffect } from "react";
 import Accordion from "./accordion";
 
