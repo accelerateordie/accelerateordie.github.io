@@ -14,15 +14,21 @@ export default function Sections() {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-9 d-flex flex-column justify-content-center ps-4 white-border bl-half bb-half position-relative overflow-hidden">
-                    <div className=" text-uppercase font-goodtimes text-xxlarge text-narrow-height "
+                <div className="col-md-6 d-flex flex-column justify-content-center ps-4 white-border bl-half bb-half position-relative overflow-hidden">
+                    <div className=" text-uppercase font-goodtimes text-xxlarge text-narrow-height"
                         data-query="my-journey.header.title" >
-                        <h1 className="text-uppercase font-goodtimes text-xxlarge text-narrow-height"
-                         dangerouslySetInnerHTML={{ __html: myJournyCopy.header.title }}></h1>
+                        <h1 className="text-uppercase font-goodtimes text-xlarge text-center text-narrow-height " dangerouslySetInnerHTML={{ __html: myJournyCopy.header.title }}></h1>
                     </div>
-                    <div className="text-thin text-medium my-5 text-narrow-height w-60 text-n100"
+                    <div className="text-thin text-medium my-5 text-narrow-height p-5 text-n100 text-center"
                         data-query="my-journey.header.subtitle" dangerouslySetInnerHTML={{ __html: myJournyCopy.header.subtitle }}></div>
                     <div className="bg-blue-gradient br-gradient-medium"></div>
+                </div>
+                <div className="col-md-3">
+                    <div className="row">
+                        <div className="col-12 white-border br-half bb-half p-0 overflow-hidden">
+                            <img src="./img/bg-journey-header.png" alt="My Journey" />
+                        </div>
+                    </div>
                 </div>
             </div>
             {/* <!-- Key Concepts --> */}
