@@ -6,7 +6,7 @@ export const homeCopy = {
         "subtitle-mob": "One Epic Journey<br>To Discover<br>the Brand and Movement.",
         "button": {
             "name": "LEARN MORE",
-            "url": "#",
+            "url": "#seg-0",
             "target": "_self"
         },
         "sub-items": [
