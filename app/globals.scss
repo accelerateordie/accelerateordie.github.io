@@ -1000,16 +1000,15 @@ body {
 
 .TimeLineContainer {
   height: 88%;
-  width: 147px;
+  width: 136px !important;
+  float: left;
 }
 
 .myJourneyTimeLine {
   width: 2px;
   height: 100%;
   margin-left: 39px;
-/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fdb64a+0,dccc5d+11,c0dd6d+22,a2f17e+35,92fd97+48,9cf8b8+60,9cf8b8+72,b0eff2+86,7db9e8+100 */
-background: linear-gradient(135deg,  rgba(253,182,74,1) 0%,rgba(220,204,93,1) 11%,rgba(192,221,109,1) 22%,rgba(162,241,126,1) 35%,rgba(146,253,151,1) 48%,rgba(156,248,184,1) 60%,rgba(156,248,184,1) 72%,rgba(176,239,242,1) 86%,rgba(125,185,232,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-
+  background: linear-gradient(135deg, rgba(253, 182, 74, 1) 0%, rgba(220, 204, 93, 1) 11%, rgba(192, 221, 109, 1) 22%, rgba(162, 241, 126, 1) 35%, rgba(146, 253, 151, 1) 48%, rgba(156, 248, 184, 1) 60%, rgba(156, 248, 184, 1) 72%, rgba(176, 239, 242, 1) 86%, rgba(125, 185, 232, 1) 100%);
 }
 
 body.mobile {
