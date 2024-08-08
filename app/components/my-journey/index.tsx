@@ -39,7 +39,7 @@ export default function Sections() {
                 </div>
                 <div className="row justify-content-center">
 
-                    <div className="col-md-1 TimeLineContainer">
+                    <div className="TimeLineContainer">
                         <div className="myJourneyTimeLine"></div>
                     </div>
                     <div className="col-md-6 ps-4 mb-high">
