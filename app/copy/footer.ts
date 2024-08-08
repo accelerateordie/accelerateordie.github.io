@@ -110,5 +110,5 @@ export const footerCopy = {
       },
     ],
   },
-  copyright: "© Copyright ACCELERATE OR DIE. All rights reserved",
+  copyright: "",
 };
