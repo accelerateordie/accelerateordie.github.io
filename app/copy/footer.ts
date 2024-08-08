@@ -69,7 +69,7 @@ export const footerCopy = {
       },
       {
         name: "ACCEL Tunnel",
-        url: "https://accel.io",
+        url: "https://www.acel.space/",
         target: "_blank",
       },
     ],
