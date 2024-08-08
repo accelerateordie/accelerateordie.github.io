@@ -398,7 +398,7 @@
   }
 
   .text-xlarge {
-    font-size: 48pt !important;
+    font-size: 44pt !important;
   }
 
   .text-xxlarge {
@@ -714,9 +714,11 @@ body {
 .p-social {
   padding-inline: 0.75rem;
 }
+
 .p-social-mobile {
   padding-inline: 0.1rem;
 }
+
 .image-wrapper {
   position: relative;
   width: 100%;
@@ -984,6 +986,29 @@ body {
     height: 50px !important;
   }
 
+}
+
+.myJourneyicon {
+  float: left;
+  margin-left: -150px;
+  background-color: #000f25;
+}
+
+.myJourneyItems {
+  margin-bottom: 70px;
+}
+
+.TimeLineContainer {
+  height: 88%;
+  width: 136px !important;
+  float: left;
+}
+
+.myJourneyTimeLine {
+  width: 2px;
+  height: 100%;
+  margin-left: 39px;
+  background: linear-gradient(135deg, rgba(253, 182, 74, 1) 0%, rgba(220, 204, 93, 1) 11%, rgba(192, 221, 109, 1) 22%, rgba(162, 241, 126, 1) 35%, rgba(146, 253, 151, 1) 48%, rgba(156, 248, 184, 1) 60%, rgba(156, 248, 184, 1) 72%, rgba(176, 239, 242, 1) 86%, rgba(125, 185, 232, 1) 100%);
 }
 
 body.mobile {
