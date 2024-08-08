@@ -16,4 +16,4 @@ We welcome contributions! Please fork this repository, make your changes, and su
 
 ## Contact
 
-For more information, visit the [official Accelerate or Die website](https://accelerateordie.org).
+For more information, visit the [official Accelerate or Die website](https://acel.org).
