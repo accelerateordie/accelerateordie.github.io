@@ -1,8 +1,8 @@
 export const homeCopy = {
-    "page-title": "ACCELERATE OR DIE",
+    "page-title": "ACELERATE OR DIE",
     "header": {
-        "title": "<span class='text-blue'> accelerate</span><br>or die",
-        "subtitle": "Launching the ACCEL <br> Brand and Movement in one Epic Journey.",
+        "title": "<span class='text-blue'> acelerate</span><br>or die",
+        "subtitle": "Launching the ACEL <br> Brand and Movement in one Epic Journey.",
         "subtitle-mob": "One Epic Journey<br>To Discover<br>the Brand and Movement.",
         "button": {
             "name": "LEARN MORE",
@@ -30,8 +30,8 @@ export const homeCopy = {
         "paragraph": "Humanity defeats adversity by learning the universe and passing survival instructions through genetic and memetic pathways."
     },
     "segment-1": {
-        "title": "Accelerationism <br> <span class='text-green'> the Movement</span>",
-        "subtitle": "Accelerationism as a movement seeks to revitalize humanity, encouraging: <br> <span class='text-bold'>more efficient and purposeful actions.</span> ",
+        "title": "Acelerationism <br> <span class='text-green'> the Movement</span>",
+        "subtitle": "Acelerationism as a movement seeks to revitalize humanity, encouraging: <br> <span class='text-bold'>more efficient and purposeful actions.</span> ",
         "cards": [
             {
                 "title": "more <br> <span class='text-green'>PURPOSE</span>",
@@ -125,7 +125,7 @@ export const homeCopy = {
             },
             {
                 "title": "<span class='text-yellow'>STOP AI</span> BY DECELS",
-                "description": `There is an urgent need to prioritize acceleration: AI, a powerful tool, could be used by Decels to control humanity.
+                "description": `There is an urgent need to prioritize aceleration: AI, a powerful tool, could be used by Decels to control humanity.
                 <br><br>
                 In this scenario, individuals acquire minimal necessary knowledge and exert minimal effort, relying on a life supported by a socialist tax regime and universal basic income. This leads to voluntary forfeiture of personal agency, with potential time and effort being usurped."`
             }

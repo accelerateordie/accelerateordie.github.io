@@ -1,5 +1,5 @@
-import Sections from "@/app/components/how-to-accelerate";
-import SectionsMobile from "@/app/components/how-to-accelerate/sections-mobile";
+import Sections from "@/app/components/how-to-acelerate";
+import SectionsMobile from "@/app/components/how-to-acelerate/sections-mobile";
 import { headers } from "next/headers";
 
 export default function HowToAccelerate() {

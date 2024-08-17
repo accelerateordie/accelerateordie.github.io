@@ -10,15 +10,15 @@ import FooterMobile from "./shared-components/footer-mobile";
 
 
 export const metadata: Metadata = {
-  title: "ACCELERATE OR DIE",
-  description: "ACCELERATE OR DIE website",
+  title: "ACELERATE OR DIE",
+  description: "ACELERATE OR DIE website",
   metadataBase: new URL("https://acel.org"),
-  keywords: ['ACCELERATE', 'DIE'],
-  authors: [{ name: 'ACCELERATE' }, { name: 'ACCELERATE', url: 'https://acel.org' }],
+  keywords: ['ACELERATE', 'DIE'],
+  authors: [{ name: 'ACELERATE' }, { name: 'ACELERATE', url: 'https://acel.org' }],
   openGraph: {
-    siteName: 'ACCELERATE',
-    title: "ACCELERATE OR DIE ",
-    description: "ACCELERATE OR DIE website",
+    siteName: 'ACELERATE',
+    title: "ACELERATE OR DIE ",
+    description: "ACELERATE OR DIE website",
     url: 'https://acel.org',
     type: "website",
     images: 'https://acel.org/img/accelerateordie-thumbnail-min.png',
@@ -26,8 +26,8 @@ export const metadata: Metadata = {
   twitter: {
     site: "https://acel.org",
     card: "summary_large_image",
-    title: "ACCELERATE OR DIE",
-    description: "ACCELERATE OR DIE website",
+    title: "ACELERATE OR DIE",
+    description: "ACELERATE OR DIE website",
     images: "https://acel.org/img/accelerateordie-thumbnail-min.png"
   },
   icons: {
