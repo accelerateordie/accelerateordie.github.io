@@ -2,8 +2,8 @@ export const navbarCopy = {
   title: "ACEL",
   navbarLinks: [
     {
-      name: "How to Acelerate",
-      url: "/how-to-acelerate",
+      name: "How to Accelerate",
+      url: "/how-to-accelerate",
       target: "_self",
     },
     {

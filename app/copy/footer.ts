@@ -53,8 +53,8 @@ export const footerCopy = {
         target: "_self",
       },
       {
-        name: "How to Acelerate",
-        url: "/how-to-acelerate",
+        name: "How to Accelerate",
+        url: "/how-to-accelerate",
         target: "_self",
       },
       {

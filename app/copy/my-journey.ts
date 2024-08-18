@@ -1,7 +1,7 @@
 export const myJournyCopy = {
     "header": {
-        "title": "My Journey <br>of<br> <span class='text-blue'>Acelerating</span>",
-        "title-mob": "My <br /> JOURNEY OF <span class='text-blue'>ACELERATING</span>",
+        "title": "My Journey <br>of<br> <span class='text-blue'>Accelerating</span>",
+        "title-mob": "My <br /> JOURNEY OF <span class='text-blue'>ACCELERATING</span>",
         "subtitle": "Learn more about my background, mindset, and the experiences that led to the creation of ACEL."
     },
     "segment-1": {
@@ -11,7 +11,7 @@ export const myJournyCopy = {
             {
                 "title": "Early Life <br>and <span class='text-blue'>Education</span>",
                 "title-mob": "Early Life <br>and Education",
-                "description": "I was born in Darwin, Australia, as the third child in a family of ten. My education was entirely through homeschooling, and I viewed it as a series of levels in a game. The faster I completed these levels, the faster I could progress through life. I quickly realized that math was the most crucial subject, so I focused on acelerating through it. By the age of 15, I had completed Grade 12, two years ahead of schedule. However, my parents held me back for an additional year because I was too young for tertiary education. During that year, I took twice as many subjects as required, including advanced math, English, physics, chemistry, biology, geography, and an elective. Despite being self-taught, I finished in the top six in my state.",
+                "description": "I was born in Darwin, Australia, as the third child in a family of ten. My education was entirely through homeschooling, and I viewed it as a series of levels in a game. The faster I completed these levels, the faster I could progress through life. I quickly realized that math was the most crucial subject, so I focused on accelerating through it. By the age of 15, I had completed Grade 12, two years ahead of schedule. However, my parents held me back for an additional year because I was too young for tertiary education. During that year, I took twice as many subjects as required, including advanced math, English, physics, chemistry, biology, geography, and an elective. Despite being self-taught, I finished in the top six in my state.",
                 "img": "./img/Early-Life-and-Education.svg"
             },
             {
@@ -41,20 +41,20 @@ export const myJournyCopy = {
             {
                 "title": "Facing New <br> <span class='text-blue'> Challenges</span>",
                 "title-mob": "Facing New <br>Challenges",
-                "description": "Success brought new challenges. I found myself in a consumption loop, wealthy but unproductive. I missed the sense of productivity and purpose. During this time, I discovered the effective acelerationism (e/acc) movement. It resonated with me deeply, rekindling my motivation. I started engaging with the e/acc community on social media, learning and integrating into the ecosystem.",
+                "description": "Success brought new challenges. I found myself in a consumption loop, wealthy but unproductive. I missed the sense of productivity and purpose. During this time, I discovered the effective accelerationism (e/acc) movement. It resonated with me deeply, rekindling my motivation. I started engaging with the e/acc community on social media, learning and integrating into the ecosystem.",
                 "img": "./img/Facing-New-Challenges.svg"
             },
             {
-                "title": "Discovering <br> <span class='text-blue'> Acelerationism</span>",
-                "title-mob": "Discovering <br>Acelerationism",
-                "description": "During a helicopter trip from Australia to Japan, I pitched the idea of acelerationism to a friend, who was instantly captivated. This encouraged me to share the concept with more people. It was also during this trip that I committed to filming my Pole2Pole journey, a personal goal and reward planned for the future. A film director joined me, and we began integrating the acelerationism narrative into the project.",
-                "img": "./img/Discovering-Acelerationism.svg"
+                "title": "Discovering <br> <span class='text-blue'> Accelerationism</span>",
+                "title-mob": "Discovering <br>Accelerationism",
+                "description": "During a helicopter trip from Australia to Japan, I pitched the idea of accelerationism to a friend, who was instantly captivated. This encouraged me to share the concept with more people. It was also during this trip that I committed to filming my Pole2Pole journey, a personal goal and reward planned for the future. A film director joined me, and we began integrating the accelerationism narrative into the project.",
+                "img": "./img/Discovering-Accelerationism.svg"
             },
             {
                 "title": "Launching <br> <span class='text-blue'> ACEL</span>",
                 "title-mob": "Launching <br>ACEL",
-                "description": "As I shared the acelerationism idea, it gained traction and validation. Motivated and inspired by the positive response, I decided to go all-in on the ACEL brand, representing the acelerationist movement. I publicly committed to this cause, revealing my crypto identity and embracing my purpose. The support and enthusiasm I received reinforced my belief that I had found my destiny. Thus, ACEL was born, with a mission to drive humanity forward through aceleration.",
-                "img": "./img/Launching-ACEL.svg"
+                "description": "As I shared the accelerationism idea, it gained traction and validation. Motivated and inspired by the positive response, I decided to go all-in on the ACEL brand, representing the accelerationist movement. I publicly committed to this cause, revealing my crypto identity and embracing my purpose. The support and enthusiasm I received reinforced my belief that I had found my destiny. Thus, ACEL was born, with a mission to drive humanity forward through acceleration.",
+                "img": "./img/Launching-ACCEL.svg"
             }
         ]
     }

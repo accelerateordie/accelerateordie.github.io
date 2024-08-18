@@ -1,6 +1,6 @@
 "use client"
 
-import { howToAcelerateCopy } from "@/app/copy/how-to-acelerate"
+import { howToAccelerateCopy } from "@/app/copy/how-to-accelerate"
 
 
 export default function Sections() {
@@ -15,14 +15,14 @@ export default function Sections() {
                     <div className=" mt-high text-uppercase font-goodtimes text-xxlarge text-narrow-height "
                         data-query="how-to-accelerate.header.title">
                         <h1 className="text-uppercase font-goodtimes text-xxlarge text-narrow-height"
-                         dangerouslySetInnerHTML={{ __html: howToAcelerateCopy.header.title }}></h1>
+                         dangerouslySetInnerHTML={{ __html: howToAccelerateCopy.header.title }}></h1>
                     </div>
                     <div className="text-thin text-medium my-5 text-narrow-height"
-                        data-query="how-to-accelerate.header.subtitle" dangerouslySetInnerHTML={{ __html: howToAcelerateCopy.header.subtitle }}></div>
+                        data-query="how-to-accelerate.header.subtitle" dangerouslySetInnerHTML={{ __html: howToAccelerateCopy.header.subtitle }}></div>
                     <a data-query="how-to-accelerate.header.button._" data-attribute="href" data-target="target"
-                        href={howToAcelerateCopy.header.button.url} target={howToAcelerateCopy.header.button.target}>
+                        href={howToAccelerateCopy.header.button.url} target={howToAccelerateCopy.header.button.target}>
                         <button className="btn font-goodtimes text-medium text-thin bg-blue btn-xpadding mb-high box"
-                            data-query="how-to-accelerate.header.button.name">{howToAcelerateCopy.header.button.name}</button>
+                            data-query="how-to-accelerate.header.button.name">{howToAccelerateCopy.header.button.name}</button>
                     </a>
                 </div>
                 {/* <!-- TOP RIGHT SQUARES --> */}
@@ -42,13 +42,13 @@ export default function Sections() {
 
                     <h5 className="text-uppercase font-goodtimes text-medium text-narrow-height my-3 text-blue"
                         data-query="how-to-accelerate.cards.0.step" 
-                        dangerouslySetInnerHTML={{ __html: howToAcelerateCopy.cards[0].step }}></h5>
+                        dangerouslySetInnerHTML={{ __html: howToAccelerateCopy.cards[0].step }}></h5>
                     <h5 className="text-uppercase font-goodtimes text-medium text-narrow-height my-3"
                         style={{ height: "3rem" }}
-                        data-query="how-to-accelerate.cards.0.title" dangerouslySetInnerHTML={{ __html: howToAcelerateCopy.cards[0]["title-mob"] }}></h5>
+                        data-query="how-to-accelerate.cards.0.title" dangerouslySetInnerHTML={{ __html: howToAccelerateCopy.cards[0]["title-mob"] }}></h5>
                     <div style={{ height: "8rem" }}>
                         <p className="text-thin text-n300 text-small text-narrow-height mt-4"
-                            data-query="how-to-accelerate.cards.0.description" dangerouslySetInnerHTML={{ __html: howToAcelerateCopy.cards[0].description }}></p></div>
+                            data-query="how-to-accelerate.cards.0.description" dangerouslySetInnerHTML={{ __html: howToAccelerateCopy.cards[0].description }}></p></div>
                     <div className="bb-gradient bg-blue-gradient"></div>
                 </div>
                 {/* <!-- CARD 2 --> */}
@@ -60,12 +60,12 @@ export default function Sections() {
                     </div>
 
                     <h5 className="text-uppercase font-goodtimes text-medium text-narrow-height my-3 text-blue"
-                        data-query="how-to-accelerate.cards.1.step" dangerouslySetInnerHTML={{ __html: howToAcelerateCopy.cards[1].step }}></h5>
+                        data-query="how-to-accelerate.cards.1.step" dangerouslySetInnerHTML={{ __html: howToAccelerateCopy.cards[1].step }}></h5>
                     <h5 className="text-uppercase font-goodtimes text-medium text-narrow-height my-3"
-                        data-query="how-to-accelerate.cards.1.title" dangerouslySetInnerHTML={{ __html: howToAcelerateCopy.cards[1]["title-mob"] }}></h5>
+                        data-query="how-to-accelerate.cards.1.title" dangerouslySetInnerHTML={{ __html: howToAccelerateCopy.cards[1]["title-mob"] }}></h5>
                     <div style={{ height: "8rem" }}>
                         <p className="text-thin text-n300 text-small text-narrow-height mt-4"
-                            data-query="how-to-accelerate.cards.1.description" dangerouslySetInnerHTML={{ __html: howToAcelerateCopy.cards[1].description }}></p>
+                            data-query="how-to-accelerate.cards.1.description" dangerouslySetInnerHTML={{ __html: howToAccelerateCopy.cards[1].description }}></p>
                     </div>
                     <div className="bb-gradient bg-blue-gradient"></div>
                 </div>
@@ -77,12 +77,12 @@ export default function Sections() {
                         <img src="./img/icon-problems-2.svg" alt="Problems" className="hover  w-50" />
                     </div>
                     <h5 className="text-uppercase font-goodtimes text-medium text-narrow-height my-3 text-blue"
-                        data-query="how-to-accelerate.cards.2.step" dangerouslySetInnerHTML={{ __html: howToAcelerateCopy.cards[2].step }}></h5>
+                        data-query="how-to-accelerate.cards.2.step" dangerouslySetInnerHTML={{ __html: howToAccelerateCopy.cards[2].step }}></h5>
                     <h5 className="text-uppercase font-goodtimes text-medium text-narrow-height my-3"
-                        data-query="how-to-accelerate.cards.2.title" dangerouslySetInnerHTML={{ __html: howToAcelerateCopy.cards[2]["title-mob"] }}></h5>
+                        data-query="how-to-accelerate.cards.2.title" dangerouslySetInnerHTML={{ __html: howToAccelerateCopy.cards[2]["title-mob"] }}></h5>
                     <div style={{ height: "8rem" }}>
                         <p className="text-thin text-n300 text-small text-narrow-height mt-4"
-                            data-query="how-to-accelerate.cards.2.description" dangerouslySetInnerHTML={{ __html: howToAcelerateCopy.cards[2].description }}></p>
+                            data-query="how-to-accelerate.cards.2.description" dangerouslySetInnerHTML={{ __html: howToAccelerateCopy.cards[2].description }}></p>
                     </div>
                     <div className="bb-gradient bg-blue-gradient"></div>
                 </div>
@@ -94,12 +94,12 @@ export default function Sections() {
                         <img src="./img/icon-public-2.svg" alt="Public" className="hover w-50" />
                     </div>
                     <h5 className="text-uppercase font-goodtimes text-medium text-narrow-height my-3 text-blue"
-                        data-query="how-to-accelerate.cards.3.step" dangerouslySetInnerHTML={{ __html: howToAcelerateCopy.cards[3].step }}></h5>
+                        data-query="how-to-accelerate.cards.3.step" dangerouslySetInnerHTML={{ __html: howToAccelerateCopy.cards[3].step }}></h5>
                     <h5 className="text-uppercase font-goodtimes text-medium text-narrow-height my-3"
-                        data-query="how-to-accelerate.cards.3.title" style={{ height: "3rem" }} dangerouslySetInnerHTML={{ __html: howToAcelerateCopy.cards[3]["title-mob"] }}></h5>
+                        data-query="how-to-accelerate.cards.3.title" style={{ height: "3rem" }} dangerouslySetInnerHTML={{ __html: howToAccelerateCopy.cards[3]["title-mob"] }}></h5>
                     <div style={{ height: "8rem" }}>
                         <p className="text-thin text-n300 text-small text-narrow-height mt-4"
-                            data-query="how-to-accelerate.cards.3.description" dangerouslySetInnerHTML={{ __html: howToAcelerateCopy.cards[3].description }}></p>
+                            data-query="how-to-accelerate.cards.3.description" dangerouslySetInnerHTML={{ __html: howToAccelerateCopy.cards[3].description }}></p>
                     </div>
                     <div className="bb-gradient bg-blue-gradient"></div>
                 </div>
@@ -107,7 +107,7 @@ export default function Sections() {
             <div className="row">
                 <div className="col-12 white-border bt-half bb-half p-5" id="bg-space">
                     <h3 className="text-medium font-goodtimes ms-5 mt-high mb-high w-60"
-                        data-query="how-to-accelerate.quote.text" dangerouslySetInnerHTML={{ __html: howToAcelerateCopy.quote.text }}></h3>
+                        data-query="how-to-accelerate.quote.text" dangerouslySetInnerHTML={{ __html: howToAccelerateCopy.quote.text }}></h3>
                 </div>
             </div>
         </div>

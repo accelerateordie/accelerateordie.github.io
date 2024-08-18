@@ -1,6 +1,6 @@
-# Acelerate or Die Official Website
+# Accelerate or Die Official Website
 
-Welcome to the GitHub repository for the official Acelerate or Die website. This site is dedicated to promoting rapid technological and social advancements to secure a progressive future for humanity.
+Welcome to the GitHub repository for the official Accelerate or Die website. This site is dedicated to promoting rapid technological and social advancements to secure a progressive future for humanity.
 
 ## Project Structure
 
@@ -16,4 +16,4 @@ We welcome contributions! Please fork this repository, make your changes, and su
 
 ## Contact
 
-For more information, visit the [official Acelerate or Die website](https://acel.org).
+For more information, visit the [official Accelerate or Die website](https://acel.org).
