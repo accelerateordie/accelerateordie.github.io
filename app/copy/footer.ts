@@ -59,7 +59,7 @@ export const footerCopy = {
       },
       {
         name: "School of ACEL",
-        url: "#",
+        url: "https://www.acel.school/",
         target: "_self",
       },
       {
@@ -101,12 +101,12 @@ export const footerCopy = {
       {
         name: "Terms of Service",
         url: "#",
-        target: "_blank",
+        target: "_self",
       },
       {
         name: "Privacy Policy",
         url: "#",
-        target: "_blank",
+        target: "_self",
       },
     ],
   },
