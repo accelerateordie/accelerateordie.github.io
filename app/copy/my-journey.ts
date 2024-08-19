@@ -2,11 +2,11 @@ export const myJournyCopy = {
     "header": {
         "title": "My Journey <br>of<br> <span class='text-blue'>Accelerating</span>",
         "title-mob": "My <br /> JOURNEY OF <span class='text-blue'>ACCELERATING</span>",
-        "subtitle": "Learn more about my background, mindset, and the experiences that led to the creation of ACCEL."
+        "subtitle": "Learn more about my background, mindset, and the experiences that led to the creation of ACEL."
     },
     "segment-1": {
-        "title": "From Homeschooling to <br> Founding <span class='text-blue'>ACCEL</span>",
-        "title-mob": "From Homeschooling <br> to Founding <span class='text-blue'>ACCEL</span>",
+        "title": "From Homeschooling to <br> Founding <span class='text-blue'>ACEL</span>",
+        "title-mob": "From Homeschooling <br> to Founding <span class='text-blue'>ACEL</span>",
         "items": [
             {
                 "title": "Early Life <br>and <span class='text-blue'>Education</span>",
@@ -51,9 +51,9 @@ export const myJournyCopy = {
                 "img": "./img/Discovering-Accelerationism.svg"
             },
             {
-                "title": "Launching <br> <span class='text-blue'> ACCEL</span>",
-                "title-mob": "Launching <br>ACCEL",
-                "description": "As I shared the accelerationism idea, it gained traction and validation. Motivated and inspired by the positive response, I decided to go all-in on the ACCEL brand, representing the accelerationist movement. I publicly committed to this cause, revealing my crypto identity and embracing my purpose. The support and enthusiasm I received reinforced my belief that I had found my destiny. Thus, ACCEL was born, with a mission to drive humanity forward through acceleration.",
+                "title": "Launching <br> <span class='text-blue'> ACEL</span>",
+                "title-mob": "Launching <br>ACEL",
+                "description": "As I shared the accelerationism idea, it gained traction and validation. Motivated and inspired by the positive response, I decided to go all-in on the ACEL brand, representing the accelerationist movement. I publicly committed to this cause, revealing my crypto identity and embracing my purpose. The support and enthusiasm I received reinforced my belief that I had found my destiny. Thus, ACEL was born, with a mission to drive humanity forward through acceleration.",
                 "img": "./img/Launching-ACCEL.svg"
             }
         ]

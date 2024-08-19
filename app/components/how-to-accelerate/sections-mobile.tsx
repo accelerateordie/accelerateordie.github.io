@@ -2,6 +2,7 @@
 
 import { howToAccelerateCopy } from "@/app/copy/how-to-accelerate"
 
+
 export default function SectionsMobile() {
     return (
         <>

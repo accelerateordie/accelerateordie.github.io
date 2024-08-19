@@ -1,5 +1,5 @@
 export const navbarCopy = {
-  title: "ACCEL",
+  title: "ACEL",
   navbarLinks: [
     {
       name: "How to Accelerate",
@@ -12,7 +12,7 @@ export const navbarCopy = {
       target: "_self",
     },
     {
-      name: "The ACCEL Tunnel",
+      name: "The ACEL Tunnel",
       url: "https://www.acel.space/",
       target: "_blank",
     },

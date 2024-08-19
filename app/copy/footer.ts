@@ -58,7 +58,7 @@ export const footerCopy = {
         target: "_self",
       },
       {
-        name: "School of ACCEL",
+        name: "School of ACEL",
         url: "#",
         target: "_self",
       },
@@ -68,7 +68,7 @@ export const footerCopy = {
         target: "_self",
       },
       {
-        name: "ACCEL Tunnel",
+        name: "ACEL Tunnel",
         url: "https://www.acel.space/",
         target: "_blank",
       },
