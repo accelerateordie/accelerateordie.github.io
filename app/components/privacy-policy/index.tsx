@@ -18,8 +18,8 @@ export default function Sections() {
                         {
                             privacyPolicyCopy.items.map((item,index) => (
                                 <div className="p-2 m-0">
-                                    <p className="font-goodtimes text-xmedium text-narrow-height text-left"
-                                        dangerouslySetInnerHTML={{ __html: item.title }}></p>
+                                    <h5 className="font-goodtimes text-narrow-height text-left"
+                                        dangerouslySetInnerHTML={{ __html: item.title }}></h5>
                                     <p className="text-thin text-small text-left mt-3"
                                         dangerouslySetInnerHTML={{ __html: item.description }}></p>
                                 </div>

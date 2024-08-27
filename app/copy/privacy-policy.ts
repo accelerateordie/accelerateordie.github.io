@@ -30,11 +30,10 @@ export const privacyPolicyCopy = {
     {
         "title": "3.	Use of Your Information",
         "description": `We use the information we collect for the following purposes: 
-<br>
-<br>
+        <br>
+        <br>
         •	Processing Orders: To fulfill your purchases, including managing payments and delivery. 
-<br>
-
+        <br>
         •	Marketing: To send promotional materials and updates about our brand and products. 
         `,
     },
@@ -65,10 +64,10 @@ export const privacyPolicyCopy = {
     {
         "title": "7.	Security Measures",
         "description": `We implement robust security measures to protect your data, including: 
-<br>
-<br>
+        <br>
+        <br>
         •	Secure Server Protocols: To maintain the integrity of your data. 
-<br>
+        <br>
         •	Data Encryption: To safeguard your information during storage and transmission. 
         `,
     },
