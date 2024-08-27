@@ -105,7 +105,7 @@ export const footerCopy = {
       },
       {
         name: "Privacy Policy",
-        url: "#",
+        url: "/privacy-policy",
         target: "_self",
       },
     ],
