@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { GoodTimes } from '@/app/fonts';
 //import './Accordion.scss'; // Import your CSS/SCSS file here
 
 interface AccordionProps {
@@ -24,7 +25,7 @@ const Accordion: React.FC<AccordionProps> = ({ items }) => {
                         <div className="timeLineIcon">
                             <img src={item.img} />
                         </div>
-                        <div className="timeLineTitle font-goodtimes text-small"
+                        <div className={`timeLineTitle text-small ${GoodTimes.className}`}
                             dangerouslySetInnerHTML={{ __html: item['title-mob'] }}
                             data-query="my-journey.segment-1.items.6.title-mob">
 

@@ -1,6 +1,6 @@
 "use client"
 import { privacyPolicyCopy } from '@/app/copy/privacy-policy'
-
+import { GoodTimes } from '@/app/fonts'
 export default function Sections() {
     return (
         <>
@@ -8,7 +8,7 @@ export default function Sections() {
                 <div id="seg-0" className=" row white-border bt-half bb-half position-relative overflow-hidden">
                     <div className="w-80 m-auto">
                         <div className="py-5 p-2 m-0">
-                            <h2 className="font-goodtimes text-xlarge text-narrow-height text-center mt-high"
+                            <h2 className={`text-xlarge text-narrow-height text-center mt-high${GoodTimes.className}`}
                                 dangerouslySetInnerHTML={{ __html: privacyPolicyCopy.title }}></h2>
                             <p className="text-thin text-small text-left mt-5"
                                 dangerouslySetInnerHTML={{ __html: privacyPolicyCopy.description }}></p>
@@ -18,7 +18,7 @@ export default function Sections() {
                         {
                             privacyPolicyCopy.items.map((item,index) => (
                                 <div className="p-2 m-0">
-                                    <h5 className="font-goodtimes text-narrow-height text-left"
+                                    <h5 className={`text-narrow-height text-left ${GoodTimes.className}`}
                                         dangerouslySetInnerHTML={{ __html: item.title }}></h5>
                                     <p className="text-thin text-small text-left mt-3"
                                         dangerouslySetInnerHTML={{ __html: item.description }}></p>
