@@ -6,7 +6,7 @@ import Header from "./shared-components/header";
 import Footer from "./shared-components/footer";
 import HeaderMobile from "./shared-components/header-mobile";
 import FooterMobile from "./shared-components/footer-mobile";
-
+import { Helvetica_Neue } from '@/app/fonts'
 
 
 export const metadata: Metadata = {
@@ -56,7 +56,7 @@ export default function RootLayout({
   const isMobile = /Mobi|Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(userAgent);
   return (
     <html lang="en">
-      <body className={isMobile ? 'mobile' : 'desktop'}>
+      <body className={`${isMobile ? 'mobile' : 'desktop'} ${Helvetica_Neue.className}`}>
      {isMobile  ? <HeaderMobile /> :   <Header />} 
         {children}
         {isMobile  ? <FooterMobile />  :   <Footer />} 

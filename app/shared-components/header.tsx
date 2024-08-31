@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { navbarCopy } from "../copy/navbar";
+import {GoodTimes} from "@/app/fonts"
 
 export default function Header() {
   const pathname = usePathname();
@@ -21,7 +22,7 @@ export default function Header() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <Link
-          className="navbar-brand mx-auto d-flex align-items-center text-large "
+          className={`navbar-brand mx-auto d-flex align-items-center text-large ${GoodTimes.className}`}
           href="/"
         >
           {navbarCopy.title}

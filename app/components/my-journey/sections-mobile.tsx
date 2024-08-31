@@ -3,6 +3,7 @@
 import { myJournyCopy } from "@/app/copy/my-journey";
 import { useEffect } from "react";
 import Accordion from "./accordion";
+import { GoodTimes } from "@/app/fonts";
 
 export default function SectionsMobile() {
 
@@ -19,7 +20,7 @@ export default function SectionsMobile() {
 
             <div id="journeyOfAccelerating" className="col-12 white-border-mob br-half bb-half Box-padding">
 
-                <div className="col-12 AccelTitle text-medium-mob font-goodtimes mt-3 text-uppercase"
+                <div className={`col-12 AccelTitle text-medium-mob mt-3 text-uppercase ${GoodTimes.className}`}
                     data-query="my-journey.header.title-mob"
                     dangerouslySetInnerHTML={{ __html: myJournyCopy.header["title-mob"] }}></div>
                 <div className="col-12 AccelText text-thin text-medium mt-5"
@@ -48,7 +49,7 @@ export default function SectionsMobile() {
 
 
                 <div className="Box-padding">
-                    <div className="col-12 AccelTitle my-2 text-medium font-goodtimes"
+                    <div className={`col-12 AccelTitle my-2 text-medium ${GoodTimes.className}`}
                         dangerouslySetInnerHTML={{ __html: myJournyCopy["segment-1"]["title-mob"] }}
                         data-query="my-journey.segment-1.title-mob"></div>
 

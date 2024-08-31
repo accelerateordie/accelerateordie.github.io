@@ -3,6 +3,7 @@ import { OffcanvasProvider } from "./OffCanvas/Context";
 import { Trigger } from "./OffCanvas/Trigger";
 import { Offcanvas } from "./OffCanvas/OffCanvas";
 import { navbarCopy } from "../copy/navbar";
+import {GoodTimes} from "@/app/fonts"
 
 export default function HeaderMobile() {
   const handleOpen = () => console.log("");
@@ -12,8 +13,7 @@ export default function HeaderMobile() {
       <nav className="container px-4" id="navbar-mobile">
         <div className="navbar mt-3">
           <a
-            className="navbar-brand text-light d-flex align-items-left text-medium"
-            style={{ fontFamily: "GoodTimes',sans-serif" }}
+            className={`navbar-brand text-light d-flex align-items-left text-medium ${GoodTimes.className}`}
             href="/"
           >
             {navbarCopy.title}

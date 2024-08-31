@@ -2,6 +2,7 @@
 import Lottie from 'react-lottie-player'
 import lottieFile from '@/public/img/gradient-dots-90.json'
 import { homeCopy } from '@/app/copy/home'
+import { GoodTimes } from '@/app/fonts'
 
 export default function SectionsMobile() {
     return (
@@ -18,11 +19,11 @@ export default function SectionsMobile() {
             {/* <!-- LearnMore --> */}
             <div id="LearnMore" className="col-12 white-border-mob br-half bb-half Box-padding">
 
-                <div className="col-12 AccelTitle text-large-mob font-goodtimes mt-3" data-query="home.header.title" dangerouslySetInnerHTML={{ __html: homeCopy.header.title }}></div>
+                <div className={`col-12 AccelTitle text-large-mob mt-3 ${GoodTimes.className}`} data-query="home.header.title" dangerouslySetInnerHTML={{ __html: homeCopy.header.title }}></div>
                 <div className="col-12 AccelText text-thin text-medium mt-4" data-query="home.header.subtitle-mob"
                     dangerouslySetInnerHTML={{ __html: homeCopy.header['subtitle-mob'] }}></div>
                 {/* onclick="scrollToContent('seg-0')" */}
-                <a target={homeCopy.header.button.target} href={homeCopy.header.button.url} className="mt-4 button font-goodtimes text-xsmall text-dark float-start text-decoration-none">
+                <a target={homeCopy.header.button.target} href={homeCopy.header.button.url} className={`mt-4 button text-xsmall text-dark float-start text-decoration-none ${GoodTimes.className}`}>
                     {homeCopy.header.button.name}</a>
                 <div className="br-gradient bg-blue-gradient"></div>
 
@@ -34,7 +35,7 @@ export default function SectionsMobile() {
             </div>
             {/* onclick="scrollToContent('seg-0')" */}
             <div
-                className="col-12 font-goodtimes text-medium white-border-mob Box-padding br-half bb-half Box4">
+                className={`col-12 text-medium white-border-mob Box-padding br-half bb-half Box4 ${GoodTimes.className}`}>
                 <a href="#seg-0" className='text-white text-decoration-none'>
                     <img src="./img/horizontal-lines-mob.svg" />
                     <span data-query="home.header.sub-items.0.name-mob" dangerouslySetInnerHTML={{ __html: homeCopy.header['sub-items'][0]['name-mob'] }}></span>
@@ -42,7 +43,7 @@ export default function SectionsMobile() {
             </div>
             {/* onclick="scrollToContent('seg-1')" */}
             <div
-                className="col-12 font-goodtimes text-medium white-border-mob Box-padding br-half bb-half Box4">
+                className={`col-12 text-medium white-border-mob Box-padding br-half bb-half Box4 ${GoodTimes.className}`}>
                 <a href="#seg-1" className='text-white text-decoration-none'>
                     <img src="./img/horizontal-lines-mob.svg" />
                     <span data-query="home.header.sub-items.1.name-mob" dangerouslySetInnerHTML={{ __html: homeCopy.header['sub-items'][1]['name-mob'] }}></span>
@@ -50,7 +51,7 @@ export default function SectionsMobile() {
             </div>
             {/* onclick="scrollToContent('seg-2')" */}
             <div
-                className="col-12 font-goodtimes text-medium white-border-mob Box-padding br-half bb-half Box4">
+                className={`col-12 text-medium white-border-mob Box-padding br-half bb-half Box4 ${GoodTimes.className}`}>
                 <a href="#seg-2" className='text-white text-decoration-none'>
                     <img src="./img/horizontal-lines-mob.svg" />
                     <span data-query="home.header.sub-items.2.name-mob" dangerouslySetInnerHTML={{ __html: homeCopy.header['sub-items'][2]['name-mob'] }}></span>
@@ -58,7 +59,7 @@ export default function SectionsMobile() {
             </div>
             {/* onclick="scrollToContent('seg-3')" */}
             <div
-                className="col-12 font-goodtimes text-medium white-border-mob Box-padding br-half bb-half Box4">
+                className={`col-12 text-medium white-border-mob Box-padding br-half bb-half Box4 ${GoodTimes.className}`}>
                 <a href="#seg-3" className='text-white text-decoration-none'>
                     <img src="./img/horizontal-lines-mob.svg" />
                     <span data-query="home.header.sub-items.3.name-mob" dangerouslySetInnerHTML={{ __html: homeCopy.header['sub-items'][3]['name-mob'] }}></span>
@@ -80,7 +81,7 @@ export default function SectionsMobile() {
                 </div>
 
 
-                <div className="col-12 AccelTitle mt-2 text-medium-mob font-goodtimes" data-query="home.segment-1.title"
+                <div className={`col-12 AccelTitle mt-2 text-medium-mob ${GoodTimes.className}`} data-query="home.segment-1.title"
                     dangerouslySetInnerHTML={{ __html: homeCopy['segment-1'].title }}></div>
                 <div className="col-12 AccelText text-thin text-small Box-padding" data-query="home.segment-1.subtitle"
                     dangerouslySetInnerHTML={{ __html: homeCopy['segment-1'].subtitle }}></div>
@@ -89,12 +90,12 @@ export default function SectionsMobile() {
                     <img src="./img/human.svg" width="145" />
                 </div>
 
-                <div className="col-12 AccelTitle text-medium-mob font-goodtimes mt-5"
+                <div className={`col-12 AccelTitle text-medium-mob mt-5 ${GoodTimes.className}`}
                     data-query="home.segment-1.cards.0.title-mob" dangerouslySetInnerHTML={{ __html: homeCopy['segment-1'].cards[0]['title-mob'] }}></div>
                 <div className="col-12 AccelText Box-padding text-thin text-light text-small"
                     data-query="home.segment-1.cards.0.description" dangerouslySetInnerHTML={{ __html: homeCopy['segment-1'].cards[0].description }}></div>
 
-                <div className="col-12 AccelTitle mt-4 text-medium-mob font-goodtimes"
+                <div className={`col-12 AccelTitle mt-4 text-medium-mob ${GoodTimes.className}`}
                     data-query="home.segment-1.cards.1.title-mob" dangerouslySetInnerHTML={{ __html: homeCopy['segment-1'].cards[1]['title-mob'] }}></div>
                 <div className="col-12 AccelText Box-padding text-thin text-light text-small"
                     data-query="home.segment-1.cards.1.description" dangerouslySetInnerHTML={{ __html: homeCopy['segment-1'].cards[1].description }}></div>
@@ -116,7 +117,7 @@ export default function SectionsMobile() {
 
             <div id="seg-1" className="p-0 col-12 white-border-mob br-half bb-half TheMachines">
 
-                <div className="col-12 AccelTitle mt-5 text-medium-mob font-goodtimes"
+                <div className={`col-12 AccelTitle mt-5 text-medium-mob ${GoodTimes.className}`}
                     dangerouslySetInnerHTML={{ __html: homeCopy['segment-2'].title }}
                     data-query="home.segment-2.title"></div>
                 <div className="col-12 AccelText text-thin text-light text-small Box-padding"
@@ -129,7 +130,7 @@ export default function SectionsMobile() {
             <div className="pt-5 col-12 white-border-mob br-half bb-half TheSiliconMachines">
 
                 <img src="./img/silicon-machines-mob.svg" />
-                <div className="col-12 AccelTitle mt-3 text-medium-mob font-goodtimes"
+                <div className={`col-12 AccelTitle mt-3 text-medium-mob ${GoodTimes.className}`}
                     data-query="home.segment-2.cards.0.title" dangerouslySetInnerHTML={{ __html: homeCopy['segment-2'].cards[0].title }}></div>
 
                 <div className="col-12 AccelText text-thin text-light text-small Box-padding"
@@ -138,7 +139,7 @@ export default function SectionsMobile() {
                     {/* onclick="scrollToContent('our-mission')" */}
                     <a className="text-decoration-none" href={homeCopy['segment-2'].cards[0].button.url} target={homeCopy['segment-2'].cards[0].button.target}>
                         <img src="./img/vertical-lines.svg" className='vertical-lines' /><span
-                            className="font-goodtimes text-small text-blue"
+                            className={`text-small text-blue ${GoodTimes.className}`}
                             data-query="home.segment-2.cards.0.button.name">{homeCopy['segment-2'].cards[0].button.name}</span>
                     </a>
                 </div>
@@ -150,14 +151,14 @@ export default function SectionsMobile() {
             <div className="pt-5 col-12 white-border-mob br-half bb-half TheSiliconMachines">
 
                 <img src="./img/purpose-of-ai.svg" />
-                <div className="col-12 AccelTitle mt-3 text-medium-mob font-goodtimes"
+                <div className={`col-12 AccelTitle mt-3 text-medium-mob ${GoodTimes.className}`}
                     data-query="home.segment-2.cards.1.title" dangerouslySetInnerHTML={{ __html: homeCopy['segment-2'].cards[1].title }}></div>
                 <div className="col-12 AccelText text-thin text-light text-small Box-padding"
                     data-query="home.segment-2.cards.1.description" dangerouslySetInnerHTML={{ __html: homeCopy['segment-2'].cards[1].description }}></div>
                 <div>
                     <img src="./img/vertical-lines.svg" className='vertical-lines' />
                     <span
-                        className="font-goodtimes text-small text-blue" data-query="home.segment-2.cards.1.button.name"
+                        className={`text-small text-blue" data-query="home.segment-2.cards.1.button.name ${GoodTimes.className}`}
                         dangerouslySetInnerHTML={{ __html: homeCopy['segment-2'].cards[1].button.name }}></span>
                 </div>
                 <div className="bb-gradient bg-blue-gradient"></div>
@@ -166,7 +167,7 @@ export default function SectionsMobile() {
 
             <div className="pt-5 col-12 white-border-mob br-half bb-half TheEnergyMachines">
                 <img src="./img/energy-machines.svg" />
-                <div className="col-12 AccelTitle mt-3 text-medium-mob font-goodtimes"
+                <div className={`col-12 AccelTitle mt-3 text-medium-mob ${GoodTimes.className}`}
                     data-query="home.segment-2.cards.2.title" dangerouslySetInnerHTML={{ __html: homeCopy['segment-2'].cards[2].title }}></div>
                 <div className="col-12 AccelText text-thin text-light text-small Box-padding"
                     data-query="home.segment-2.cards.2.description" dangerouslySetInnerHTML={{ __html: homeCopy['segment-2'].cards[2].description }}></div>
@@ -176,7 +177,7 @@ export default function SectionsMobile() {
                         target={homeCopy['segment-2'].cards[2].button.target} data-attribute="href" data-target="target"
                         data-query="home.segment-2.cards.2.button._" >
                         <img src="./img/vertical-lines.svg" className='vertical-lines' /><span
-                            className="font-goodtimes text-small text-blue"
+                            className={`text-small text-blue ${GoodTimes.className}`}
                             data-query="home.segment-2.cards.2.button.name">{homeCopy['segment-2'].cards[2].button.name}</span>
                     </a>
                 </div>
@@ -186,7 +187,7 @@ export default function SectionsMobile() {
 
             <div id="seg-2" className="pt-5 col-12 white-border-mob br-half bb-half TheUniverse">
                 <div className="tr-gradient bg-green-gradient"></div>
-                <div className="col-12 AccelTitle text-medium-mob font-goodtimes mt-3" data-query="home.segment-3.title"
+                <div className={`col-12 AccelTitle text-medium-mob mt-3 ${GoodTimes.className}`} data-query="home.segment-3.title"
                     dangerouslySetInnerHTML={{ __html: homeCopy['segment-3'].title }}></div>
                 <div className="col-12 AccelText text-thin text-light text-small Box-padding"
                     data-query="home.segment-3.subtitle" dangerouslySetInnerHTML={{ __html: homeCopy['segment-3'].subtitle }}></div>
@@ -195,7 +196,7 @@ export default function SectionsMobile() {
 
 
             <div id="Entropy" className="col-12 white-border-mob br-half bb-half">
-                <div className="col-12 AccelTitle mt-3 text-medium font-goodtimes px-4"
+                <div className={`col-12 AccelTitle mt-3 text-medium px-4 ${GoodTimes.className}`}
                     dangerouslySetInnerHTML={{ __html: homeCopy['segment-3'].cards[0]['title-mob'] }}
                     data-query="home.segment-3.cards.0.title"></div>
                 <div className="col-12 AccelText text-thin text-light text-small Box-padding"
@@ -203,14 +204,14 @@ export default function SectionsMobile() {
             </div>
 
             <div id="UnivarsalMachine" className="col-12 white-border-mob br-half bb-half">
-                <div className="col-12 AccelTitle mt-3 text-medium font-goodtimes px-4"
+                <div className={`col-12 AccelTitle mt-3 text-medium px-4 ${GoodTimes.className}`}
                     data-query="home.segment-3.cards.1.title-mob" dangerouslySetInnerHTML={{ __html: homeCopy['segment-3'].cards[1]['title-mob'] }}></div>
                 <div className="col-12 AccelText text-thin text-light text-small Box-padding"
                     data-query="home.segment-3.cards.1.description" dangerouslySetInnerHTML={{ __html: homeCopy['segment-3'].cards[1].description }}></div>
             </div>
 
             <div id="Religion" className="col-12 white-border-mob br-half bb-half">
-                <div className="col-12 AccelTitle mt-3 text-medium font-goodtimes px-4"
+                <div className={`col-12 AccelTitle mt-3 text-medium px-4 ${GoodTimes.className}`}
                     data-query="home.segment-3.cards.2.title-mob" dangerouslySetInnerHTML={{ __html: homeCopy['segment-3'].cards[2]['title-mob'] }}></div>
                 <div className="col-12 AccelText text-thin text-light text-small Box-padding"
                     data-query="home.segment-3.cards.2.description" dangerouslySetInnerHTML={{ __html: homeCopy['segment-3'].cards[2].description }}></div>
@@ -218,7 +219,7 @@ export default function SectionsMobile() {
 
             <div id="seg-3" className="col-12 white-border-mob br-half bb-half TheDecels">
 
-                <div className="col-12 AccelTitle mt-5 text-medium-mob font-goodtimes" data-query="home.segment-4.title"
+                <div className={`col-12 AccelTitle mt-5 text-medium-mob ${GoodTimes.className}`} data-query="home.segment-4.title"
                     dangerouslySetInnerHTML={{ __html: homeCopy['segment-4'].title }}></div>
                 <div className="col-12 AccelText text-thin text-light text-small Box-padding"
                     data-query="home.segment-4.subtitle" dangerouslySetInnerHTML={{ __html: homeCopy['segment-4'].subtitle }}></div>
@@ -230,7 +231,7 @@ export default function SectionsMobile() {
 
                 <img src="./img/their-motives.svg" />
 
-                <div className="col-12 AccelTitle mt-5 text-medium-mob font-goodtimes"
+                <div className={`col-12 AccelTitle mt-5 text-medium-mob ${GoodTimes.className}`}
                     data-query="home.segment-4.cards.0.title" dangerouslySetInnerHTML={{ __html: homeCopy['segment-4'].cards[0].title }}></div>
                 <div className="col-12 AccelText text-thin text-light text-small Box-padding"
                     data-query="home.segment-4.cards.0.description" dangerouslySetInnerHTML={{ __html: homeCopy['segment-4'].cards[0].description }}></div>
@@ -240,7 +241,7 @@ export default function SectionsMobile() {
             <div id="WokeIdeology" className="pt-5 col-12 white-border-mob br-half bb-half">
                 <div className="tr-gradient bg-yellow-gradient"></div>
                 <img src="./img/woke-ideology.svg" />
-                <div className="col-12 AccelTitle mt-5 text-medium-mob font-goodtimes"
+                <div className={`col-12 AccelTitle mt-5 text-medium-mob ${GoodTimes.className}`}
                     data-query="home.segment-4.cards.1.title" dangerouslySetInnerHTML={{ __html: homeCopy['segment-4'].cards[1].title }}></div>
                 <div className="col-12 AccelText text-thin text-light text-small Box-padding"
                     data-query="home.segment-4.cards.1.description" dangerouslySetInnerHTML={{ __html: homeCopy['segment-4'].cards[1].description }}></div>
@@ -249,7 +250,7 @@ export default function SectionsMobile() {
             <div id="StopAi" className="pt-5 col-12 white-border-mob br-half bb-half">
                 <div className="tr-gradient bg-yellow-gradient"></div>
                 <img src="./img/stop-ai.svg" />
-                <div className="col-12 AccelTitle mt-5 text-medium-mob font-goodtimes px-4"
+                <div className={`col-12 AccelTitle mt-5 text-medium-mob px-4 ${GoodTimes.className}`}
                     data-query="home.segment-4.cards.2.title" dangerouslySetInnerHTML={{ __html: homeCopy['segment-4'].cards[2].title }}></div>
                 <div className="col-12 AccelText text-thin text-light text-small Box-padding"
                     data-query="home.segment-4.cards.2.description" dangerouslySetInnerHTML={{ __html: homeCopy['segment-4'].cards[2].description }}></div>

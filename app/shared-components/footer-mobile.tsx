@@ -1,5 +1,6 @@
 import { footerCopy } from "../copy/footer";
 import { navbarCopy } from "../copy/navbar";
+import { GoodTimes } from "../fonts";
 
 export default function FooterMobile() {
   return (
@@ -57,7 +58,7 @@ export default function FooterMobile() {
               </li>
             ))}
           </ul>
-          <p className="font-goodtimes text-medium-mob mt-4">
+          <p className={`text-medium-mob mt-4 ${GoodTimes.className}`}>
             {navbarCopy.title}
           </p>
           {/* <!-- Social Links --> */}

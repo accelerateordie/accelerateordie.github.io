@@ -3,6 +3,7 @@ import Lottie from 'react-lottie-player'
 import lottieFile from '@/public/img/gradient-dots.json'
 import { homeCopy } from '@/app/copy/home'
 import { useEffect, useRef } from 'react';
+import { GoodTimes } from '@/app/fonts'
 
 export default function Sections(this: any) {
     const images = [
@@ -53,14 +54,14 @@ export default function Sections(this: any) {
                             </div>
                         </div>
                         <div className="col-9 white-border bb-half p-5 ps-6 position-relative overflow-hidden bl-half br-half ">
-                            <div className=" mt-high text-uppercase font-goodtimes text-xxlarge text-narrow-height "
+                            <div className={`mt-high text-uppercase text-xxlarge text-narrow-height ${GoodTimes.className}`}
                                 data-query="home.header.title">
                                 <h1 dangerouslySetInnerHTML={{ __html: homeCopy.header.title }}
-                                    className="text-uppercase font-goodtimes text-xxlarge text-narrow-height"></h1>
+                                    className={`text-uppercase text-xxlarge text-narrow-height ${GoodTimes.className}`}></h1>
                             </div>
                             <div className="text-thin text-medium my-5 text-narrow-height"
                                 dangerouslySetInnerHTML={{ __html: homeCopy.header.subtitle }}></div>
-                            <a className='box btn font-goodtimes text-medium text-thin bg-blue btn-xpadding mb-high'
+                            <a className={`box btn text-medium text-thin bg-blue btn-xpadding mb-high ${GoodTimes.className}`}
                                 target={homeCopy.header.button.target} href={homeCopy.header.button.url}>
                                 {homeCopy.header.button.name}
 
@@ -81,7 +82,7 @@ export default function Sections(this: any) {
                                     >
                                         <img src="/img/horizontal-lines.svg" className="main-image" alt="Horizontal Lines" />
                                     </div>
-                                    <span className="text-uppercase font-goodtimes text-medium d-flex align-items-center"
+                                    <span className={`text-uppercase text-medium d-flex align-items-center ${GoodTimes.className}`}
                                         dangerouslySetInnerHTML={{ __html: homeCopy.header['sub-items'][index].name }}></span>
                                 </a>
                             </div>
@@ -110,14 +111,14 @@ export default function Sections(this: any) {
             {/* <!-- Accelerationism Movement --> */}
             <div id="seg-0" className=" row white-border bt-half bb-half position-relative overflow-hidden">
                 <div className="p-5 m-0">
-                    <h2 className="font-goodtimes text-xlarge text-narrow-height text-center mt-high"
+                    <h2 className={`text-xlarge text-narrow-height text-center mt-high ${GoodTimes.className}`}
                         data-query="home.segment-1.title" dangerouslySetInnerHTML={{ __html: homeCopy['segment-1'].title }}></h2>
                     <p className="text-thin text-small text-center mt-5"
                         data-query="home.segment-1.subtitle" dangerouslySetInnerHTML={{ __html: homeCopy['segment-1'].subtitle }}></p>
                 </div>
                 <div className="row align-center justify-content-center mb-high pb-3">
                     <div className="col-lg-3">
-                        <h3 className="font-goodtimes text-large text-narrow-height text-center"
+                        <h3 className={`text-large text-narrow-height text-center ${GoodTimes.className}`}
                             data-query="home.segment-1.cards.0.title"
                             dangerouslySetInnerHTML={{ __html: homeCopy['segment-1'].cards[0].title }}></h3>
                         <p className="text-xsmall text-thin text-center text-n300"
@@ -131,7 +132,7 @@ export default function Sections(this: any) {
 
                     </div>
                     <div className="col-lg-3">
-                        <h3 className="font-goodtimes text-large text-narrow-height text-center"
+                        <h3 className={`text-large text-narrow-height text-center ${GoodTimes.className}`}
                             data-query="home.segment-1.cards.1.title" dangerouslySetInnerHTML={{ __html: homeCopy['segment-1'].cards[1].title }}></h3>
                         <p className="text-xsmall text-thin text-center text-n300"
                             data-query="home.segment-1.cards.1.description" dangerouslySetInnerHTML={{ __html: homeCopy['segment-1'].cards[1].description }}></p>
@@ -154,7 +155,7 @@ export default function Sections(this: any) {
             {/* <!-- THE MACHINES --> */}
             <div id="seg-1" className=" row white-border bt-half bb-half">
                 <div>
-                    <h2 className="font-goodtimes text-xlarge text-narrow-height text-center mt-high text-uppercase"
+                    <h2 className={`text-xlarge text-narrow-height text-center mt-high text-uppercase ${GoodTimes.className}`}
                         data-query="home.segment-2.title" dangerouslySetInnerHTML={{ __html: homeCopy['segment-2'].title }}></h2>
                     <p className="text-thin text-small text-center my-5 w-50 mx-auto " data-query="home.segment-2.subtitle"
                         dangerouslySetInnerHTML={{ __html: homeCopy['segment-2'].subtitle }}></p>
@@ -164,7 +165,7 @@ export default function Sections(this: any) {
                         className="col-lg-4 white-border text-center p-5 bl-half bb-half br-half position-relative overflow-hidden hover-bb">
                         <img src="/img/icon-machines.svg" alt="THE SILICON MACHINES" style={{ height: "180px" }} />
                         <div>
-                            <h5 className="text-uppercase font-goodtimes text-medium text-narrow-height my-3"
+                            <h5 className={`text-uppercase text-medium text-narrow-height my-3 ${GoodTimes.className}`}
                                 data-query="home.segment-2.cards.0.title"
                                 dangerouslySetInnerHTML={{ __html: homeCopy['segment-2'].cards[0].title }}></h5>
                         </div>
@@ -182,7 +183,7 @@ export default function Sections(this: any) {
                                     <img src="/img/horizontal-lines.svg" className="main-image r-90 px-3"
                                         alt="Horizontal Lines" />
                                 </div>
-                                <span className="text-blue font-goodtimes text-medium text-uppercase"
+                                <span className={`text-blue text-medium text-uppercase ${GoodTimes.className}`}
                                     data-query="home.segment-2.cards.0.button.name">{homeCopy['segment-2'].cards[0].button.name}</span>
                             </a>
                         </div>
@@ -192,7 +193,7 @@ export default function Sections(this: any) {
                         className="col-lg-4 white-border text-center p-5 bl-half bb-half br-half position-relative overflow-hidden  hover-bb">
                         <img src="/img/icon-ai.svg" alt="THE PURPOSE OF AI" style={{ height: "180px" }} />
                         <div>
-                            <h5 className="text-uppercase font-goodtimes text-medium text-narrow-height my-3"
+                            <h5 className={`text-uppercase text-medium text-narrow-height my-3 ${GoodTimes.className}`}
                                 data-query="home.segment-2.cards.1.title" dangerouslySetInnerHTML={{ __html: homeCopy['segment-2'].cards[1].title }}></h5>
                         </div>
                         <div style={{ height: "12rem" }}>
@@ -211,7 +212,7 @@ export default function Sections(this: any) {
                                     <img src="/img/horizontal-lines.svg" className="main-image r-90 px-3"
                                         alt="Horizontal Lines" />
                                 </div>
-                                <span className="text-blue font-goodtimes text-medium text-uppercase"
+                                <span className={`text-blue text-medium text-uppercase ${GoodTimes.className}`}
                                     data-query="home.segment-2.cards.1.button.name">{homeCopy['segment-2'].cards[1].button.name}</span>
                             </a>
                         </div>
@@ -221,7 +222,7 @@ export default function Sections(this: any) {
                         className="col-lg-4 white-border text-center p-5 bl-half bb-half br-half position-relative overflow-hidden  hover-bb">
                         <img src="/img/icon-energy.svg" alt="THE ENERGY MACHINES" style={{ height: "180px" }} />
                         <div>
-                            <h5 className="text-uppercase font-goodtimes text-medium text-narrow-height my-3"
+                            <h5 className={`text-uppercase text-medium text-narrow-height my-3 ${GoodTimes.className}`}
                                 data-query="home.segment-2.cards.2.title" dangerouslySetInnerHTML={{ __html: homeCopy['segment-2'].cards[2].title }}></h5>
                         </div>
                         <div style={{ height: "12rem" }}>
@@ -238,7 +239,7 @@ export default function Sections(this: any) {
                                     <img src="/img/horizontal-lines.svg" className="main-image r-90 px-3"
                                         alt="Horizontal Lines" />
                                 </div>
-                                <span className="text-blue font-goodtimes text-medium text-uppercase"
+                                <span className={`text-blue text-medium text-uppercase ${GoodTimes.className}`}
                                     data-query="home.segment-2.cards.2.button.name">{homeCopy['segment-2'].cards[2].button.name}</span>
                             </a>
                         </div>
@@ -250,7 +251,7 @@ export default function Sections(this: any) {
             {/* <!-- THE UNIVERSE --> */}
             <div id="seg-2" className=" row white-border bt-half bb-half position-relative overflow-hidden">
                 <div>
-                    <h2 className="font-goodtimes text-xlarge text-narrow-height text-center mt-high text-uppercase"
+                    <h2 className={`text-xlarge text-narrow-height text-center mt-high text-uppercase ${GoodTimes.className}`}
                         data-query="home.segment-3.title" dangerouslySetInnerHTML={{ __html: homeCopy['segment-3'].title }}></h2>
                     <p className="text-thin text-small text-center mt-4 w-50 mx-auto " data-query="home.segment-3.subtitle"
                         dangerouslySetInnerHTML={{ __html: homeCopy['segment-3'].subtitle }}></p>
@@ -263,7 +264,7 @@ export default function Sections(this: any) {
                         <img src="/img/green-point.svg" id="point-img" alt="Point" />
                     </div>
                     <div className="white-border p-3 w-50">
-                        <h5 className="font-goodtimes text-medium text-narrow-height text-start text-uppercase"
+                        <h5 className={`text-medium text-narrow-height text-start text-uppercase ${GoodTimes.className}`}
                             data-query="home.segment-3.cards.0.title" dangerouslySetInnerHTML={{ __html: homeCopy['segment-3'].cards[0].title }}></h5>
                         <p className="text-thin text-n300 text-small text-narrow-height mt-4 text-justify"
                             data-query="home.segment-3.cards.0.description" dangerouslySetInnerHTML={{ __html: homeCopy['segment-3'].cards[0].description }}></p>
@@ -276,7 +277,7 @@ export default function Sections(this: any) {
                             className="point-green" alt="Point" />
                     </div>
                     <div className="white-border p-3 w-75">
-                        <h5 className="font-goodtimes text-medium text-narrow-height text-start text-uppercase"
+                        <h5 className={`text-medium text-narrow-height text-start text-uppercase ${GoodTimes.className}`}
                             data-query="home.segment-3.cards.1.title" dangerouslySetInnerHTML={{ __html: homeCopy['segment-3'].cards[1].title }}></h5>
                         <p className="text-thin text-n300 text-small text-narrow-height mt-4 text-justify"
                             data-query="home.segment-3.cards.1.description" dangerouslySetInnerHTML={{ __html: homeCopy['segment-3'].cards[1].description }}></p>
@@ -288,7 +289,7 @@ export default function Sections(this: any) {
                         <img src="/img/green-point.svg" className="point-green" alt="Point" />
                     </div>
                     <div className="white-border p-3 w-50">
-                        <h5 className="font-goodtimes text-medium text-narrow-height text-start text-uppercase"
+                        <h5 className={`text-medium text-narrow-height text-start text-uppercase ${GoodTimes.className}`}
                             data-query="home.segment-3.cards.2.title" dangerouslySetInnerHTML={{ __html: homeCopy['segment-3'].cards[2].title }}></h5>
                         <p className="text-thin text-n300 text-small text-narrow-height mt-4 text-justify"
                             data-query=" home.segment-3.cards.2.description" dangerouslySetInnerHTML={{ __html: homeCopy['segment-3'].cards[2].description }}></p>
@@ -300,7 +301,7 @@ export default function Sections(this: any) {
             {/* <!--THE DECELS --> */}
             <div id="seg-3" className=" row white-border bt-half bb-half ">
                 <div>
-                    <h2 className="font-goodtimes text-xlarge text-narrow-height text-center mt-high text-uppercase"
+                    <h2 className={`text-xlarge text-narrow-height text-center mt-high text-uppercase ${GoodTimes.className}`}
                         data-query="home.segment-4.title" dangerouslySetInnerHTML={{ __html: homeCopy['segment-4'].title }}></h2>
                     <p className="text-thin text-small text-center mt-4 w-50 mx-auto " data-query="home.segment-4.subtitle"
                         dangerouslySetInnerHTML={{ __html: homeCopy['segment-4'].subtitle }}></p>
@@ -317,7 +318,7 @@ export default function Sections(this: any) {
                                 className="hover motive-ico" />
                         </div>
                         <div>
-                            <h5 className="text-uppercase font-goodtimes text-medium text-narrow-height my-3"
+                            <h5 className={`text-uppercase text-medium text-narrow-height my-3 ${GoodTimes.className}`}
                                 data-query="home.segment-4.cards.0.title" dangerouslySetInnerHTML={{ __html: homeCopy['segment-4'].cards[0].title }}></h5>
                         </div>
                         <div className="card-text-height">
@@ -337,7 +338,7 @@ export default function Sections(this: any) {
                                 className="hover motive-ico" />
                         </div>
                         <div>
-                            <h5 className="text-uppercase font-goodtimes text-medium text-narrow-height my-3"
+                            <h5 className={`text-uppercase text-medium text-narrow-height my-3 ${GoodTimes.className}`}
                                 data-query="home.segment-4.cards.1.title" dangerouslySetInnerHTML={{ __html: homeCopy['segment-4'].cards[1].title }}></h5>
                         </div>
                         <div className="card-text-height">
@@ -357,7 +358,7 @@ export default function Sections(this: any) {
                                 className="hover motive-ico" />
                         </div>
                         <div>
-                            <h5 className="text-uppercase font-goodtimes text-medium text-narrow-height my-3"
+                            <h5 className={`text-uppercase text-medium text-narrow-height my-3 ${GoodTimes.className}`}
                                 data-query="home.segment-4.cards.2.title" dangerouslySetInnerHTML={{ __html: homeCopy['segment-4'].cards[2].title }}></h5>
                         </div>
                         <div className="card-text-height">

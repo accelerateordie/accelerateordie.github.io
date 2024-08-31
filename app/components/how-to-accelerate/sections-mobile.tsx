@@ -1,7 +1,7 @@
 "use client"
 
 import { howToAccelerateCopy } from "@/app/copy/how-to-accelerate"
-
+import {GoodTimes} from "@/app/fonts"
 
 export default function SectionsMobile() {
     return (
@@ -10,7 +10,7 @@ export default function SectionsMobile() {
         {/* <!-- How To Accelerate --> */}
         <div id="HowToAccelerate" className="col-12 mobile white-border-mob br-half bb-half Box-padding">
 
-            <div className="col-12 AccelTitle text-large-ob font-goodtimes mt-3"
+            <div className={`col-12 AccelTitle text-large-ob mt-3 ${GoodTimes.className}`}
             dangerouslySetInnerHTML={{ __html: howToAccelerateCopy.header.title }}
             data-query="home.how-to-accelerate.header.title"></div>
             <div className="col-12 AccelText text-thin text-medium mt-4"
@@ -19,7 +19,7 @@ export default function SectionsMobile() {
                 <a data-query="how-to-accelerate.header.button._"
                  data-attribute="href" data-target="target" 
                  href={howToAccelerateCopy.header.button.url} target={howToAccelerateCopy.header.button.target}>
-                    <button className="mt-4 button font-goodtimes text-xsmall" data-query="how-to-accelerate.header.button.name">
+                    <button className={`mt-4 button text-xsmall ${GoodTimes.className}`} data-query="how-to-accelerate.header.button.name">
                         {howToAccelerateCopy.header.button.name}
                         </button></a>
             <div className="br-gradient bg-blue-gradient"></div>
@@ -31,10 +31,10 @@ export default function SectionsMobile() {
 
             <img src="./img/step1.svg" className="mt-4" />
 
-            <p className="mt-5 text-blue font-goodtimes text-medium" 
+            <p className={`mt-5 text-blue text-medium ${GoodTimes.className}`}
                     dangerouslySetInnerHTML={{ __html: howToAccelerateCopy.cards[0].step }}
             data-query="how-to-accelerate.cards.0.step"></p>
-            <div className="col-12 AccelTitle mt-4 text-medium-mob font-goodtimes" 
+            <div className={`col-12 AccelTitle mt-4 text-medium-mob ${GoodTimes.className}`} 
                     dangerouslySetInnerHTML={{ __html: howToAccelerateCopy.cards[0]["title-mob"] }}
             data-query="how-to-accelerate.cards.0.title-mob"></div>
             <div className="col-12 AccelText text-thin text-light text-small Box-padding"
@@ -48,9 +48,9 @@ export default function SectionsMobile() {
         <div id="Step2" className="col-12 white-border-mob br-half bb-half">
 
             <img src="./img/step2.svg" className="mt-4" />
-                <p className="mt-5 text-blue font-goodtimes text-medium" data-query="how-to-accelerate.cards.1.step"
+                <p className={`mt-5 text-blue text-medium ${GoodTimes.className}`} data-query="how-to-accelerate.cards.1.step"
                  dangerouslySetInnerHTML={{ __html: howToAccelerateCopy.cards[1].step }}></p>
-            <div className="col-12 AccelTitle mt-4 text-medium-mob font-goodtimes"
+            <div className={`col-12 AccelTitle mt-4 text-medium-mob ${GoodTimes.className}`}
                     dangerouslySetInnerHTML={{ __html: howToAccelerateCopy.cards[1]["title-mob"] }}
             data-query="how-to-accelerate.cards.1.title"></div>
             <div className="col-12 AccelText text-thin text-light text-small Box-padding"
@@ -64,10 +64,10 @@ export default function SectionsMobile() {
         <div id="Step3" className="col-12 white-border-mob br-half bb-half">
 
             <img src="./img/step3.svg" className="mt-4" />
-            <p className="mt-5 text-blue font-goodtimes text-medium" 
+            <p className={`mt-5 text-blue text-medium ${GoodTimes.className}`}
                     dangerouslySetInnerHTML={{ __html: howToAccelerateCopy.cards[2].step }}
             data-query="how-to-accelerate.cards.2.step"></p>
-            <div className="col-12 AccelTitle mt-4 text-medium-mob font-goodtimes" 
+            <div className={`col-12 AccelTitle mt-4 text-medium-mob ${GoodTimes.className}`}
             
             data-query="how-to-accelerate.cards.2.title-mob" 
                     dangerouslySetInnerHTML={{ __html: howToAccelerateCopy.cards[2]["title-mob"] }}></div>
@@ -81,8 +81,8 @@ export default function SectionsMobile() {
         <div id="Step4" className="col-12 white-border-mob br-half bb-half">
 
             <img src="./img/step4.svg" className="mt-4" />
-            <p className="mt-5 text-blue font-goodtimes text-medium" data-query="how-to-accelerate.cards.3.step">STEP 4:</p>
-            <div className="col-12 AccelTitle mt-4 text-medium-mob font-goodtimes" 
+            <p className={`mt-5 text-blue text-medium ${GoodTimes.className}`} data-query="how-to-accelerate.cards.3.step">STEP 4:</p>
+            <div className={`col-12 AccelTitle mt-4 text-medium-mob ${GoodTimes.className}`}
                     dangerouslySetInnerHTML={{ __html: howToAccelerateCopy.cards[3]["title-mob"] }}
             data-query="how-to-accelerate.cards.3.title-mob"></div>
             <div className="col-12 AccelText text-thin text-light text-small Box-padding"
@@ -93,7 +93,7 @@ export default function SectionsMobile() {
 
         {/* <!-- Acceleration --> */}
         <div id="Acceleration" className="col-12 white-border-mob br-half bb-half">
-            <div className="col-12 mt-4 font-goodtimes text-medium  Box-padding"
+            <div className={`col-12 mt-4 text-medium  Box-padding ${GoodTimes.className}`}
                     dangerouslySetInnerHTML={{ __html: howToAccelerateCopy.quote["text-mob"] }}
             data-query="how-to-accelerate.quote.text-mob"></div>
         </div>

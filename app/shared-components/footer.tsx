@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { footerCopy } from "../copy/footer";
 import { navbarCopy } from "../copy/navbar";
+import { GoodTimes } from "../fonts";
 
 export default function Footer() {
   return (
@@ -10,7 +11,7 @@ export default function Footer() {
           <div className="row ">
             <div className="col-lg-4 d-flex flex-column text-center">
               <Link href="#" className="mb text-decoration-none">
-                <h3 className="font-goodtimes text-xlarge text-light">
+                <h3 className={`text-xlarge text-light ${GoodTimes.className}`}>
                   {navbarCopy.title}
                 </h3>
               </Link>
