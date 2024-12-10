@@ -27,6 +27,22 @@ export default function FooterMobile() {
           </ul>
           <ul className="mt-5">
             <li className="text-thin text-medium">
+              <strong>{footerCopy.Discover.title}</strong>
+            </li>
+            {footerCopy.Discover.links.map((link, index) => (
+              <li key={index} className="text-thin text-small">
+                <a
+                  href={link.url}
+                  target={link.target}
+                  className="nav-link text-small text-thin my-2"
+                >
+                  {link.name}
+                </a>
+              </li>
+            ))}
+          </ul>
+          <ul className="mt-5">
+            <li className="text-thin text-medium">
               <strong>{footerCopy.resources.title}</strong>
             </li>
             {footerCopy.resources.links.map((link, index) => (
