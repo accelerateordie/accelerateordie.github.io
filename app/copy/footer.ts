@@ -74,7 +74,26 @@ export const footerCopy = {
       },
     ],
   },
-
+  Discover: {
+    title: "Discover ACEL",
+    links: [
+      {
+        name: "Accelerate Or Die Book",
+        url: "https://www.amazon.com/dp/B0DHQW2KSP",
+        target: "_blank",
+      },
+      {
+        name: "Accelerate Or Die Audiobook",
+        url: " https://www.barnesandnoble.com/w/accelerate-or-die-jp-thor/1146635476",
+        target: "_blank",
+      },
+      {
+        name: "ACEL Shop",
+        url: "https://shop.acel.org",
+        target: "_blank",
+      },
+    ],
+  },
   resources: {
     title: "Resources",
     links: [

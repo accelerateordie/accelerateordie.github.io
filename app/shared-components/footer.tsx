@@ -18,7 +18,7 @@ export default function Footer() {
               <div className="my-2">
                 <ul className="navbar-nav footer-social list-group-horizontal justify-content-center">
                   {footerCopy.socialLinks.map((link, index) => (
-                    <li className="p-social">
+                    <li className="p-social" key={index}>
                       <Link href={link.url} target={link.target}>
                         <img src={link.image} alt={link.name} />
                       </Link>
@@ -30,8 +30,8 @@ export default function Footer() {
                 <span>{footerCopy.copyright}</span>
               </div>
             </div>
-            <div className="col-lg-6 ms-auto row mt-lg-0 mt-3 justify-content-end">
-              <div className="col-lg-4 col-6">
+            <div className="col-lg-8 ms-auto row mt-lg-0 mt-3 justify-content-end">
+              <div className="col-lg-3 col-6">
                 <ul className="list-unstyled">
                   <li className="mb-4">
                     <h3 className="text-medium" style={{ color: "#57B3E6" }}>
@@ -51,7 +51,27 @@ export default function Footer() {
                   ))}
                 </ul>
               </div>
-              <div className="col-lg-4 col-6">
+              <div className="col-lg-3 col-6">
+                <ul className="list-unstyled">
+                  <li className="mb-4">
+                    <h3 className="text-medium" style={{ color: "#57B3E6" }}>
+                      {footerCopy.Discover.title}
+                    </h3>
+                  </li>
+                  {footerCopy.Discover.links.map((item) => (
+                    <li>
+                      <Link
+                        href={item.url}
+                        target={item.target}
+                        className="nav-link text-small text-thin my-2"
+                      >
+                        {item.name}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div className="col-lg-3 col-6">
                 <ul className="list-unstyled">
                   <li className="mb-4">
                     <h3 className="text-medium" style={{ color: "#57B3E6" }}>
@@ -71,7 +91,7 @@ export default function Footer() {
                   ))}
                 </ul>
               </div>
-              <div className="col-lg-4 col-6">
+              <div className="col-lg-3 col-6">
                 <ul className="list-unstyled">
                   <li className="mb-4">
                     <h3 className="text-medium" style={{ color: "#57B3E6" }}>
