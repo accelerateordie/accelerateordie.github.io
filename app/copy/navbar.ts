@@ -19,7 +19,7 @@ export const navbarCopy = {
   ],
   button: {
     name: "Ask a Question",
-    url: "#",
-    target: "_self",
+    url: "https://discord.gg/vnJhMJ6nEx",
+    target: "_blank",
   },
 };
